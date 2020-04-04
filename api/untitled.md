@@ -28,7 +28,7 @@ Driver's password
 Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
     "status": true,
     "token": "THE_TOKEN",
@@ -42,7 +42,7 @@ Cake successfully retrieved.
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -74,7 +74,7 @@ The authentication token
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -118,7 +118,7 @@ The authentication token
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
