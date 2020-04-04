@@ -2,53 +2,41 @@
 description: Learn how to install FoodTiger
 ---
 
-# Installation
+# Installation on Shared Hosting
 
 Foodtiger is a self-hosted web application written in PHP, on top of the Laravel 5.8 framework. The followings are required to install Foodtiger:
 
-* PHP Version: 5.6, 7.0, 7.1 or higher
+* PHP Version: 7.1 or higher
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
 
-### Installation with cPanel
+### Installation on Shared Hosting
 
-Upload Foodtiger source files to the domain webroot folder. The file structure should look like this:
+Plesk / cPanel and other hosting managers are recommended. In this guide we will use Plesk but similar should be for other. 
 
-here image
+#### 1. Create your domain or subdomain in your shared hosting
 
-### Installation with Apache
+After you have created that, you will be able to access the file manager for that domain/subdomain
 
-Before installing, make sure that Apache `mod_rewrite` is **enabled** and `mod_security` is **disabled**.
+Delete any default files that are maybe added.
 
-Then, unzip the source file
+#### 2. Now is good time to create a database
 
-```text
-cd /home/user/
-unzip foodtiger.zip
-```
+Create an empty database in your shared hosting and remember this credentials
 
-Put Foodtiger source folder into your domain document root. For example, if your Foodtiger source is located at `/home/user/foodtiger`, you can configure Apache virtual host as follows, notice how `DocumentRoot` is setup
+* db name
+* db username
+* db user pass
 
-```text
-<VirtualHost *:80>
-  ServerName yourhost.net
-  DocumentRoot "/home/user/foodtiger/public"
-  Options Indexes FollowSymLinks
-  <Directory "/home/user/foodtiger/public">
-    AllowOverride All
-    Require all granted
-  </Directory>
-</VirtualHost>
-```
+3. 
 
-Change the director/file's owner to Apache's running user, to make sure it has proper permission on your source files. If you are on Ubuntu, the default user that Apache runs under is `www-data` \(and it is `apache` for CentOS/RedHat\).
+#### 2. Upload the source code you have downloaded from CodeCanyon and unzip it
 
-```text
-sudo chown www-data:www-data -R /home/user/foodtiger
-sudo chmod 775 -R /home/user/foodtiger
-```
+![](../.gitbook/assets/extract.png)
 
-Then restart Apache and go to the webapp's installation URL. For example `http://yourhost.net`
+3. Now is good time to cre
 
-Follow the web installation wizard to get Foodtiger installed on your own host.
+
+
+### 
 
