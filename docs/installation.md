@@ -28,15 +28,88 @@ Create an empty database in your shared hosting and remember this credentials
 * db username
 * db user pass
 
-3. 
+The process of making database is something like this.
 
-#### 2. Upload the source code you have downloaded from CodeCanyon and unzip it
+![](../.gitbook/assets/dbadd.png)
+
+#### 3. Now is also good time to get SMTP connections
+
+{% page-ref page="obtain-smtp.md" %}
+
+#### 4. Upload the source code you have downloaded from CodeCanyon and unzip it
 
 ![](../.gitbook/assets/extract.png)
 
-3. Now is good time to cre
+#### 5. Now navigate to the web url where your project is located
 
+ex. mydomain.com or subdomain.mydomain.com
 
+You should be redirected to a screen like this one
 
-### 
+![](../.gitbook/assets/foodtiger-installer.png)
+
+Click on the "Check Requirements" If some requirements is missing it will be noted out.
+
+![](../.gitbook/assets/system.png)
+
+Now let's check folder permissions. If some folder is noted as not writable, pls check his permission. It should be 775 or 777
+
+![](../.gitbook/assets/permissions.png)
+
+Now we need to setup the environment. This tells larval how to work
+
+![](../.gitbook/assets/classic.png)
+
+Select the classic text editor
+
+![](../.gitbook/assets/save_env.png)
+
+Important variables
+
+**MAIL** \( Replace with your values \)
+
+```text
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587
+MAIL_USERNAME=apikey
+MAIL_PASSWORD=xxxxxxxxxxxxxxxxx
+MAIL_ENCRYPTION=null
+
+MAIL_FROM_ADDRESS='youremail@yourdomain.com'
+MAIL_FROM_NAME='Your Project name'
+```
+
+**DATABASE** \( Replace with your values \)
+
+```text
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=laravel
+DB_PASSWORD=laravel
+```
+
+If you install the project in subdomain, add this ENV variable
+
+```text
+IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
+```
+
+Next, don't forget to save
+
+![](../.gitbook/assets/save_env%20%281%29.png)
+
+Click on **Save and install**
+
+Now the install process will begin
+
+It will install all the demo data in your database. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our support chat.
+
+If all goes ok, you can click on "Finish" 
+
+Now you have your own instance 
+
+Learn how to use it. 
 
