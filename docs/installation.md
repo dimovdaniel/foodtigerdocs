@@ -113,3 +113,7 @@ Now you have your own instance
 
 Learn how to use it. 
 
+{% page-ref page="../usage/getting-started.md" %}
+
+
+
