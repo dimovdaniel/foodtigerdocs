@@ -95,6 +95,22 @@ DB_PASSWORD=laravel
 NOTE: The next step is not required. If you want to allow social logins \(Google, Facebook\) on your project you need to follow the next article.
 {% endhint %}
 
+{% page-ref page="../social-login/google.md" %}
+
+{% page-ref page="../social-login/facebook.md" %}
+
+Replace with your values
+
+```text
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_REDIRECT=http://yourdomain.com/login/google/redirect
+
+FACEBOOK_CLIENT_ID=
+FACEBOOK_CLIENT_SECRET=
+FACEBOOK_REDIRECT=http://yourdomain.com/login/facebook/redirect
+```
+
 
 
 If you install the project in subdomain, add this ENV variable
