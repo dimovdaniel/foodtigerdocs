@@ -52,7 +52,7 @@ Click on the "Check Requirements" If some requirements is missing it will be not
 
 ![](../.gitbook/assets/system.png)
 
-Now let's check folder permissions. If some folder is noted as not writable, pls check his permission. It should be 775 or 777
+Now let's check folder permissions. If some folder is noted as not writable, please check his permission. It should be 775 or 777
 
 ![](../.gitbook/assets/permissions.png)
 
@@ -62,7 +62,7 @@ Now we need to setup the environment. This tells larval how to work
 
 Select the classic text editor
 
-![](../.gitbook/assets/save_env.png)
+![](../.gitbook/assets/save_env%20%281%29.png)
 
 Important variables
 
@@ -99,7 +99,7 @@ IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 
 Next, don't forget to save
 
-![](../.gitbook/assets/save_env%20%281%29.png)
+![](../.gitbook/assets/save_env.png)
 
 Click on **Save and install**
 
