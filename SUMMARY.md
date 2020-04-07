@@ -7,6 +7,11 @@
 * [Installation on Shared Hosting](docs/installation.md)
 * [Obtain SMTP](docs/obtain-smtp.md)
 
+## Social Login
+
+* [Google](social-login/google.md)
+* [Facebook](social-login/facebook.md)
+
 ## Usage
 
 * [Getting Started](usage/getting-started.md)

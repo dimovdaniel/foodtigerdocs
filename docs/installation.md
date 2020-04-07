@@ -91,6 +91,12 @@ DB_USERNAME=laravel
 DB_PASSWORD=laravel
 ```
 
+{% hint style="warning" %}
+NOTE: The next step is not required. If you want to allow social logins \(Google, Facebook\) on your project you need to follow the next article.
+{% endhint %}
+
+
+
 If you install the project in subdomain, add this ENV variable
 
 ```text

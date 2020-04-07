@@ -11,15 +11,15 @@ Head over to[ Google Developers Web Maps JavaScript API ](https://developers.goo
 
 Click on the "**Get Started**" button.
 
-![](../.gitbook/assets/sss%20%282%29.png)
+![](../.gitbook/assets/sss%20%2815%29.png)
 
 **Select Maps**
 
-![](../.gitbook/assets/sss%20%283%29.png)
+![](../.gitbook/assets/sss%20%2819%29.png)
 
 Then Select or create a project.
 
-![](../.gitbook/assets/sss.png)
+![](../.gitbook/assets/sss%20%285%29.png)
 
 **Then set up billing.** 
 
@@ -31,11 +31,11 @@ Make sure you set up the URL where your key will be used.
 
 Go in [Google Cloud Platform](https://console.cloud.google.com/apis/credentials)
 
-![](../.gitbook/assets/sss%20%284%29.png)
+![](../.gitbook/assets/sss%20%2820%29.png)
 
 Locate the key you have created and enter the url.
 
-![](../.gitbook/assets/sss%20%281%29.png)
+![](../.gitbook/assets/sss%20%2811%29.png)
 
 #### Place your API KEY <a id="place-your-api-key"></a>
 
