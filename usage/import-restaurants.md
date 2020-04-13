@@ -8,7 +8,9 @@ description: Enable importing restaurants from Excel files.
 
 As usual way of adding manually restaurants this platform has option for adding restaurants from excel files. 
 
-To enable this option you need to change the **ENABLE\_IMPORT\_CSV** variable in **env** file from **false** to **true**.
+To enable this option you need to add the **ENABLE\_IMPORT\_CSV** variable in **env** file with **true** value.
+
+If you want to disable this option you need to add **false** value.
 
 ```
 ENABLE_IMPORT_CSV=true
