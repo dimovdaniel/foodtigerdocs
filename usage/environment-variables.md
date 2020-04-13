@@ -19,5 +19,8 @@ FACEBOOK_CLIENT_ID="" //Used for facebook login
 FACEBOOK_CLIENT_SECRET="" //Used for facebook login
 FACEBOOK_REDIRECT="" //Used for facebook login
 
+ENABLE_IMPORT_CSV=false //Enable importing restaurants from excel files
+
+
 ```
 
