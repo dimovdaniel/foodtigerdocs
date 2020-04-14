@@ -19,6 +19,7 @@
 * [Set up your site](usage/set-up-your-site.md)
 * [Google Maps API Key](usage/google-maps-api-key.md)
 * [Import restaurants](usage/import-restaurants.md)
+* [Import restaurant items](usage/import-restaurant-items.md)
 * [Environment variables](usage/environment-variables.md)
 
 ## API
