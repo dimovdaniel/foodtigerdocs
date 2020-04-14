@@ -22,6 +22,8 @@ Only admin and restaurant owner have access to this option.
 
 ## Excel file data format
 
+This option has predefined format of the excel file for importing the data. Any other format can cause unwanted import of the data.
+
 | name | description | price | category | image |
 | :--- | :--- | :--- | :--- | :--- |
 |  |  |  |  |  |

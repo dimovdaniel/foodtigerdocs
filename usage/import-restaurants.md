@@ -28,3 +28,5 @@ This option has predefined format of the excel file for importing the data. Any 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  |  |  |  |  |  |  |  |  |
 
+{% file src="../.gitbook/assets/restaurants.csv" caption="Example restaurants excel file" %}
+
