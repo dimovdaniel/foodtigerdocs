@@ -27,3 +27,8 @@
 * [Client API](api/client-api.md)
 * [Driver API](api/untitled.md)
 
+## Changelog
+
+* [Changelog](changelog/changelog.md)
+* [Updating - Shared hosting](changelog/updating-shared-hosting.md)
+

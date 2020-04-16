@@ -40,7 +40,11 @@ The process of making database is something like this.
 
 ![](../.gitbook/assets/extract.png)
 
-#### 5. Now navigate to the web url where your project is located
+#### 5. Replace the file .env.example to .env
+
+
+
+#### 6. Now navigate to the web url where your project is located
 
 ex. mydomain.com or subdomain.mydomain.com
 
