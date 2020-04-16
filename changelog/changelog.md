@@ -11,6 +11,7 @@
 * Track order on Map \( updated from driver companion app \)
 * Reporting - Export orders in excel
 *  Social login with Facebook and Google
+* Admin can modify restaurant items
 
 ### Changed
 
