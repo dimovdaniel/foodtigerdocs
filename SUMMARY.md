@@ -5,6 +5,7 @@
 ## Installation <a id="docs"></a>
 
 * [Installation on Shared Hosting](docs/installation.md)
+* [Environment variables](docs/environment-variables.md)
 * [Obtain SMTP](docs/obtain-smtp.md)
 
 ## Social Login
@@ -20,7 +21,6 @@
 * [Google Maps API Key](usage/google-maps-api-key.md)
 * [Import restaurants](usage/import-restaurants.md)
 * [Import restaurant items](usage/import-restaurant-items.md)
-* [Environment variables](usage/environment-variables.md)
 
 ## API
 
