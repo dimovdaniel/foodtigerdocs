@@ -6,7 +6,8 @@ description: Documentation
 
 Welcome to FoodTiger's Documentation
 
-Here you will lear how to install and use this project. 
+Here you will learn how to install and use this project.   
+
 
 
 
