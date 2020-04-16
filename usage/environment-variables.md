@@ -1,6 +1,9 @@
 # Environment variables
 
 ```text
+APP_LOCALE=en // en | fr | de | es
+IGNORE_SUBDOMAINS='www'
+
 HIDE_COD=false //Hide Show Cash on Delivery
 ENABLE_STRIPE=false //Do you want to use Stripe Payment
 STRIPE_KEY="" //Stripe API key
