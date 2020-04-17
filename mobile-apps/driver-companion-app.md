@@ -23,11 +23,41 @@ Change this with your Site link. And change the currency.
     },
 ```
 
-Change the images, logo, splash etc.. 
+### Change the images, logo, splash etc.. 
+
+All the images are in **assets** folder
+
+### Install node modules and needed tools
+
+From the command line, execute this
+
+```text
+npm install expo-cli --global
+```
+
+```text
+npm install
+```
+
+```text
+expo start
+```
+
+### Deploy
 
 To deploy to google play and app store, follow this guide. 
 
 {% embed url="https://docs.expo.io/versions/v35.0.0/distribution/app-stores/" %}
+
+
+
+### Support
+
+If you have any problem you can chat with us here
+
+{% embed url="https://help.mobidonia.com/\#foodtiger" %}
+
+
 
 
 
