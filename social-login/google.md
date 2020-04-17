@@ -43,7 +43,7 @@ NOTE: Your domain need to be the same as the previous in the **QAuth consent scr
 
 Also the redirect route need to be the same as it is define in the picture.
 
-_**http://yourdomain.com/login/google/redirect**_
+_**https://yourdomain.com/login/google/redirect**_
 {% endhint %}
 
 {% hint style="info" %}

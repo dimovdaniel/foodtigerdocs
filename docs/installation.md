@@ -108,11 +108,11 @@ Replace with your values
 ```text
 GOOGLE_CLIENT_ID=
 GOOGLE_CLIENT_SECRET=
-GOOGLE_REDIRECT=http://yourdomain.com/login/google/redirect
+GOOGLE_REDIRECT=https://yourdomain.com/login/google/redirect
 
 FACEBOOK_CLIENT_ID=
 FACEBOOK_CLIENT_SECRET=
-FACEBOOK_REDIRECT=http://yourdomain.com/login/facebook/redirect
+FACEBOOK_REDIRECT=https://yourdomain.com/login/facebook/redirect
 ```
 
 
