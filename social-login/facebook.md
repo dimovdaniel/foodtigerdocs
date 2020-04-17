@@ -48,5 +48,5 @@ The last step you need to do is to switch the mode of your app from development 
 
 ![](../.gitbook/assets/screenshot%20%282%29.png)
 
-Copy **App ID** and **App Secret a**nd this values in the .env file.
+Copy **App ID** and **App Secret** and add this values in the .env file.
 

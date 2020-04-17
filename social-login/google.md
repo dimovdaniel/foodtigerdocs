@@ -50,7 +50,7 @@ _**http://yourdomain.com/login/google/redirect**_
 If you have some problems with authorizing your domain please open **authorized domains list** and add your domain. 
 {% endhint %}
 
-Click **Create** and copy the given credentials.
+Click **Create** and copy the given credentials in the .env file..
 
 ![](../.gitbook/assets/sss%20%2817%29.png)
 
