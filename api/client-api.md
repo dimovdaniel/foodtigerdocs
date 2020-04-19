@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://yourdomain.com" path="/api/clientgettoken" %}
 {% api-method-summary %}
-Get Token
+Get Token - Login user via email
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -11,15 +11,15 @@ This endpoint get client token.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="email" type="string" required=true %}
-Client's email.
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="password" type="string" required=true %}
+
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="password" type="string" required=true %}
-Client's password.
+{% api-method-parameter name="email" type="string" required=true %}
+
 {% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -52,7 +52,7 @@ Client's password.
 
 {% api-method method="post" host="https://yourdomain.com" path="/api/client/register" %}
 {% api-method-summary %}
-Register
+Register - Register user via email
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -61,23 +61,27 @@ This endpoint register new client.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="email" type="string" required=true %}
-Email.
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="app\_secret" type="string" required=true %}
+The app secret
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="password" type="string" required=true %}
-Password.
+{% api-method-parameter name="phone" type="string" required=true %}
+
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="name" type="string" required=true %}
-Full Name.
+
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="phone" type="number" required=true %}
-Phone.
+{% api-method-parameter name="password" type="string" required=true %}
+
 {% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+
+{% api-method-parameter name="email" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -120,7 +124,7 @@ Login or register user via Facebook
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="app\_secret" type="string" required=false %}
+{% api-method-parameter name="app\_secret" type="string" required=true %}
 The app secret
 {% endapi-method-parameter %}
 
@@ -137,7 +141,11 @@ The Facebook ID
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "status": true,
+    "token": "THE_TOKEN",
+    "id": 3
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -156,11 +164,11 @@ Login or register via Google
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="gogle\_id" type="string" required=false %}
+{% api-method-parameter name="gogle\_id" type="string" required=true %}
 The google id
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="app\_secret" type="string" required=false %}
+{% api-method-parameter name="app\_secret" type="string" required=true %}
 The app secret
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
@@ -173,7 +181,11 @@ The app secret
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "status": true,
+    "token": "THE_TOKEN",
+    "id": 3
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
