@@ -108,6 +108,78 @@ Phone.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://yourdomain.com" path="/api/client/loginfb" %}
+{% api-method-summary %}
+Login or register with Facebook
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Login or register user via Facebook
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="app\_secret" type="string" required=false %}
+The app secret
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="fb\_id" type="string" required=true %}
+The Facebook ID
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://yourdomain.com" path="/api/client/logingoogle" %}
+{% api-method-summary %}
+Login or register via Google
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Login or register via Google
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="gogle\_id" type="string" required=false %}
+The google id
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="app\_secret" type="string" required=false %}
+The app secret
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 {% api-method method="get" host="https://yourdomain.com" path="/api/restorantslist" %}
 {% api-method-summary %}
 Get Restaurants
@@ -119,11 +191,15 @@ This endpoint will retrieve all restaurants.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="api\_token" type="string" required=true %}
-The authentication token.
+{% api-method-query-parameters %}
+{% api-method-parameter name="lng" type="string" required=false %}
+The longitude of the user
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+
+{% api-method-parameter name="lat" type="string" required=false %}
+The latitude of the user
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -155,10 +231,6 @@ This endpoint will retrieve restaurant items.
 {% api-method-parameter name="id" type="integer" required=true %}
 The restaurant id.
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="api\_token" type="string" required=true %}
-The authentication token.
-{% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
 
@@ -166,6 +238,38 @@ The authentication token.
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
 
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://yourdomain.com" path="/api/app/settings" %}
+{% api-method-summary %}
+Get settings 
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="app\_secret" type="string" required=true %}
+Get app settings
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Get project data, like what kind of payment methods should we show. 
 {% endapi-method-response-example-description %}
 
 ```
@@ -187,31 +291,35 @@ This endpoint will make new order.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="stripe\_method\_id" type="string" required=false %}
+The stripe payment id method. Required if payment method is stripe
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="payment\_method" type="string" required=true %}
+cod \| stripe
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="api\_token" type="string" required=false %}
+The user api token
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="comment" type="string" required=false %}
+Comment on order
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="restaurant\_id" type="integer" required=true %}
+The restaurant id
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="address\_id" type="integer" required=true %}
+The address id
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="items" type="array" required=true %}
-Items array.
+The order items
 {% endapi-method-parameter %}
-
-{% api-method-parameter name="addressID" type="integer" required=true %}
-Address ID.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="restID" type="integer" required=true %}
-Restaurant ID.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="deliveryPrice" type="string" required=true %}
-Delivery price.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="orderPrice" type="string" required=true %}
-Order price.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="comment" type="string" required=true %}
-Comment.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -276,6 +384,86 @@ This endpoint will retrieve client addresses.
 The authentication token.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://yourdomain.com" path="/api/make/address" %}
+{% api-method-summary %}
+Make address
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Makes an address for this user
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="api\_token" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="lng" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="lat" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="address" type="string" required=true %}
+The address name
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://yourdomain.com" path="/api/delete/address" %}
+{% api-method-summary %}
+Delete address
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Delete an address of user
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="api\_token" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
