@@ -124,6 +124,10 @@ Login or register user via Facebook
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="phone" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="app\_secret" type="string" required=true %}
 The app secret
 {% endapi-method-parameter %}
@@ -164,6 +168,10 @@ Login or register via Google
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="phone" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="gogle\_id" type="string" required=true %}
 The google id
 {% endapi-method-parameter %}
@@ -286,6 +294,7 @@ Get project data, like what kind of payment methods should we show.
 
 ```
 
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -312,7 +321,7 @@ The stripe payment id method. Required if payment method is stripe
 cod \| stripe
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="api\_token" type="string" required=false %}
+{% api-method-parameter name="api\_token" type="string" required=true %}
 The user api token
 {% endapi-method-parameter %}
 
