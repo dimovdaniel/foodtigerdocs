@@ -188,7 +188,7 @@ Name
 Phone
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="gogle\_id" type="string" required=true %}
+{% api-method-parameter name="google\_id" type="string" required=true %}
 The google id
 {% endapi-method-parameter %}
 
