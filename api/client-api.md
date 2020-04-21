@@ -124,8 +124,16 @@ Login or register user via Facebook
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="phone" type="string" required=true %}
+{% api-method-parameter name="email" type="string" required=true %}
+Email
+{% endapi-method-parameter %}
 
+{% api-method-parameter name="name" type="string" required=true %}
+Name
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="phone" type="string" required=true %}
+Phone
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="app\_secret" type="string" required=true %}
@@ -168,8 +176,16 @@ Login or register via Google
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="phone" type="string" required=true %}
+{% api-method-parameter name="email" type="string" required=true %}
+Email
+{% endapi-method-parameter %}
 
+{% api-method-parameter name="name" type="string" required=true %}
+Name
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="phone" type="string" required=true %}
+Phone
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="gogle\_id" type="string" required=true %}
@@ -433,7 +449,7 @@ Makes an address for this user
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="api\_token" type="string" required=false %}
+{% api-method-parameter name="api\_token" type="string" required=true %}
 
 {% endapi-method-parameter %}
 
