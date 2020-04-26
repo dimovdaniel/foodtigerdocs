@@ -4,7 +4,7 @@ List of all custom environment variables FoodTiger uses. - remove the comments /
 
 ```text
 APP_LOCALE=en // en | fr | de | es
-IGNORE_SUBDOMAINS='www'
+IGNORE_SUBDOMAINS='www' //If you run your site as subdomain, add the subdomain here
 
 HIDE_COD=false //Hide Show Cash on Delivery
 ENABLE_STRIPE=false //Do you want to use Stripe Payment
@@ -25,6 +25,7 @@ FACEBOOK_CLIENT_SECRET="" //Used for facebook login
 FACEBOOK_REDIRECT="" //Used for facebook login
 
 ENABLE_IMPORT_CSV=false //Enable importing restaurants from excel files
+APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
 
 
 ```
