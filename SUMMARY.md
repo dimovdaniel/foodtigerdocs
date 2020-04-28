@@ -31,6 +31,7 @@
 
 * [Changelog](changelog/changelog.md)
 * [Updating - Shared hosting](changelog/updating-shared-hosting.md)
+* [FAQ](changelog/faq.md)
 
 ## Mobile Apps
 
