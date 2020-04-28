@@ -36,7 +36,8 @@ Any registered client. At the moment, we don't have the functionality to limit t
 8. Admin can reject - REJECTED\_BY\_ADMIN
 9. Restaurant can reject - REJECTED\_BY\_RESTAURANT 
 
-Please look into our environment variables, we have few settings how this can work.  
+Please look into our environment variables, we have few settings how this can work.    
+For example if you put APP\_ALLOW\_SELF\_DELIVER - restaurants can deliver orders on their own.
 
 ## How does driver process works.
 
