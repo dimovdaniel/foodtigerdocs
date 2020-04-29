@@ -10,6 +10,12 @@ Foodtiger is a self-hosted web application written in PHP, on top of the Laravel
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
 
+## Video
+
+{% embed url="https://www.youtube.com/watch?v=XaFa8OyNiDc&feature=youtu.be" %}
+
+
+
 ### Installation on Shared Hosting
 
 Plesk / cPanel and other hosting managers are recommended. In this guide we will use Plesk but similar should be for other. 
