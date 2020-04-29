@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FoodTiger](README.md)
+* [Introduction](README.md)
 
 ## Installation <a id="docs"></a>
 
