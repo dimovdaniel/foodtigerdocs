@@ -27,11 +27,14 @@ Get an account [here](https://sendgrid.com/).
 
 ```text
 MAIL_DRIVER=smtp
-MAIL_HOST=
-MAIL_PORT=
-MAIL_USERNAME=
-MAIL_PASSWORD=
+MAIL_HOST=smtp.sendgrid.net
+MAIL_PORT=587
+MAIL_USERNAME=apikey
+MAIL_PASSWORD=xxxxxxxxxxxxxxxxx
 MAIL_ENCRYPTION=null
+
+MAIL_FROM_ADDRESS='youremail@yourdomain.com'
+MAIL_FROM_NAME='Your Project name'
 ```
 
 
