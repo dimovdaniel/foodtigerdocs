@@ -90,7 +90,5 @@ FACEBOOK_REDIRECT="" //Used for facebook login
 ENABLE_IMPORT_CSV=false //Enable importing restaurants from excel files
 APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
 APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
-
-
 ```
 
