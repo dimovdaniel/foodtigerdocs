@@ -2,7 +2,7 @@
 description: How to enable Google login
 ---
 
-# Facebook
+# Facebook authentication
 
 Visit [Facebook for developers](https://developers.facebook.com/).
 
@@ -46,7 +46,14 @@ Note: The redirect must be defined like in the picture below.
 
 The last step you need to do is to switch the mode of your app from development to live.
 
-![](../.gitbook/assets/screenshot%20%282%29.png)
+![](../.gitbook/assets/screenshot%20%283%29.png)
 
-Copy **App ID** and **App Secret** and add this values in the .env file.
+Copy **App ID** and **App Secret** and add this values in the .env file.  
+
+
+```text
+FACEBOOK_CLIENT_ID="" //Used for facebook login
+FACEBOOK_CLIENT_SECRET="" //Used for facebook login
+FACEBOOK_REDIRECT="" //Used for facebook login
+```
 

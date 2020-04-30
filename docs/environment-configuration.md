@@ -11,42 +11,78 @@ List of all custom environment variables FoodTiger uses. We will see them one by
 Remove the comments // when you add some environment variable
 {% endhint %}
 
-* **Localization**  
-* **Ignore subdomains** If your run your site as sub domain, add the sub domain in this variable.
+### **1. Localization**
+
+{% page-ref page="../define-basics/localization.md" %}
+
+### 2. Ignore sub domains
+
+If your run your site as sub domain, add the sub domain in this variable.
 
 ```text
 IGNORE_SUBDOMAINS='www.yoursubdomain' 
 ```
 
-* **Payments** At this moment FoodTiger comes with two methods to make payments: Pay cash on delivery, Pay via Stripe. To enable or disable this methods there are several variables that you will need to configure.  By default the two methods are set to false and to enable you need to change them to true.  **Cash on Delivery** `HIDE_CODE` can be true or false.  **Stripe Gateway  This meth**
+### **3. Mail server**
+
+{% page-ref page="../define-basics/obtain-smtp.md" %}
+
+### **4. Payments**
+
+{% page-ref page="../define-basics/payments.md" %}
+
+### 5. Google Maps
+
+{% page-ref page="../define-basics/google-authentication.md" %}
+
+### 6. Google authentication
+
+{% page-ref page="../define-basics/google-authentication.md" %}
+
+### 7. Facebook authentication
+
+{% page-ref page="../define-basics/facebook.md" %}
+
+### 8. Additional variables
+
+There are also few variables that for now only we will mentioned and later we will explain more about them.
+
+* Working with excel files  
+  
+  FoodTiger also support integration and working with excel files. By default is set to **false** and if you want to enable change it to **true**.
+
+  ```text
+  ENABLE_IMPORT_CSV=false //Enable importing restaurants from excel files
+  ```
+
+* Automatically approving the orders  
+  
+  No need admin to aprove the orders if **true**. By default is set to **false**.
+
+  ```text
+  APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
+  ```
+
+* Restaurants will deliver orders on their self's
+
+  ```text
+  APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
+  ```
 
   
-
-
-```text
-HIDE_COD=false //Hide or Show Cash on Delivery payment
-ENABLE_STRIPE=false //Do you want to use Stripe Payment
-STRIPE_KEY="" //Stripe API key
-STRIPE_SECRET="" //Stripe API Secret
-ENABLE_STRIPE_IDEAL=false //Should we have stripe ideal payment
-```
-
-
-
-
-
-* `adasdasdasdasadsads`
-* `as`
-* `ads`
-* `adsa`
-* `aasdas`
-* `da`
-* `asdasd`
-* `asdada`
+  
+  In the end you should have a list of variables like the list below.
 
 ```text
 APP_LOCALE=en // en | fr | de | es
 IGNORE_SUBDOMAINS='www' //If you run your site as subdomain, add the subdomain here
+
+MAIL_DRIVER=smtp
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=null
 
 HIDE_COD=false //Hide Show Cash on Delivery
 ENABLE_STRIPE=false //Do you want to use Stripe Payment

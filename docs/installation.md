@@ -132,7 +132,7 @@ DB_PASSWORD=laravel
 NOTE: The next step is not required. If you want to allow social logins \(Google, Facebook\) on your project you need to follow the next article.
 {% endhint %}
 
-{% page-ref page="../define-basics/google.md" %}
+{% page-ref page="../define-basics/google-authentication.md" %}
 
 {% page-ref page="../define-basics/facebook.md" %}
 

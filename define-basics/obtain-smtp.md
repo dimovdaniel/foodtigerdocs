@@ -1,4 +1,4 @@
-# Obtain SMTP
+# Mail server
 
 ## Why I need it
 
@@ -25,7 +25,14 @@ Get an account [here](https://sendgrid.com/).
 
 {% embed url="https://www.smtper.net/" %}
 
-
+```text
+MAIL_DRIVER=smtp
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=null
+```
 
 
 
