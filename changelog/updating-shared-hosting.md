@@ -32,7 +32,7 @@ Here, if there are migrations for the database to be done, will be run. If there
 
 ### 6. See the change log and Environment variables to see what new features are added and how to enable them. 
 
-{% page-ref page="../docs/environment-variables.md" %}
+{% page-ref page="../docs/environment-configuration.md" %}
 
 
 

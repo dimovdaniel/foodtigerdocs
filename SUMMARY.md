@@ -5,13 +5,14 @@
 ## Installation <a id="docs"></a>
 
 * [Installation on Shared Hosting](docs/installation.md)
-* [Environment variables](docs/environment-variables.md)
-* [Obtain SMTP](docs/obtain-smtp.md)
+* [Environment configuration](docs/environment-configuration.md)
 
-## Social Login
+## Define Basics
 
-* [Google](social-login/google.md)
-* [Facebook](social-login/facebook.md)
+* [Localization](define-basics/localization.md)
+* [Obtain SMTP](define-basics/obtain-smtp.md)
+* [Google](define-basics/google.md)
+* [Facebook](define-basics/facebook.md)
 
 ## Usage
 

@@ -4,13 +4,30 @@ description: Learn how to install FoodTiger
 
 # Installation on Shared Hosting
 
-Foodtiger is a self-hosted web application written in PHP, on top of the Laravel 5.8 framework. The followings are required to install Foodtiger:
+## Requirements
+
+Foodtiger is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install Foodtiger:
 
 * PHP Version: 7.1 or higher
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
 
-## Video
+## Prepare to install
+
+Installing FoodTiger is very easy and you'll be able to install it without any coding knowledge. Installation process included three major steps:
+
+1. **Creating domain or subdomain**
+2. **Creating database**
+3. **Uploading script files to the host**
+4. **Creating environment configuration**
+
+**Now bellow you can watch the video installation tutorial or you can continue with step by step.**
+
+{% hint style="info" %}
+**Warning:** Video installation tutorial doesn't include environment explanation. You can check that in the steps below.
+{% endhint %}
+
+## Video installation tutorial
 
 {% embed url="https://www.youtube.com/watch?v=XaFa8OyNiDc&feature=youtu.be" %}
 
@@ -26,7 +43,7 @@ After you have created that, you will be able to access the file manager for tha
 
 Delete any default files that are maybe added.
 
-#### 2. Now is good time to create a database
+#### 2. Create a database
 
 Create an empty database in your shared hosting and remember this credentials
 
@@ -38,15 +55,25 @@ The process of making database is something like this.
 
 ![](../.gitbook/assets/dbadd.png)
 
-#### 3. Now is also good time to get SMTP connections
 
-{% page-ref page="obtain-smtp.md" %}
 
-#### 4. Upload the source code you have downloaded from CodeCanyon and unzip it
+#### 3.  Upload the source code you have downloaded from CodeCanyon and unzip it
 
 ![](../.gitbook/assets/extract.png)
 
-#### 5. Replace the file .env.example to .env
+#### 4. Environment configuration
+
+{% hint style="info" %}
+**Note:** This configuration requires many steps so we will explain this more detailed.
+{% endhint %}
+
+Next click on the article below to continue with the configuration.
+
+{% page-ref page="environment-configuration.md" %}
+
+#### 5. Now is also good time to get SMTP connections
+
+
 
 
 
@@ -105,9 +132,9 @@ DB_PASSWORD=laravel
 NOTE: The next step is not required. If you want to allow social logins \(Google, Facebook\) on your project you need to follow the next article.
 {% endhint %}
 
-{% page-ref page="../social-login/google.md" %}
+{% page-ref page="../define-basics/google.md" %}
 
-{% page-ref page="../social-login/facebook.md" %}
+{% page-ref page="../define-basics/facebook.md" %}
 
 Replace with your values
 
