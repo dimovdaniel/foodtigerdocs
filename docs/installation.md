@@ -65,7 +65,7 @@ The process of making database is something like this.
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
-#### 5. Environment configuration
+#### 5. Other environment configuration
 
 {% hint style="info" %}
 **Note:** This configuration requires many steps so we will explain this more detailed.
