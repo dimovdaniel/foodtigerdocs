@@ -11,39 +11,31 @@ List of all custom environment variables FoodTiger uses. We will see them one by
 Remove the comments // when you add some environment variable
 {% endhint %}
 
-### **1. Localization**
+### **1. Localization** 
 
 {% page-ref page="../define-basics/localization.md" %}
 
-### 2. Ignore sub domains
-
-If your run your site as sub domain, add the sub domain in this variable.
-
-```text
-IGNORE_SUBDOMAINS='www.yoursubdomain' 
-```
-
-### **3. Mail server**
+### **2. Mail server**
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
-### **4. Payments**
+### **3. Payments**
 
 {% page-ref page="../define-basics/payments.md" %}
 
-### 5. Google Maps
+### 4. Google Maps
 
 {% page-ref page="../define-basics/google-authentication.md" %}
 
-### 6. Google authentication
+### 5. Google authentication
 
 {% page-ref page="../define-basics/google-authentication.md" %}
 
-### 7. Facebook authentication
+### 6. Facebook authentication
 
 {% page-ref page="../define-basics/facebook.md" %}
 
-### 8. Additional variables
+### 7. Additional variables
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.
 
@@ -76,13 +68,6 @@ There are also few variables that for now only we will mentioned and later we wi
 ```text
 APP_LOCALE=en // en | fr | de | es
 IGNORE_SUBDOMAINS='www' //If you run your site as subdomain, add the subdomain here
-
-MAIL_DRIVER=smtp
-MAIL_HOST=
-MAIL_PORT=
-MAIL_USERNAME=
-MAIL_PASSWORD=
-MAIL_ENCRYPTION=null
 
 HIDE_COD=false //Hide Show Cash on Delivery
 ENABLE_STRIPE=false //Do you want to use Stripe Payment

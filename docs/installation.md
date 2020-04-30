@@ -61,7 +61,11 @@ The process of making database is something like this.
 
 ![](../.gitbook/assets/extract.png)
 
-#### 4. Environment configuration
+#### 4. Obtain mail server
+
+{% page-ref page="../define-basics/obtain-smtp.md" %}
+
+#### 5. Environment configuration
 
 {% hint style="info" %}
 **Note:** This configuration requires many steps so we will explain this more detailed.
@@ -70,12 +74,6 @@ The process of making database is something like this.
 Next click on the article below to continue with the configuration.
 
 {% page-ref page="environment-configuration.md" %}
-
-#### 5. Now is also good time to get SMTP connections
-
-
-
-
 
 #### 6. Now navigate to the web url where your project is located
 
@@ -127,28 +125,6 @@ DB_DATABASE=laravel
 DB_USERNAME=laravel
 DB_PASSWORD=laravel
 ```
-
-{% hint style="warning" %}
-NOTE: The next step is not required. If you want to allow social logins \(Google, Facebook\) on your project you need to follow the next article.
-{% endhint %}
-
-{% page-ref page="../define-basics/google-authentication.md" %}
-
-{% page-ref page="../define-basics/facebook.md" %}
-
-Replace with your values
-
-```text
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-GOOGLE_REDIRECT=https://yourdomain.com/login/google/redirect
-
-FACEBOOK_CLIENT_ID=
-FACEBOOK_CLIENT_SECRET=
-FACEBOOK_REDIRECT=https://yourdomain.com/login/facebook/redirect
-```
-
-
 
 If you install the project in subdomain, add this ENV variable
 
