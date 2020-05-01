@@ -1,5 +1,41 @@
 # Client API
 
+{% api-method method="get" host="https://yourdomain.com" path="/api/user/data" %}
+{% api-method-summary %}
+Get User Data - Logged user data
+{% endapi-method-summary %}
+
+{% api-method-description %}
+This endpoint get logged user data.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="api\_token" type="string" required=true %}
+The user api token
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "name": "User name",
+    "email": "user@email.com",
+    "phone": "001122334455"
+  }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 {% api-method method="post" host="https://yourdomain.com" path="/api/clientgettoken" %}
 {% api-method-summary %}
 Get Token - Login user via email
