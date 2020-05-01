@@ -88,6 +88,20 @@ Easy to translate to any language. All strings are in 1 file.
 * React Native with Expo.io - Generates native iPhone and native Android app
 * Based on Argon Design with Galio.io
 
+## How to add new admin
+
+We have add the task - Admins to be able to add new admins from the interface. So it is not yet available
+
+But here are the steps to do it now. 
+
+1. Register new client. 
+2. Go in the database yourdomain.com/adminer and login
+3. Get the ID of the user from **users** table
+4. Go in **model\_has\_roles** table. There you should find that id  have **role\_id** 4. 
+5. Change it to **role\_id** 1
+
+Now he is admin.
+
 
 
 
