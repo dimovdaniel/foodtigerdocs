@@ -76,7 +76,10 @@ Easy to translate to any language. All strings are in 1 file.
 * Laravel - PHP Framework
 * MySQL Database
 * Bootstrap - Based on Argon Design from Creative Tim
+* VUE JS
 * Mobile ready - Both storefront and dashboard
+
+
 
 ### Driver Mobile app
 
@@ -101,6 +104,8 @@ But here are the steps to do it now.
 5. Change it to **role\_id** 1
 
 Now he is admin.
+
+## How to delete the demo data
 
 
 
