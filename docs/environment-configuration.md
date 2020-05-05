@@ -35,7 +35,15 @@ Remove the comments // when you add some environment variable
 
 {% page-ref page="../define-basics/facebook.md" %}
 
-### 7. Additional variables
+### 7. Subdomain
+
+When you run your site in subdomain, you need to declare that subdomain in your .env file. This is needed to be clarified, since this project can be used with subdomains for each restaurant.
+
+```text
+IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
+```
+
+### 8. Additional variables
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.
 
