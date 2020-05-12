@@ -79,6 +79,8 @@ There are also few variables that for now only we will mentioned and later we wi
   
   In the end you should have a list of variables like the list below.
 
+## Full list of supported environment variables
+
 ```text
 APP_LOCALE=en // en | fr | de | es
 IGNORE_SUBDOMAINS='www' //If you run your site as subdomain, add the subdomain here
