@@ -20,11 +20,11 @@ After that it will appear screen with information for your website.
 
 Fill it and then click **Create.**
 
-![](../.gitbook/assets/screenshot%20%284%29.png)
+![](../.gitbook/assets/screenshot%20%285%29.png)
 
 After the tracking site tag is generated, copy only the code.
 
-![](../.gitbook/assets/screenshot%20%287%29.png)
+![](../.gitbook/assets/screenshot%20%2810%29.png)
 
 The copied code add in the .env file.
 

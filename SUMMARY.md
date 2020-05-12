@@ -14,7 +14,7 @@
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Google Maps](define-basics/google-maps.md)
-* [Geolocation](define-basics/geolocation.md)
+* [Google Places API](define-basics/geolocation.md)
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)

@@ -27,9 +27,9 @@ Remove the comments // when you add some environment variable
 
 {% page-ref page="../define-basics/google-maps.md" %}
 
-### 5. Geolocation
+### 5. Google Places API
 
-Since version 1.2 is using Geo location for creating new addresses, you need to add Geolocation API Key to enable this feature in your project.
+Since version 1.2 is using Places API for creating new addresses, you need to add Google Places API Key to enable this feature in your project.
 
 {% page-ref page="../define-basics/geolocation.md" %}
 

@@ -34,7 +34,7 @@ Now enter your website URL.
 
 Next from the left menu in Product section find **Facebook Login** and under select **Settings**.
 
-![](../.gitbook/assets/screenshot%20%285%29.png)
+![](../.gitbook/assets/screenshot%20%286%29.png)
 
 Find **Valid QAuaht Redirect URIs** and enter your redirect URL.
 
@@ -46,7 +46,7 @@ Note: The redirect must be defined like in the picture below.
 
 The last step you need to do is to switch the mode of your app from development to live.
 
-![](../.gitbook/assets/screenshot%20%289%29.png)
+![](../.gitbook/assets/screenshot%20%2812%29.png)
 
 Copy **App ID** and **App Secret** and add this values in the .env file.  
 
