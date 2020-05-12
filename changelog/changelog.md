@@ -32,6 +32,8 @@
 * Able to add html characters on front welcome message
 * Side cart was not mobile ready
 * Adding categories in restaurant as admin
+* Multiple orders created
+* Multiple address created
 
 ### Updating
 
