@@ -16,6 +16,7 @@
 * [Google Maps](define-basics/google-maps.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
+* [Import from CSV](define-basics/import-from-csv.md)
 
 ## Usage
 
