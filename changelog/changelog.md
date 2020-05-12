@@ -33,6 +33,19 @@
 * Side cart was not mobile ready
 * Adding categories in restaurant as admin
 
+### Updating
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+After that, login as admin or notify your restaurant owners that they have to set working times.  
+You should also add Google Places Enabled API key in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional address entering.
+
+```text
+GOOGLE_MAPS_GEOCODING_API_KEY
+```
+
+ 
+
 
 
 

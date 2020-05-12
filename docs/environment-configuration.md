@@ -25,7 +25,7 @@ Remove the comments // when you add some environment variable
 
 ### 4. Google Maps
 
-{% page-ref page="../define-basics/google-authentication.md" %}
+{% page-ref page="../define-basics/google-maps.md" %}
 
 ### 5. Google authentication
 
@@ -86,6 +86,7 @@ ENABLE_STRIPE_IDEAL=false //Should we have stripe ideal payment
 DEFAULT_PAYMENT="cod" //Default payment method - Cash On Delivery default cod|stripe
 CASHIER_CURRENCY="usd" //usd,eur etc.. 
 GOOGLE_MAPS_API_KEY="" //Display google maps
+GOOGLE_MAPS_GEOCODING_API_KEY="" //Geocoding enabled API KEY
 
 GOOGLE_CLIENT_ID="" //Used for google login
 GOOGLE_CLIENT_SECRET="" //Used for go0gle login
