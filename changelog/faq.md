@@ -63,9 +63,9 @@ The site operates in 1 language that can be defined from the .env variable. We h
 * [x] French
 * [x] German
 * [x] Spanish
-* [ ] Italian
-* [ ] Russian
-* [ ] Portuguese 
+* [x] Italian
+* [x] Russian
+* [x] Portuguese 
 
 Easy to translate to any language. All strings are in 1 file.
 
@@ -106,6 +106,16 @@ But here are the steps to do it now.
 Now he is admin.
 
 ## How to delete the demo data
+
+To delete the demo data go to your site Adminer. \(adminer is php script to manage your database\).  
+The adminer is located on   **yourdomain.com/adminer**
+
+There, login with your database username and password.   
+Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
+
+In the text area enter the following sql command. After executing [THIS](https://gist.github.com/dimovdaniel/ebbaa2bb379e92bfc1e223b306ca1531) commands, only your admin user will remain in the database.
+
+
 
 
 
