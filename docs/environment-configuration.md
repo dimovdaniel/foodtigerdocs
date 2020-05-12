@@ -100,5 +100,6 @@ APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
 APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
 
 ENABLE_PICKUP=true //Do we have the option client to make PICKUP
+GOOGLE_ANALYTICS="" //Google Analytcis code
 ```
 
