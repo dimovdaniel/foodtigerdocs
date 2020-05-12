@@ -27,15 +27,27 @@ Remove the comments // when you add some environment variable
 
 {% page-ref page="../define-basics/google-maps.md" %}
 
-### 5. Google authentication
+### 5. Geolocation
+
+Since version 1.2 is using Geo location for creating new addresses, you need to add Geolocation API Key to enable this feature in your project.
+
+{% page-ref page="../define-basics/geolocation.md" %}
+
+### 6. Google Analytics
+
+From version 1.2 we enable tracks and reports website traffic using Google Analytics. This is optionally and if you want to enable on your site you need to create Google Analytics code.
+
+{% page-ref page="../define-basics/google-analytics.md" %}
+
+### 7. Google authentication
 
 {% page-ref page="../define-basics/google-authentication.md" %}
 
-### 6. Facebook authentication
+### 8. Facebook authentication
 
 {% page-ref page="../define-basics/facebook.md" %}
 
-### 8. Subdomain
+### 9. Subdomain
 
 When you run your site in subdomain, you need to declare that subdomain in your .env file. This is needed to be clarified, since this project can be used with subdomains for each restaurant.
 
@@ -43,13 +55,13 @@ When you run your site in subdomain, you need to declare that subdomain in your 
 IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 ```
 
-### 9. Import from CSV
+### 10. Import from CSV
 
 Enable importing data from Excel files.
 
 {% page-ref page="../define-basics/import-from-csv.md" %}
 
-### 10. Additional variables
+### 11. Additional variables
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.
 

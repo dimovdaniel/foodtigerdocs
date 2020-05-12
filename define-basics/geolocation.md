@@ -24,12 +24,12 @@ Enable Geolocation API.
 
 Click the menu button and select **APIs & Services &gt; Credentials**.
 
-![](../.gitbook/assets/screenshot%20%284%29.png)
+![](../.gitbook/assets/screenshot%20%288%29.png)
 
 On the **Credentials** page, click **Create credentials &gt; API key**.  
 The **API key created** dialog displays your newly created API key.
 
-![](../.gitbook/assets/screenshot.png)
+![](../.gitbook/assets/screenshot%20%281%29.png)
 
 Now copy the given key in the .env file.
 

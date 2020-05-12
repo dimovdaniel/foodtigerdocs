@@ -15,6 +15,7 @@
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Google Maps](define-basics/google-maps.md)
 * [Geolocation](define-basics/geolocation.md)
+* [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
 * [Import from CSV](define-basics/import-from-csv.md)
