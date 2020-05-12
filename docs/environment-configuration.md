@@ -57,7 +57,7 @@ IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 
 ### 10. Import from CSV
 
-Enable importing data from Excel files.
+FoodTiger also support integration and working with excel files. 
 
 {% page-ref page="../define-basics/import-from-csv.md" %}
 
@@ -65,17 +65,9 @@ Enable importing data from Excel files.
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.
 
-* Working with excel files  
-  
-  FoodTiger also support integration and working with excel files. By default is set to **false** and if you want to enable change it to **true**.
-
-  ```text
-  ENABLE_IMPORT_CSV=false //Enable importing restaurants from excel files
-  ```
-
 * Automatically approving the orders  
   
-  No need admin to aprove the orders if **true**. By default is set to **false**.
+  No need admin to approve the orders if **true**. By default is set to **false**.
 
   ```text
   APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
