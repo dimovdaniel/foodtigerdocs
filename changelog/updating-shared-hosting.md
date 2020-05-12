@@ -20,7 +20,7 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 ### 4. Open your FTP client and connect to your shared hosting ftp 
 
 Almost all FTP client have the option to exclude some folder from transfer.   
-You need to exclude the folder **public/uploads** and  **storage**
+You need to exclude the folder **public/uploads** ,  **storage** and **node\_modules**
 
 ![](../.gitbook/assets/exclude.png)
 
