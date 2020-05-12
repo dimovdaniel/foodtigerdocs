@@ -7,6 +7,7 @@
 * [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Pickup option
 * [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Restaurant closing and opening time
 * [TOP REQUESTED](https://trello.com/b/QqLlZCxM/foodtiger): Register restaurant on site, later approve it
+* [TOP REQUESTED:](https://trello.com/b/QqLlZCxM/foodtiger) Time slots on order
 * Set availability of items
 * Calculate static - fixed commission on the order
 * Calculate dynamic - percent based  commission on the order
