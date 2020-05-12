@@ -16,7 +16,7 @@ From the left menu choose **Developers** and select **API keys** under that**.**
 
 In the standard keys find your **Publishable key** and **Secret key.**
 
-![](../.gitbook/assets/screenshot%20%282%29.png)
+![](../.gitbook/assets/screenshot%20%283%29.png)
 
 Now copy them and paste in your **.env** file.
 

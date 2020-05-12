@@ -14,6 +14,7 @@
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Google Maps](define-basics/google-maps.md)
+* [Geolocation](define-basics/geolocation.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
 * [Import from CSV](define-basics/import-from-csv.md)
@@ -23,8 +24,6 @@
 * [Getting Started](usage/getting-started.md)
 * [Register as an admin](usage/register-as-an-admin.md)
 * [Set up your site](usage/set-up-your-site.md)
-* [Import restaurants](usage/import-restaurants.md)
-* [Import restaurant items](usage/import-restaurant-items.md)
 
 ## API
 
