@@ -8,6 +8,9 @@ Available languages:
 * French `fr`
 * German `de`
 * Spanish `es`
+* Italian `it`
+* Portuguese `pt`
+* Russian `ru`
 
 By default is set in English but you can change it on some of the available languages.
 
