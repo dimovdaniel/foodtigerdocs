@@ -365,6 +365,10 @@ This endpoint will make new order.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="timeslot" type="string" required=false %}
+The time slot for delivery or pickup
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="order\_price" type="number" required=true %}
 Total order price with delivery if delivery
 {% endapi-method-parameter %}
