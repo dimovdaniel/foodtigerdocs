@@ -365,8 +365,16 @@ This endpoint will make new order.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-form-data-parameters %}
-{% api-method-parameter name="stripe\_method\_id" type="string" required=false %}
-The stripe payment id method. Required if payment method is stripe
+{% api-method-parameter name="order\_price" type="number" required=true %}
+Total order price with delivery if delivery
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="delivery\_method" type="string" required=true %}
+delivery or pickup
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="stripe\_token" type="string" required=false %}
+The stripe payment id method. Required if payment method is stripe.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="payment\_method" type="string" required=true %}
@@ -390,7 +398,7 @@ The address id
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="items" type="array" required=true %}
-The order items
+The order items ex \`\`\`\[{id:1,qty:1}\]\`\`\`
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
