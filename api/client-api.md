@@ -398,7 +398,7 @@ The address id
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="items" type="array" required=true %}
-The order items ex \`\`\`\[{id:1,qty:1}\]\`\`\`
+The order items ex \[{id:1,qty:1}\]
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
