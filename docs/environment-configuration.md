@@ -116,5 +116,8 @@ ENABLE_PICKUP=true //Do we have the option client to make PICKUP
 GOOGLE_ANALYTICS="" //Google Analytcis code
 
 URL_ROUTE="restaurant" //URL route on frontend
+
+ONESIGNAL_APP_ID="" //Onesignal app id
+ONESIGNAL_REST_API_KEY="" //Onesignal rest api key 
 ```
 
