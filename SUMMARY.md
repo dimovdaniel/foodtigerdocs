@@ -37,7 +37,11 @@
 * [Updating - Shared hosting](changelog/updating-shared-hosting.md)
 * [FAQ](changelog/faq.md)
 
-## Mobile Apps
+## Driver App <a id="mobile-apps"></a>
 
 * [Driver Companion App](mobile-apps/driver-companion-app.md)
+
+## Client App
+
+* [Setup](client-app/setup.md)
 
