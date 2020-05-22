@@ -85,7 +85,7 @@ This commissions are visible only for the admin in every restaurant. It's recomm
 **How it works?**
 
 * Calculate static fee - For example if the static fee is 5$ for that restaurant the fee for the orders from that orders will be also 5$.
-* Calculate dynamic fee - For example if we have order with total price of 45$ and the fee percent is 5$ for that restaurant, the order fee will be 2.25$.
+* Calculate dynamic fee - For example if we have order with total price of 45$ and the fee percent is 5% for that restaurant, the order fee will be 2.25$.
 
 ## What technology is used?
 
