@@ -10,7 +10,7 @@
 * [TOP REQUESTED:](https://trello.com/b/QqLlZCxM/foodtiger) Time slots on order
 * Set availability of items
 * Calculate static - fixed commission on the order
-* Calculate dynamic - percent based  commission on the order
+* Calculate dynamic - percent based commission on the order
 * Google Analytics
 * Italian, Portuguese, Russian languages added
 
