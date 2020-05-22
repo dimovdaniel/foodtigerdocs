@@ -31,7 +31,7 @@ Remove the comments // when you add some environment variable
 
 Since version 1.2 is using Places API for creating new addresses, you need to add Google Places API Key to enable this feature in your project.
 
-{% page-ref page="../define-basics/geolocation.md" %}
+{% page-ref page="../define-basics/places-api.md" %}
 
 ### 6. Google Analytics
 

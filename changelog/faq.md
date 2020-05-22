@@ -1,28 +1,32 @@
+---
+description: Frequently Asked Questions (FAQs)
+---
+
 # FAQ
 
 ## How customer can register?
 
 They can register via email with password. They can also register via Facebook and Google login. At the moment there is no [phone verification](https://trello.com/c/3aBr8Iay/61-phone-verification-when-user-registers).  
 
-## After order is paid, where money goes. 
+## After order is paid, where money goes?
 
 At the moment we have **Cash On Delivery** and **Stripe** card payments.
 
- With **COD**, the money are collected by the driver. And it us to you how you will manage the payments to the restaurants. The system can calculate static and/or percentage based fee that you can export and make calculations.  
+With **COD**, the money are collected by the driver. And it us to you how you will manage the payments to the restaurants. The system can calculate static and/or percentage based fee that you can export and make calculations.  
   
 With **Stripe Card** payments, money goes to you as admin/owner of the project. And it us to you how you will manage the payments to the restaurants. The system can calculate static and/or percentage based fee that you can export and make calculations.  
   
 Soon we will integrate [Stripe Connect ](https://trello.com/c/NNeTIodn/19-stripe-connect-payments)payments where on your account will stay the money for the fee + delivery and the money will go directly to the restaurants automatically. 
 
-## How restaurants owner registers.
+## How restaurants owner registers?
 
-At the moment, you should create [TypeForm](https://www.typeform.com/) form and put it in the settings. The interested restaurants will fill the form, and you get the submitted responses. If response looks ok, the administrator creates restaurant + account for that restaurant.   
+At the fronted part of the script you will find the button **Register your restaurant**. The interested restaurants will fill the form, and you get the submitted responses. If response looks okay, the administrator accept the restaurant and account for that restaurant. After acceptance the restaurant owner receives email with details.   
   
-The restaurant owner will need to reset the password \( it is unknown on the process of creation \) and start filling the items / categories for his restaurant. 
+The restaurant owner will need to login with the email and password \(generated password can change if he wants in profile page\). After that the owner can start filling the items / categories for his restaurant. 
 
 ## Who can order, are the area / radius limitations?
 
-Any registered client. At the moment, we don't have the functionality to limit the ordering based on client are. But you can[ vote for it.](https://trello.com/c/CPMufGvy/34-add-the-delivery-radius-at-the-restaurant) It is in our todo.  
+Any registered client. At the moment, we don't have the functionality to limit the ordering based on client are. But you can[ vote for it.](https://trello.com/c/CPMufGvy/34-add-the-delivery-radius-at-the-restaurant) It is in our to-do list.  
 
 ## Once order arrives, what is the flow?
 
@@ -39,11 +43,11 @@ Any registered client. At the moment, we don't have the functionality to limit t
 Please look into our environment variables, we have few settings how this can work.    
 For example if you put APP\_ALLOW\_SELF\_DELIVER - restaurants can deliver orders on their own.
 
-## How does driver process works.
+## How does driver process works?
 
 Drivers are employees to the project owner. They are created by the admin. After they are created, admin can assign jobs / orders to them. They can do the work via the Web Version, but in order to have the location of order tracking, drivers will need to use the [Driver Companion App](https://codecanyon.net/item/driver-companion-app-for-foodtiger-delivery/26415042). 
 
-## How is the restaurant notified for new orders.
+## How is the restaurant notified for new orders?
 
 Soon as there is new order for restaurant. 
 
@@ -69,7 +73,7 @@ The site operates in 1 language that can be defined from the .env variable. We h
 
 Easy to translate to any language. All strings are in 1 file.
 
-## What technology is used
+## What technology is used?
 
 ### WEB \( Storefront and Dashboard \)
 
@@ -91,7 +95,7 @@ Easy to translate to any language. All strings are in 1 file.
 * React Native with Expo.io - Generates native iPhone and native Android app
 * Based on Argon Design with Galio.io
 
-## How to add new admin
+## How to add new admin?
 
 We have add the task - Admins to be able to add new admins from the interface. So it is not yet available
 
@@ -105,10 +109,16 @@ But here are the steps to do it now.
 
 Now he is admin.
 
-## How to delete the demo data
+## How to add new address?
 
-To delete the demo data go to your site Adminer. \(adminer is php script to manage your database\).  
-The adminer is located on   **yourdomain.com/adminer**
+The option for adding new address from version 1.2 is moved in the order checkout page. When the clients is making new order he can see all his addresses with option to add new one.
+
+This option is using Google Places API and you will need to add it in your configuration otherwise this option will be not functional. More about it [here](https://app.gitbook.com/@mobidonia/s/mresto/~/drafts/-M7w7cOY35j6djVuexqR/define-basics/places-api).
+
+## How to delete the demo data?
+
+To delete the demo data go to your site Adminer. \(Adminer is php script to manage your database\).  
+The Adminer is located on **yourdomain.com/adminer**
 
 There, login with your database username and password.   
 Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
