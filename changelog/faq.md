@@ -73,6 +73,20 @@ The site operates in 1 language that can be defined from the .env variable. We h
 
 Easy to translate to any language. All strings are in 1 file.
 
+## What are static and dynamic fee commissions?
+
+The project owner will have two options to get money from the restaurants for using the site services.
+
+* Calculate static - fixed commission on the order.
+* Calculate dynamic - percent based commission on the order.
+
+This commissions are visible only for the admin in every restaurant. It's recommended to use only one of the options not both. This fees are not related to the total cost of the client.
+
+**How it works?**
+
+* Calculate static fee - For example if the static fee is 5$ for that restaurant the fee for the orders from that orders will be also 5$.
+* Calculate dynamic fee - For example if we have order with total price of 45$ and the fee percent is 5$ for that restaurant, the order fee will be 2.25$.
+
 ## What technology is used?
 
 ### WEB \( Storefront and Dashboard \)
