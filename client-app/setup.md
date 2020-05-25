@@ -68,6 +68,10 @@ Use this [node script](https://github.com/junedomingo/react-native-rename#readme
 $ npx react-native-rename <newName> -b <bundleIdentifier>
 ```
 
+## Change app icons and app splash screen
+
+There is no real easy way to change the icons. So please look into this [tutorial](https://medium.com/better-programming/react-native-add-app-icons-and-launch-screens-onto-ios-and-android-apps-3bfbc20b7d4c).
+
 ## Node modules install
 
 Navigate to your project
