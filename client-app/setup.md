@@ -60,3 +60,23 @@ exports.searchRadius=null;
 
 
 
+## Rename the app packages
+
+Use this [node script](https://github.com/junedomingo/react-native-rename#readme) to rename the app package.
+
+```text
+$ npx react-native-rename <newName> -b <bundleIdentifier>
+```
+
+## Node modules install
+
+Navigate to your project
+
+In terminal / cmd run the following command
+
+```text
+npm install
+```
+
+This will install all the node modules reguired in order the project to work.
+
