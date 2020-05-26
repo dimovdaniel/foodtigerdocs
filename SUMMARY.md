@@ -15,6 +15,7 @@
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Google Maps \(version 1.2\)](define-basics/google-maps.md)
 * [Google Places API \(version 1.2\)](define-basics/places-api.md)
+* [Google Maps and Places API](define-basics/google-maps-and-places-api.md)
 * [Google Maps and Places API \(version 1.3\)](define-basics/google-maps-and-places-api-version-1.3.md)
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
