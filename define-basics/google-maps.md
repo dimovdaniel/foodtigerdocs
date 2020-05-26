@@ -2,7 +2,7 @@
 description: How to get Google maps API Key
 ---
 
-# Google Maps
+# Google Maps \(version 1.2\)
 
 You must have at least one API key associated with your project.  
 To get an API key:

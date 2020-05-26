@@ -2,7 +2,7 @@
 description: How to get Google Places API Key
 ---
 
-# Google Places API
+# Google Places API \(version 1.2\)
 
 Visit [Google API Console](https://console.developers.google.com/).
 
