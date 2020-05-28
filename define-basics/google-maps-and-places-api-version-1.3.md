@@ -64,7 +64,7 @@ GOOGLE_MAPS_API_KEY="" //Uses Google Maps and Places API
 {% hint style="info" %}
 **IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).
 
-Sometimes after adding the key these features maybe won't again. Then depending on the google account associated with the project created and maybe you will need to enable Billing.
+Sometimes after adding the key these features maybe won't work again. Then depending on the google account associated with the project created and maybe you will need to enable Billing.
 
 Learn more here about it: [Billing](https://console.cloud.google.com/project/_/billing/enable) or here [Getting started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started)
 {% endhint %}
