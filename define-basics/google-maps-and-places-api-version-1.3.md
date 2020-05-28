@@ -2,7 +2,7 @@
 description: How to get Google Maps and Places API keys
 ---
 
-# Google Maps and Places API \(version 1.3\)
+# Google Maps and Places API
 
 ## This update will be able from version 1.3
 

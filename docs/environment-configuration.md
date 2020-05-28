@@ -29,13 +29,9 @@ Remove the comments // when you add some environment variable
 
 ### 6. Google Maps
 
-{% page-ref page="../define-basics/google-maps.md" %}
-
 ### 7. Google Places API
 
 Since version 1.2 is using Places API for creating new addresses, you need to add Google Places API Key to enable this feature in your project.
-
-{% page-ref page="../define-basics/places-api.md" %}
 
 ### 8. Google Analytics
 
