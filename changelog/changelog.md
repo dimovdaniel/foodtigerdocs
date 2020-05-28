@@ -28,14 +28,18 @@
 To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).   
   
 You should also add One Signal keys in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration) to have functional web push notification.  
-You can find more here about the setup of One Signal.
+You can find more [here](https://mobidonia.gitbook.io/mresto/define-basics/one-signal-push-notifications) about the setup for One Signal.
 
 ```text
 ONESIGNAL_APP_ID="" //Onesignal app id
 ONESIGNAL_REST_API_KEY="" //Onesignal rest api key 
 ```
 
+Also from this version we made a changes on the Google Maps and Places API.
 
+Until this versions we have two different configurations for these API's and now it's more simple.
+
+You can check [here](https://mobidonia.gitbook.io/mresto/define-basics/google-maps-and-places-api-version-1.3) more about it.
 
 ## 1.2 - 2020-05-12
 
