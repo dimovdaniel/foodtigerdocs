@@ -1,5 +1,40 @@
 # Changelog
 
+## 1.3 - 2020-05-28
+
+### Added
+
+* [TOP REQUESTED](https://trello.com/c/xGpn3ju9): Alarm sound on new order - [Video](https://www.loom.com/share/296835747f7d43898a1c32e2d488e913)
+* Web Push notification on order  - Powered by [OneSignal](https://onesignal.com)
+* Customer Mobile app \( [separate project ](https://codecanyon.net/item/food-delivery-reactnative-foodtiger/26796029)\)
+
+### Changed 
+
+* Improved search
+* Option to disable import of demo data
+* CKEditor more options
+* More statistics on Dashboard
+* Improved restaurant adding
+* Mobile browser improvements
+
+### Fixed
+
+* Missing option to modify restaurant address
+* More robust order creation
+* Payment status not updating 
+
+### Updating
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).   
+  
+You should also add OneSignal keys  in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional web push notification.
+
+```text
+GOOGLE_MAPS_GEOCODING_API_KEY
+```
+
+
+
 ## 1.2 - 2020-05-12
 
 ### Added
