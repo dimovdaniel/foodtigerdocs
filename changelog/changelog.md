@@ -30,7 +30,8 @@ To update from previous release, follow the [standard update procedure](https://
 You should also add OneSignal keys  in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional web push notification.
 
 ```text
-GOOGLE_MAPS_GEOCODING_API_KEY
+ONESIGNAL_APP_ID="" //Onesignal app id
+ONESIGNAL_REST_API_KEY="" //Onesignal rest api key 
 ```
 
 
