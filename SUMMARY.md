@@ -9,8 +9,9 @@
 
 ## Define Basics
 
-* [Localization](define-basics/localization.md)
+* [Database](define-basics/database.md)
 * [Mail server](define-basics/obtain-smtp.md)
+* [Localization and Time format](define-basics/localization.md)
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Google Maps \(version 1.2\)](define-basics/google-maps.md)
@@ -19,6 +20,7 @@
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
+* [One Signal push notifications](define-basics/one-signal-push-notifications.md)
 * [Import from CSV](define-basics/import-from-csv.md)
 
 ## Usage

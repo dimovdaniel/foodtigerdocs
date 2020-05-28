@@ -61,21 +61,7 @@ The process of making database is something like this.
 
 ![](../.gitbook/assets/extract.png)
 
-#### 4. Obtain mail server
-
-{% page-ref page="../define-basics/obtain-smtp.md" %}
-
-#### 5. Other environment configuration
-
-{% hint style="info" %}
-**Note:** This configuration requires many steps so we will explain this more detailed.
-{% endhint %}
-
-Next click on the article below to continue with the configuration.
-
-{% page-ref page="environment-configuration.md" %}
-
-#### 6. Now navigate to the web url where your project is located
+#### 4. Now navigate to the web url where your project is located
 
 ex. mydomain.com or subdomain.mydomain.com
 
@@ -99,40 +85,17 @@ Select the classic text editor
 
 ![](../.gitbook/assets/save_env%20%281%29.png)
 
-Important variables
+**5. Environment Configuration**
 
-**MAIL** \( Replace with your values \)
+{% hint style="info" %}
+**Note:** This configuration requires many steps so we will explain this more detailed.
+{% endhint %}
 
-```text
-MAIL_DRIVER=smtp
-MAIL_HOST=smtp.sendgrid.net
-MAIL_PORT=587
-MAIL_USERNAME=apikey
-MAIL_PASSWORD=xxxxxxxxxxxxxxxxx
-MAIL_ENCRYPTION=null
+Next click on the article below to continue with the configuration.
 
-MAIL_FROM_ADDRESS='youremail@yourdomain.com'
-MAIL_FROM_NAME='Your Project name'
-```
+{% page-ref page="environment-configuration.md" %}
 
-**DATABASE** \( Replace with your values \)
-
-```text
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=laravel
-DB_USERNAME=laravel
-DB_PASSWORD=laravel
-```
-
-If you install the project in subdomain, add this ENV variable
-
-```text
-IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
-```
-
-Next, don't forget to save
+When you finish with the configuration don't forget to save the env file.
 
 ![](../.gitbook/assets/save_env.png)
 
@@ -142,7 +105,7 @@ Now the install process will begin
 
 It will install all the demo data in your database. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our support chat.
 
-If all goes ok, you can click on "Finish" 
+If all goes okay, you can click on "Finish" 
 
 Now you have your own instance 
 

@@ -11,43 +11,51 @@ List of all custom environment variables FoodTiger uses. We will see them one by
 Remove the comments // when you add some environment variable
 {% endhint %}
 
-### **1. Localization** 
+### **1. Database**
 
-{% page-ref page="../define-basics/localization.md" %}
+{% page-ref page="../define-basics/database.md" %}
 
 ### **2. Mail server**
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
-### **3. Payments**
+### **4. Localization and Time format**
+
+{% page-ref page="../define-basics/localization.md" %}
+
+### **5. Payments**
 
 {% page-ref page="../define-basics/payments.md" %}
 
-### 4. Google Maps
+### 6. Google Maps
 
 {% page-ref page="../define-basics/google-maps.md" %}
 
-### 5. Google Places API
+### 7. Google Places API
 
 Since version 1.2 is using Places API for creating new addresses, you need to add Google Places API Key to enable this feature in your project.
 
 {% page-ref page="../define-basics/places-api.md" %}
 
-### 6. Google Analytics
+### 8. Google Analytics
 
 From version 1.2 we enable tracks and reports website traffic using Google Analytics. This is optionally and if you want to enable on your site you need to create Google Analytics code.
 
 {% page-ref page="../define-basics/google-analytics.md" %}
 
-### 7. Google authentication
+### 9. Google authentication
 
 {% page-ref page="../define-basics/google-authentication.md" %}
 
-### 8. Facebook authentication
+### 10. Facebook authentication
 
 {% page-ref page="../define-basics/facebook.md" %}
 
-### 9. Subdomain
+### 11. One Signal Push notifications
+
+{% page-ref page="../define-basics/one-signal-push-notifications.md" %}
+
+### 12. Subdomain
 
 When you run your site in subdomain, you need to declare that subdomain in your .env file. This is needed to be clarified, since this project can be used with subdomains for each restaurant.
 
@@ -55,33 +63,48 @@ When you run your site in subdomain, you need to declare that subdomain in your 
 IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 ```
 
-### 10. Import from CSV
+### 13. Import from CSV
 
 FoodTiger also support integration and working with excel files. 
 
 {% page-ref page="../define-basics/import-from-csv.md" %}
 
-### 11. Additional variables
+### 14. Additional variables
 
-There are also few variables that for now only we will mentioned and later we will explain more about them.
+There are also few variables that for now only we will mentioned and later we will explain more about them.    
 
-* Automatically approving the orders  
-  
-  No need admin to approve the orders if **true**. By default is set to **false**.
+* Automatically approving the orders  No need admin to approve the orders if **true**. By default is set to **false**.
 
-  ```text
-  APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
-  ```
+```
+APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
+```
+
+
 
 * Restaurants will deliver orders on their self's
 
-  ```text
-  APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
-  ```
+```text
+APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
+```
+
+
+
+* Option for adding/deleting demo data in your project
 
   
-  
-  In the end you should have a list of variables like the list below.
+  If you want to skip the adding the demo data that you will find on the [demo version](https://foodtiger.site/) you can make that with adding variable in the configuration.
+
+```text
+DEMO_DATA=false //By default it's true, if false the data won't be added
+```
+
+       Additionally if you add the demo data in the process of installation later you can delete manually but   
+       maybe you will have some conflicts during this process.   
+        
+       You can find about it on the following [link](https://mobidonia.gitbook.io/mresto/changelog/faq#how-to-delete-the-demo-data).  
+
+
+In the end you should have a list of variables like the list below.
 
 ## Full list of supported environment variables
 
@@ -119,5 +142,11 @@ URL_ROUTE="restaurant" //URL route on frontend
 
 ONESIGNAL_APP_ID="" //Onesignal app id
 ONESIGNAL_REST_API_KEY="" //Onesignal rest api key 
+
+DEMO_DATA=false //Enable od disable demo data
+TIME_FORMAT="" //working hours time format
+
+ONESIGNAL_APP_ID= //One Signal App Id 
+ONESIGNAL_REST_API_KEY= //One Signal Rest Api Key
 ```
 
