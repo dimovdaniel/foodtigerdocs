@@ -27,7 +27,8 @@
 
 To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).   
   
-You should also add OneSignal keys  in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional web push notification.
+You should also add One Signal keys in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration) to have functional web push notification.  
+You can find more here about the setup of One Signal.
 
 ```text
 ONESIGNAL_APP_ID="" //Onesignal app id
