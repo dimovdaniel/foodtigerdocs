@@ -21,6 +21,8 @@ Get an account [here](https://sendgrid.com/).
 
 [This article](https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html) is important in order to setup your SendGrid SMTP correct.
 
+**Required**: You need to Authenticate your domain to send emails from. [Here](https://sendgrid.com/docs/ui/account-and-settings/how-to-set-up-domain-authentication/) is how.
+
 ### Test your SMTP
 
 {% embed url="https://www.smtper.net/" %}
