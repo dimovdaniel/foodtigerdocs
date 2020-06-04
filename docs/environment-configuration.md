@@ -114,8 +114,9 @@ ENABLE_STRIPE_IDEAL=false //Should we have stripe ideal payment
 
 DEFAULT_PAYMENT="cod" //Default payment method - Cash On Delivery default cod|stripe
 CASHIER_CURRENCY="usd" //usd,eur etc.. 
-GOOGLE_MAPS_API_KEY="" //Display google maps
-GOOGLE_MAPS_GEOCODING_API_KEY="" //Geocoding enabled API KEY
+
+GOOGLE_MAPS_API_KEY="" //Uses Google Maps and Places API
+GOOGLE_ANALYTICS="" //Google Analytcis code
 
 GOOGLE_CLIENT_ID="" //Used for google login
 GOOGLE_CLIENT_SECRET="" //Used for go0gle login
@@ -130,7 +131,7 @@ APP_ORDER_APPROVE_DIRECTLY=false //No need admin to approve the oorders if true
 APP_ALLOW_SELF_DELIVER=true //Restaurants will deliver orders on their selfs
 
 ENABLE_PICKUP=true //Do we have the option client to make PICKUP
-GOOGLE_ANALYTICS="" //Google Analytcis code
+
 
 URL_ROUTE="restaurant" //URL route on frontend
 
