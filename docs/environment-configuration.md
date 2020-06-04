@@ -27,31 +27,29 @@ Remove the comments // when you add some environment variable
 
 {% page-ref page="../define-basics/payments.md" %}
 
-### 6. Google Maps
+### 6. Google Maps and Places API
 
-### 7. Google Places API
+{% page-ref page="../define-basics/google-maps-and-places-api-version-1.3.md" %}
 
-Since version 1.2 is using Places API for creating new addresses, you need to add Google Places API Key to enable this feature in your project.
-
-### 8. Google Analytics
+### 7. Google Analytics
 
 From version 1.2 we enable tracks and reports website traffic using Google Analytics. This is optionally and if you want to enable on your site you need to create Google Analytics code.
 
 {% page-ref page="../define-basics/google-analytics.md" %}
 
-### 9. Google authentication
+### 8. Google authentication
 
 {% page-ref page="../define-basics/google-authentication.md" %}
 
-### 10. Facebook authentication
+### 9. Facebook authentication
 
 {% page-ref page="../define-basics/facebook.md" %}
 
-### 11. One Signal Push notifications
+### 10. One Signal Push notifications
 
 {% page-ref page="../define-basics/one-signal-push-notifications.md" %}
 
-### 12. Subdomain
+### 11. Subdomain
 
 When you run your site in subdomain, you need to declare that subdomain in your .env file. This is needed to be clarified, since this project can be used with subdomains for each restaurant.
 
@@ -59,13 +57,13 @@ When you run your site in subdomain, you need to declare that subdomain in your 
 IGNORE_SUBDOMAINS="www,yoursubdomain,anothersubdomain"
 ```
 
-### 13. Import from CSV
+### 12. Import from CSV
 
 FoodTiger also support integration and working with excel files. 
 
 {% page-ref page="../define-basics/import-from-csv.md" %}
 
-### 14. Additional variables
+### 13. Additional variables
 
 There are also few variables that for now only we will mentioned and later we will explain more about them.    
 
