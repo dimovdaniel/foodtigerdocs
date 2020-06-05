@@ -143,5 +143,7 @@ TIME_FORMAT="" //working hours time format
 
 ONESIGNAL_APP_ID= //One Signal App Id 
 ONESIGNAL_REST_API_KEY= //One Signal Rest Api Key
+
+APP_SECRET="" //String use to secure your Client Mobile API - can be any string
 ```
 

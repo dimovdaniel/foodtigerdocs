@@ -32,6 +32,9 @@ exports.domain = "https://foodtiger.mobidonia.com/api";
 exports.currency="USD";
 exports.currencySign="$";
 
+//APP API secert
+exports.APP_SECRET=""; //Your app secret - same as in the .env file in your web project 
+
 //COD setup
 exports.enableCOD=true;  //Cash on deliver
 
