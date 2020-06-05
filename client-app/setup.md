@@ -75,7 +75,11 @@ $ npx react-native-rename <newName> -b <bundleIdentifier>
 
 There is no real easy way to change the icons. So please look into this [tutorial](https://medium.com/better-programming/react-native-add-app-icons-and-launch-screens-onto-ios-and-android-apps-3bfbc20b7d4c).
 
-## Node modules install
+
+
+## Install dependencies
+
+### Node modules install
 
 Navigate to your project
 
@@ -85,5 +89,24 @@ In terminal / cmd run the following command
 npm install
 ```
 
-This will install all the node modules reguired in order the project to work.
+This will install all the node modules required in order the project to work.
+
+
+
+### Pod install - for iOS
+
+```text
+cd ios
+pod install
+```
+
+
+
+
+
+## Deploy on Google Play
+
+{% embed url="https://reactnative.dev/docs/signed-apk-android" %}
+
+
 
