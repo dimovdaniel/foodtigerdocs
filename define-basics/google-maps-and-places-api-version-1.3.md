@@ -44,7 +44,7 @@ The new API key is listed on the **Credentials** page under **API keys**.
 An application restriction controls which websites, IP addresses, or applications can use your API key. You can set one application restriction per key.
 
 * Select **HTTP referrers \(web sites\)**
-* Click on **ADD AN ITEM** and add your domain. Your domain should look like this: `https://*.yourdomain.com/*` or `only *.yourdomain.com/*`
+* Click on **ADD AN ITEM** and add your domain. Your domain should look like this: `https://yourdomain.com/*` or `only yourdomain.com/*`
 
 ![](../.gitbook/assets/screenshot%20%2815%29.png)
 
