@@ -145,5 +145,15 @@ ONESIGNAL_APP_ID= //One Signal App Id
 ONESIGNAL_REST_API_KEY= //One Signal Rest Api Key
 
 APP_SECRET="" //String use to secure your Client Mobile API - can be any string
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+
+MAIL_FROM_ADDRESS=''
+MAIL_FROM_NAME=''
 ```
 
