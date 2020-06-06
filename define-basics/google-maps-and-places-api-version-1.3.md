@@ -44,9 +44,9 @@ The new API key is listed on the **Credentials** page under **API keys**.
 An application restriction controls which websites, IP addresses, or applications can use your API key. You can set one application restriction per key.
 
 * Select **HTTP referrers \(web sites\)**
-* Click on **ADD AN ITEM** and add your domain. Your domain should look like this: `https://yourdomain.com/*` or `only yourdomain.com/*`
+* Click on **ADD AN ITEM** and add your domain. Your domain should look like this: `https://yourdomain.com/*` and `yourdomain.com/*`
 
-![](../.gitbook/assets/screenshot%20%2815%29.png)
+![](../.gitbook/assets/screenshot%20%2830%29.png)
 
 * Select **Restrict key**.
 * Click on **Select APIs drop down menu** and select **Maps JavaScript API** and **Places API**.
@@ -61,11 +61,29 @@ Now your API Key is ready for use.
 GOOGLE_MAPS_API_KEY="" //Uses Google Maps and Places API
 ```
 
-{% hint style="info" %}
-**IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).
 
-Sometimes after adding the key these features maybe won't work again. Then depending on the google account associated with the project created and maybe you will need to enable Billing.
+
+### Possible problems
+
+{% hint style="info" %}
+**IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).  
+{% endhint %}
+
+  
+1. **Change application restrictions**   
+  
+Depending on your server/domain configuration the script maybe won't accept the **HTTP referrers** restrictions so try with changing the application restrictions back to **None** 
+
+![](../.gitbook/assets/screenshot%20%2832%29.png)
+
+2. **Enable Billing on your project.**
+
+Sometimes after adding the key these features maybe won't work again. Then depending on the google account associated with the project created and maybe you will need to enable Billing.  
+
 
 Learn more here about it: [Billing](https://console.cloud.google.com/project/_/billing/enable) or here [Getting started with Google Maps Platform](https://developers.google.com/maps/gmp-get-started)
-{% endhint %}
+
+
+
+If you have still problems with this configuration write us on our [support chat](https://help.mobidonia.com/#foodtiger) for help/assistance.
 
