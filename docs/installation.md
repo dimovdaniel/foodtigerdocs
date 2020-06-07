@@ -77,11 +77,11 @@ Now let's check folder permissions. If some folder is noted as not writable, ple
 
 ![](../.gitbook/assets/permissions.png)
 
-Now we need to setup the environment. This tells larval how to work
+Now we need to setup the environment. This tells Laravel how to work.
 
 ![](../.gitbook/assets/classic.png)
 
-Select the classic text editor
+Select the classic text editor.
 
 ![](../.gitbook/assets/save_env%20%281%29.png)
 
@@ -91,11 +91,27 @@ Select the classic text editor
 **Note:** This configuration requires many steps so we will explain this more detailed.
 {% endhint %}
 
-Next click on the article below to continue with the configuration.
+As we already mentioned environment configuration requires many steps but just for the beginning we will need only several configurations:
 
-{% page-ref page="environment-configuration.md" %}
+* **Applications Basics** These are the first variables you will need to change.
 
-When you finish with the configuration don't forget to save the env file.
+```text
+APP_NAME=Application name goes here
+APP_ENV=production
+APP_URL=Your website url goes here
+```
+
+* **Database Configuration** Click on the article below to continue with the database configuration.
+
+{% page-ref page="../define-basics/database.md" %}
+
+* **Disable/Enable demo data** It's suggested to disable adding demo data in the process of installation. There is option for deleting  manually this data after the installation but as we mentioned it's not required. You can check the demo data in our demo website [here](https://foodtiger.site/).   If you want to disable adding demo data the value of this variable will be **false** otherwise **true**.
+
+```text
+DEMO_DATA=true/false
+```
+
+When you finish with this configuration don't forget to save the .env file.
 
 ![](../.gitbook/assets/save_env.png)
 
@@ -103,11 +119,19 @@ Click on **Save and install**
 
 Now the install process will begin
 
-It will install all the demo data in your database. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our support chat.
+It will install all the necessary configurations. If some error occurs, the next screen will tell you that. Take screenshot from it. Send to our [support chat](https://help.mobidonia.com/#foodtiger).
 
-If all goes okay, you can click on "Finish" 
+If all goes okay, you can click on "Finish".
 
-Now you have your own instance 
+Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration. 
+
+After the installation is finished now the other configuration you will need to add/change directly in the .env file located in your source code.  
+  
+Click on the article below to continue with the other configuration. Everything is explained step by step.
+
+{% page-ref page="environment-configuration.md" %}
+
+When you finish with the configuration we can go on the next step application usage.
 
 Learn how to use it. 
 
