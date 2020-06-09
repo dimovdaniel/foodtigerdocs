@@ -4,13 +4,8 @@
 
 ### Added
 
-* After driver is created email email sending with the credentials info
+* After driver is created,  email is sent with the credentials info
 * Order information for address details
-
-### Changed
-
-* Search changes
-* Order statuses
 
 ### Fixed
 
@@ -18,10 +13,15 @@
 * Order checkout 
 * Items price conversion in menu 
 * Translations
+* Orders status check 
+* Search improvements/ fixes
+* Response for no addresses for mobile app
 
 ### **Updating**
 
 To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+Note that this is minor update, so you don't have to update **vendor** and **node\_modules** folder
 
 ## 1.3 - 2020-05-29
 
