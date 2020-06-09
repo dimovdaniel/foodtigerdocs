@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.3.1 - 2020-06-09
+
+### Added
+
+* After driver is created email email sending with the credentials info
+* Order information for address details
+
+### Changed
+
+* Search changes
+* Order statuses
+
+### Fixed
+
+* Restaurant categories and items show
+* Order checkout 
+* Items price conversion in menu 
+* Translations
+
+### **Updating**
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
 ## 1.3 - 2020-05-29
 
 ### Added
@@ -87,12 +110,6 @@ You should also add Google Places Enabled API key in [environment variable](http
 GOOGLE_MAPS_GEOCODING_API_KEY
 ```
 
- 
-
-
-
-
-
 ## 1.1 - 2020-04-16
 
 ### Added
@@ -110,8 +127,6 @@ GOOGLE_MAPS_GEOCODING_API_KEY
 
 * Currency is not set in .env
 * Google Maps key in .env
-
-
 
 ## 1.0 - 2020-04-09
 
