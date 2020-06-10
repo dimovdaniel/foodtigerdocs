@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.3.2 - 2020-06-11
+
+### Fixed
+
+* Live orders incorrect order date
+* Status update permissions
+
+### Updating 
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+Note that this is minor update, so you don't have to update **vendor** and **node\_modules** folder.  
+If you are updating from version 1.3.1 you can just update this files from the updated code  
+
+
+* app/Http/Controllers/OrderController.php
+* config/app.php
+
 ## 1.3.1 - 2020-06-09
 
 ### Added
