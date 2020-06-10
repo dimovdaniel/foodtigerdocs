@@ -24,6 +24,7 @@ If you are updating from version 1.3.1 you can just update this files from the u
 
 * After driver is created,  email is sent with the credentials info
 * Order information for address details
+* Show version of the code
 
 ### Fixed
 
