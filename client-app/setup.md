@@ -70,13 +70,13 @@ You can use the same GOOGLE\_API\_KEY as in your web project.
 
 
 
-## Rename the app packages
+## Rename the app package
 
-Use this [node script](https://github.com/junedomingo/react-native-rename#readme) to rename the app package.
+Look into this video to see how to correctly done it both for android and iOS
 
-```text
-$ npx react-native-rename <newName> -b <bundleIdentifier>
-```
+{% embed url="https://www.youtube.com/watch?v=RuZlzmix5aw" %}
+
+
 
 ## Change app icons and app splash screen
 
