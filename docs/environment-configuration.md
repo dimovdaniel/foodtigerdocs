@@ -140,7 +140,7 @@ ONESIGNAL_REST_API_KEY="" //Onesignal rest api key
 
 DEMO_DATA=false //Enable od disable demo data
 TIME_FORMAT="24hours" //Display time 24hours or AM/PM
-DATETIME_DISPLAY_FORMAT="d M Y H:i" //d M Y H:i -is for 24h  d M Y h:i A is for am/pm
+DATETIME_DISPLAY_FORMAT="d M Y H:i" // "d M Y H:i" -is for 24h  "d M Y h:i A" is for am/pm  - Look for carbon format
 
 ONESIGNAL_APP_ID= //One Signal App Id 
 ONESIGNAL_REST_API_KEY= //One Signal Rest Api Key
