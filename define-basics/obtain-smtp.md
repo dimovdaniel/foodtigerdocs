@@ -6,6 +6,8 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 
 * Send password reset email
 * Order related notifications 
+* Restaurant owner registration
+* Driver registration
 
 
 
