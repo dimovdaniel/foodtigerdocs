@@ -6,6 +6,7 @@
 
 * [Installation on Shared Hosting](docs/installation.md)
 * [Environment configuration](docs/environment-configuration.md)
+* [FoodTiger Cloud](docs/foodtiger-cloud.md)
 
 ## Define Basics
 
