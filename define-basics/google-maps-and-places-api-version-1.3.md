@@ -12,7 +12,7 @@ To get an API key:
 
 1. Go to the [Google API Console](https://console.developers.google.com/).
 
-   2. Click the project drop-down and select or create the project for which you want to add an API key..
+   2. Click the project drop-down and select or create the project for which you want to add an API key.
 
 ![](../.gitbook/assets/screenshot%20%2813%29.png)
 
@@ -86,4 +86,26 @@ Learn more here about it: [Billing](https://console.cloud.google.com/project/_/b
 
 
 If you have still problems with this configuration write us on our [support chat](https://help.mobidonia.com/#foodtiger) for help/assistance.
+
+## Allow us to configure Google project for you
+
+Go to the [Google Cloud Platform](https://console.cloud.google.com/).
+
+Click the project drop-down and select your project.
+
+From the left menu select **IAM & Admin**.
+
+![](../.gitbook/assets/screenshot%20%2842%29.png)
+
+Now click on the **Add** button.
+
+![](../.gitbook/assets/screenshot%20%2840%29.png)
+
+Add our email **mobidonia@gmail.com** and give us **Editor** role.
+
+![](../.gitbook/assets/screenshot%20%2841%29.png)
+
+In the end click **Save**.
+
+Write us on our [support chat ](https://help.mobidonia.com/#foodtiger)for your project details.
 
