@@ -87,6 +87,8 @@ Learn more here about it: [Billing](https://console.cloud.google.com/project/_/b
 
 If you have still problems with this configuration write us on our [support chat](https://help.mobidonia.com/#foodtiger) for help/assistance.
 
+
+
 ## Allow us to configure Google project for you
 
 Go to the [Google Cloud Platform](https://console.cloud.google.com/).
