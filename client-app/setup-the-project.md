@@ -11,6 +11,11 @@ There you will find the file **config.js**
 
 Replace the values with your real values, like the url link, desired currency. You should have the same values as in you .env file in FoodTiger web. 
 
+**Most important is to change**   
+**export.domain** - with your real domain  
+**exports.APP\_SECRET** - with the app secret from the .env file from your site   
+\( we did this to protect your site \)
+
 ```
 exports.domain = "https://foodtiger.mobidonia.com/api";
 
