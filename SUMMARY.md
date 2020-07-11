@@ -49,4 +49,5 @@
 ## Client App
 
 * [Setup](client-app/setup.md)
+* [Android](client-app/android.md)
 

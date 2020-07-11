@@ -11,6 +11,18 @@ Food Tiger Cloud is easy way to start your own instance of FoodTiger. Here are s
 * No headaches with managing Database 
 * Start your business in exactly 5 min. 
 
+**Video**   
+[FoodTiger Cloud🔥🐯🆕☁️ — Watch Video  
+  
+![](https://cdn.loom.com/sessions/thumbnails/9e628f682ad44a63a2018c6e3384c615-with-play.gif)](https://www.loom.com/share/9e628f682ad44a63a2018c6e3384c615)
+
+**Site**:  
+[https://ftiger.mobidonia.com](https://ftiger.mobidonia.com)
+
+
+
+
+
 ## Step 1. Point your domain to our server
 
 First, you need to point **A** record with host **@** . - the main record of your domain or subdomain to our server IP address  
