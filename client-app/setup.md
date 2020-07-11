@@ -1,6 +1,23 @@
-# Setup
+---
+description: Set up your computer
+---
 
-## Environment Setup
+# Environment
+
+## Requirements
+
+In order to make **iPhone** app you will need
+
+1. Mac Computer \( If you don't have one, you can use [Mac in Cloud ](https://www.macincloud.com/)or let us [Make your  app ](https://ftiger.mobidonia.com/)\)
+2. [iOS Developer Account ](https://developer.apple.com/programs/) \( 99$ / Year \)
+3. xCode - Latest stable version - at the moment **11.5** - \( app will not work in older version \) ****
+
+In  order to make **Android** app you will need
+
+1. Windows, Linux or Mac computer
+2. [Google Play developer account](https://play.google.com/apps/publish) \( 25$/ Once \)
+
+## Environment Setup - Set up your computer
 
 This is [React Native ](https://reactnative.dev/)project. 
 
@@ -8,112 +25,11 @@ To setup you computer / environment follow the [Environment setup](https://react
 
 There, select the React Native CLI QuickStart \( Since this is ejected Expo Project \).
 
-![](../.gitbook/assets/rn_cli.png)
+![](../.gitbook/assets/cli.png)
 
-It is recommended to run some test app, from the guides to confirm environment works ok.
-
-{% hint style="info" %}
-If this setup / installation is too complicated for you, please look into our cloud solution where we offer hosting, setup, publishing and management of the apps.
+{% hint style="danger" %}
+It is recommended to run some test app, from the guides to confirm environment works ok. You will need to connect Android Device or run Android emulator.  It is highly recommended to confirm that your environment is all set up correctly.
 {% endhint %}
 
-## Setup the project
-
-Download the Client app source code from CodeCanyon and extract it.   
-Open the source code in you favorite text/code editor. We suggest Visual Studio Code. 
-
-There you will find the file **config.js** 
-
-Replace the values with your real values, like the url link, desired currency. You should have the same values as in you .env file in FoodTiger web. 
-
-```text
-exports.domain = "https://foodtiger.mobidonia.com/api";
-
-//Currency
-exports.currency="USD";
-exports.currencySign="$";
-
-//APP API secert
-exports.APP_SECRET=""; //Your app secret - same as in the .env file in your web project 
-
-//COD setup
-exports.enableCOD=true;  //Cash on deliver
-
-//Stripe settup
-exports.enableStripe=false; 
-exports.stripePublishKey="YOUR_STRIPE_KEY";
-
-//OneSignal APP KEY
-exports.ONESIGNAL_APP_ID="YOUR_ONESIGNAL_APP_ID";
-
-//Google setup
-exports.GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY";
-exports.queryTypes="address"
-exports.queryCountries=['us']; //{['pl', 'fr']}
-
-
-/*
-    searchRadius={500}
-    searchLatitude={51.905070}
-    searchLongitude={19.458834}
-*/
-exports.searchLatitude=null;
-exports.searchLongitude=null;
-exports.searchRadius=null;
-```
-
-The same GOOGLE\_API\_KEY should be put in android/app/src/main/AndroidManifest.xml  
-  
-You can use the same GOOGLE\_API\_KEY as in your web project.  
-
-
-{% page-ref page="../define-basics/google-maps-and-places-api-version-1.3.md" %}
-
-
-
-## Rename the app package
-
-Look into this video to see how to correctly done it both for android and iOS
-
-{% embed url="https://www.youtube.com/watch?v=RuZlzmix5aw" %}
-
-
-
-## Change app icons and app splash screen
-
-There is no real easy way to change the icons. So please look into this [tutorial](https://medium.com/better-programming/react-native-add-app-icons-and-launch-screens-onto-ios-and-android-apps-3bfbc20b7d4c).
-
-
-
-## Install dependencies
-
-### Node modules install
-
-Navigate to your project
-
-In terminal / cmd run the following command
-
-```text
-npm install
-```
-
-This will install all the node modules required in order the project to work.
-
-
-
-### Pod install - for iOS
-
-```text
-cd ios
-pod install
-```
-
-
-
-
-
-## Deploy on Google Play
-
-{% embed url="https://reactnative.dev/docs/signed-apk-android" %}
-
-
+If you thing this is complex for you, we can make your iPhone and Android app. Read more [here](https://ftiger.mobidonia.com/).
 
