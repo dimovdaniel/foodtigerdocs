@@ -33,3 +33,17 @@ It is recommended to run some test app, from the guides to confirm environment w
 
 If you thing this is complex for you, we can make your iPhone and Android app. Read more [here](https://ftiger.mobidonia.com/).
 
+
+
+This is our environment setup, that we do work in
+
+```text
+Operating System: macOS Catalina
+xCode Version: 11.5
+Node Version: v12.14.1
+NPM Version: 6.14.1
+Android Studio Version: 3.6.1
+```
+
+
+
