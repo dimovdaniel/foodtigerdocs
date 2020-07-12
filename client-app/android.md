@@ -44,19 +44,46 @@ npm run android
 
 After this, you should see the app running on your emulator on connected device. 
 
-## Make .apk file \( compile the app \)
+## Make .aab  file \( compile the app \)
 
 Full guide we followed [here](https://reactnative.dev/docs/signed-apk-android#generating-the-release-apk). 
 
 Next, if you are happy how the app looks, it is time to compile the app and sign it with distribution keystore you did before.
 
-First you need to navigate to your project android folder, and then execute the command   
+First, you need to have the react native package manager up and running. In the rood of your project execute the following command.
+
+```text
+react-native start
+```
+
+This will start the package manager.   
+  
+Open new terminal window, and navigate to your project **android** folder, and then execute the command   
 `./gradlew bundleRelease`
 
 ```text
 cd android
 ./gradlew bundleRelease
 ```
+
+If all goes well you should have the app as .aab file in android/app/build/outputs/bundle/release/app-release.aab
+
+This .aab file, should be uploaded on Google Play
+
+## Distribute on Google Play
+
+After you have the .aab file it is time to upload this file on google play. As mentioned before, you will need Google Developer account. 
+
+Login into your [Google Play developer console](https://play.google.com/apps/publish).
+
+The process of uploading the app to Google Play is perfectly explained here  
+[https://instabug.com/blog/how-to-submit-your-app-to-the-google-play-store/](https://instabug.com/blog/how-to-submit-your-app-to-the-google-play-store/)
+
+## Help and problems
+
+If you face any problem, don't hesitate to let us know on our support chat. 
+
+{% embed url="https://help.mobidonia.com/\#foodtiger" %}
 
 
 
