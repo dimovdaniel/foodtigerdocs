@@ -55,4 +55,5 @@
 * [Install node dependencies](client-app/install-node-dependencies.md)
 * [Android App](client-app/android.md)
 * [iPhone App](client-app/iphone-app.md)
+* [Changelog](client-app/changelog.md)
 
