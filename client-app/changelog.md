@@ -1,4 +1,4 @@
-# Changelog
+# Client App changelog
 
 ## 1.3.1 - 2020-07-13
 
