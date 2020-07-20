@@ -56,7 +56,7 @@ The same **GOOGLE\_API\_KEY** should be put in android/app/src/main/AndroidManif
   
 You can use the same **GOOGLE\_API\_KEY** as in your web project.
 
-{% page-ref page="../define-basics/google-maps-and-places-api-version-1.3.md" %}
+{% page-ref page="../define-basics/google-maps-and-places-api.md" %}
 
 
 
