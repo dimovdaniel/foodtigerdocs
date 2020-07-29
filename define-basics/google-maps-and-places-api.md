@@ -6,7 +6,7 @@ description: 'How to get Google Maps, Places and Geo location API keys'
 
 ## Make a Google Project and enable APIs
 
-To use the Maps JavaScript and Places API you must have an API key. The API key is a unique identifier that is used to authenticate requests associated with your project for usage and billing purposes.
+To use the Maps JavaScript, Places API and Geolocation API you must have an API key. The API key is a unique identifier that is used to authenticate requests associated with your project for usage and billing purposes.
 
 To get an API key:
 
