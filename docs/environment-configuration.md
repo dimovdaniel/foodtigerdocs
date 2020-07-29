@@ -159,5 +159,10 @@ MAIL_FROM_NAME=''
 
 SINGLE_MODE=false //If true, the site will open open single restaurant
 SINGLE_MODE_ID=1; //Single Restaurant mode id
+
+TWILIO_ACCOUNT_SID=SID
+TWILIO_AUTH_TOKEN=TOKEN
+TWILIO_FROM="NUMBER"
+SEND_SMS_NOTIFICATIONS=false
 ```
 
