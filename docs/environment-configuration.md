@@ -156,5 +156,8 @@ MAIL_ENCRYPTION=null
 
 MAIL_FROM_ADDRESS=''
 MAIL_FROM_NAME=''
+
+SINGLE_MODE=false //If true, the site will open open single restaurant
+SINGLE_MODE_ID=1; //Single Restaurant mode id
 ```
 
