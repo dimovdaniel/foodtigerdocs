@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.4.0 - 2020-07-29
+## 1.4.0 - 2020-07-29 \( [video](https://www.loom.com/share/5c1791ec6614466f838008f98435fb07) \)
 
 ### Added
 
