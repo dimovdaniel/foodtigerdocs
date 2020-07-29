@@ -29,7 +29,7 @@ Remove the comments // when you add some environment variable
 
 ### 6. Google Maps and Places API
 
-{% page-ref page="../define-basics/google-maps-and-places-api.md" %}
+{% page-ref page="../define-basics/google-api.md" %}
 
 ### 7. Google Analytics
 

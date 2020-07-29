@@ -18,7 +18,7 @@
 * [Localization and Time format](define-basics/localization.md)
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
-* [Google API](define-basics/google-maps-and-places-api.md)
+* [Google API](define-basics/google-api.md)
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
