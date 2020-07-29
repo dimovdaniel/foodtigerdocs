@@ -17,9 +17,11 @@
 
 To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
 
-After that, login as admin or
+After that, login as admin 
 
-To enable **SMS notifications**,  create Twilio account  and add the following ENV variables. You can now use the .env editor from your admin panel. 
+#### SMS notifications
+
+To enable **SMS notifications**,  create [Twilio](https://www.twilio.com/) account  and add the following ENV variables. You can now use the .env editor from your admin panel. 
 
 ```text
 TWILIO_ACCOUNT_SID=SID
@@ -28,8 +30,17 @@ TWILIO_FROM="NUMBER"
 SEND_SMS_NOTIFICATIONS=true
 ```
 
-After that, login as admin or notify your restaurant owners that they have to set working times.  
-You should also add Google Places Enabled API key in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional address entering.
+#### Location based search
+
+To enable **location based search** change set .env variable ENABLE\_LOCATION\_SEARCH to true. You will also need to login to you google cloud project and enable [GEO Coding](https://developers.google.com/maps/documentation/geocoding/start) api for your key.
+
+```text
+ENABLE_LOCATION_SEARCH=true
+```
+
+{% hint style="danger" %}
+Location based search takes into account the restaurant delivery area. So before enabling it, make sure restaurants had setup the delivery area. 
+{% endhint %}
 
 ## 1.3.2 - 2020-06-11
 
