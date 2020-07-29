@@ -32,10 +32,13 @@ SEND_SMS_NOTIFICATIONS=true
 
 #### Location based search
 
-To enable **location based search** change set .env variable ENABLE\_LOCATION\_SEARCH to true. You will also need to login to you google cloud project and enable [GEO Coding](https://developers.google.com/maps/documentation/geocoding/start) api for your key.
+To enable **location based search** change set .env variable ENABLE\_LOCATION\_SEARCH to true. You will also need to login to you google cloud project and enable [GEO Coding](https://developers.google.com/maps/documentation/geocoding/start) api for your key.  
+  
+[Here](https://app.gitbook.com/@mobidonia/s/mresto/define-basics/google-api) you can check updated version for enabling Geocoding API based on the previous used APIs
 
 ```text
 ENABLE_LOCATION_SEARCH=true
+GOOGLE_MAPS_GEOCODING_API_KEY="" //your API Key
 ```
 
 {% hint style="danger" %}
