@@ -1,8 +1,8 @@
 ---
-description: How to get Google Maps and Places API keys
+description: 'How to get Google Maps, Places and Geo location API keys'
 ---
 
-# Google Maps and Places API
+# Google API
 
 ## Make a Google Project and enable APIs
 
@@ -28,7 +28,11 @@ To get an API key:
 
 ![](../.gitbook/assets/screenshot%20%284%29.png)
 
-6. Click the menu button and select **Credentials** and click **Create credentials &gt; API key**.
+6. Go back to the Library menu, find **Geocoding API** and enable it.
+
+![](../.gitbook/assets/screenshot%20%2843%29.png)
+
+7. Click the menu button and select **Credentials** and click **Create credentials &gt; API key**.
 
 ![](../.gitbook/assets/screenshot%20%2819%29.png)
 
@@ -58,7 +62,8 @@ Now your API Key is ready for use.
 8. Copy the API Key and paste in your `.env` file
 
 ```text
-GOOGLE_MAPS_API_KEY="" //Uses Google Maps and Places API
+GOOGLE_MAPS_API_KEY="" //API KEY
+GOOGLE_MAPS_GEOCODING_API_KEY="" //API KEY
 ```
 
 
