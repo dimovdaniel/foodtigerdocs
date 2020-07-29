@@ -1,5 +1,36 @@
 # Changelog
 
+## 1.4.0 - 2020-07-29
+
+### Added
+
+* [TOP REQUESTED](https://trello.com/c/VdsFiwma): Item extras
+* [TOP REQUESTED](https://trello.com/c/CPMufGvy): Delivery radius
+* [TOP REQUESTED](https://trello.com/c/zJPWWd3N): Nearby restaurant search
+* [TOP REQUESTED](https://trello.com/c/wPhhfQNR): SMS on new orders
+* [TOP REQUESTED](https://trello.com/c/qJTcLgNg): Results based on distance
+* Single Restaurant mode
+* .env Editor for admin
+* Featured restaurants
+
+### Updating
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+After that, login as admin or
+
+To enable **SMS notifications**,  create Twilio account  and add the following ENV variables. You can now use the .env editor from your admin panel. 
+
+```text
+TWILIO_ACCOUNT_SID=SID
+TWILIO_AUTH_TOKEN=TOKEN
+TWILIO_FROM="NUMBER"
+SEND_SMS_NOTIFICATIONS=true
+```
+
+After that, login as admin or notify your restaurant owners that they have to set working times.  
+You should also add Google Places Enabled API key in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional address entering.
+
 ## 1.3.2 - 2020-06-11
 
 ### Fixed
