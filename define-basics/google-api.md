@@ -53,7 +53,7 @@ An application restriction controls which websites, IP addresses, or application
 ![](../.gitbook/assets/screenshot%20%2830%29.png)
 
 * Select **Restrict key**.
-* Click on **Select APIs drop down menu** and select **Maps JavaScript API** and **Places API**.
+* Click on **Select APIs drop down menu** and select **Maps JavaScript API** and **Places API** and **GeoCoding API**
 
 ![](../.gitbook/assets/screenshot%20%2817%29.png)
 
@@ -63,7 +63,6 @@ Now your API Key is ready for use.
 
 ```text
 GOOGLE_MAPS_API_KEY="" //API KEY
-GOOGLE_MAPS_GEOCODING_API_KEY="" //API KEY
 ```
 
 
