@@ -23,6 +23,7 @@
 * [Google authentication](define-basics/google-authentication.md)
 * [Facebook authentication](define-basics/facebook.md)
 * [One Signal push notifications](define-basics/one-signal-push-notifications.md)
+* [Twilio SMS notifications](define-basics/twilio-sms-notifications.md)
 * [Import from CSV](define-basics/import-from-csv.md)
 
 ## Usage
