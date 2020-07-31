@@ -23,7 +23,7 @@ After that, login as admin
 
 To enable **SMS notifications**,  create [Twilio](https://www.twilio.com/) account and add the following ENV variables. You can now use the .env editor from your admin panel. 
 
-Here is the article for enabling SMS nofitications.
+[Here](https://mobidonia.gitbook.io/mresto/define-basics/twilio-sms-notifications) is the article for enabling SMS nofitications.
 
 ```text
 TWILIO_ACCOUNT_SID=SID
