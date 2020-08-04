@@ -126,7 +126,14 @@ If all goes okay, you can click on "Finish".
 
 Now you have your own instance but the configuration is not over. Now you need to continue with the other environment configuration. 
 
-After the installation is finished now the other configuration you will need to add/change directly in the .env file located in your source code.  
+After the installation is finished now the other configuration you will need to add/change directly in the .env file located in your source code.
+
+```text
+ENABLE_LOCATION_SEARCH=true
+GOOGLE_MAPS_GEOCODING_API_KEY="" //your API Key
+```
+
+By default the site will not have "Location Based" results. You will need to enable them with the following env variables.   
   
 Click on the article below to continue with the other configuration. Everything is explained step by step.
 

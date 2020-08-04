@@ -116,6 +116,8 @@ DEFAULT_PAYMENT="cod" //Default payment method - Cash On Delivery default cod|st
 CASHIER_CURRENCY="usd" //usd,eur etc.. 
 
 GOOGLE_MAPS_API_KEY="" //Uses Google Maps and Places API
+ENABLE_LOCATION_SEARCH=false // if true, will enable the delivery area search
+
 GOOGLE_ANALYTICS="" //Google Analytcis code
 
 GOOGLE_CLIENT_ID="" //Used for google login
@@ -158,7 +160,7 @@ MAIL_FROM_ADDRESS=''
 MAIL_FROM_NAME=''
 
 SINGLE_MODE=false //If true, the site will open open single restaurant
-SINGLE_MODE_ID=1; //Single Restaurant mode id
+SINGLE_MODE_ID=1 //Single Restaurant mode id
 
 TWILIO_ACCOUNT_SID=SID
 TWILIO_AUTH_TOKEN=TOKEN
