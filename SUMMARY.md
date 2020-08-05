@@ -31,6 +31,7 @@
 * [Getting Started](usage/getting-started.md)
 * [Register as an admin](usage/register-as-an-admin.md)
 * [Set up your site](usage/set-up-your-site.md)
+* [Restaurant subdomain](usage/restaurant-subdomain.md)
 
 ## API
 
