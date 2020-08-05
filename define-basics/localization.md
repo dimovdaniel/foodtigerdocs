@@ -49,3 +49,15 @@ By default is 24 hours time format.
 TIME_FORMAT="24hours"
 ```
 
+## Time zone
+
+To set the correct timezone that your site operates in create .env variable.
+
+It is really important to have done this step, in order restaurant closing and open time to work ok. 
+
+```text
+TIME_ZONE=UTC
+```
+
+List of available [timezones](https://www.php.net/manual/en/timezones.php). 
+
