@@ -68,6 +68,12 @@ cd android
 
 If all goes well you should have the app as .aab file in android/app/build/outputs/bundle/release/app-release.aab
 
+.aab files are preferred for Google Play, because Google will optimize the app size. But you can also create .apk file if you like with the following command. 
+
+```text
+./gradlew assembleRelease
+```
+
 This .aab file, should be uploaded on Google Play
 
 ## Distribute on Google Play
