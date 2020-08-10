@@ -36,7 +36,7 @@
 ## API
 
 * [Client API](api/client-api.md)
-* [Driver API](api/untitled.md)
+* [Driver API](api/driver-api.md)
 
 ## Changelog
 
