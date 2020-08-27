@@ -1,8 +1,8 @@
 # Environment configuration
 
-All of the configuration variables for the FoodTiger project are stored in the **`.env`** file.
+All of the configuration variables for the FoodTiger project are stored in the **`.env`** file in root of your site.
 
-FoodTiger installation, the root directory of your application will contain a **`.env.example`** file. You will need to rename it manually to **`.env`**
+You can edit them directly in the file, or use the integrated .env editor. You need to login as admin, and you will be able to use the visual .env editor.
 
   
 List of all custom environment variables FoodTiger uses. We will see them one by one.
