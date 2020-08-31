@@ -139,6 +139,12 @@ Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
 
 In the text area enter the following sql command. After executing [THIS](https://gist.github.com/dimovdaniel/ebbaa2bb379e92bfc1e223b306ca1531) commands, only your admin user will remain in the database.
 
+## Best image sizes
+
+* Project logo \( 487x144 \)
+* Logo restaurant \( 600x600 \)
+* Item image \( 600x600 \) 
+
 
 
 
