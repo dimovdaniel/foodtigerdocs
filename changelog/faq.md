@@ -137,7 +137,23 @@ The Adminer is located on **yourdomain.com/adminer**
 There, login with your database username and password.   
 Click on the SQL command icon \( [Image](https://i.imgur.com/GXetB8K.png) \)
 
-In the text area enter the following sql command. After executing [THIS](https://gist.github.com/dimovdaniel/ebbaa2bb379e92bfc1e223b306ca1531) commands, only your admin user will remain in the database.
+In the text area enter the following sql command. 
+
+```text
+DELETE from order_has_status where order_id<601;
+DELETE from orders where id<601;
+DELETE FROM address where id<6;
+DELETE FROM items where id<256;
+DELETE FROM categories where id<52;
+DELETE FROM hours where restorant_id<13;
+DELETE FROM model_has_roles where model_id<6 and model_id>1;
+DELETE FROM restorants where id<13;
+DELETE FROM users where id<6 and id>1;
+```
+
+{% hint style="danger" %}
+After executing the commands, only your admin user will remain in the database.
+{% endhint %}
 
 ## Best image sizes
 
