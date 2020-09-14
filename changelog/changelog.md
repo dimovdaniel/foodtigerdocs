@@ -51,7 +51,9 @@ In your env editor add this new variable
 ENABLE_STRIPE_CONNECT=true
 ```
 
-#### Enable paystack
+#### Enable Paystack
+
+[Here](https://mobidonia.gitbook.io/mresto/define-basics/paystack-gateway) is the article for enabling Paystack payment gateway.
 
 In your env editor add this new variable
 
@@ -59,6 +61,8 @@ In your env editor add this new variable
 PAYSTACK_PUBLIC_KEY=""
 PAYSTACK_SECRET_KEY=""
 ENABLE_PAYSTACK=false
+MERCHANT_EMAIL=""
+PAYSTACK_PAYMENT_URL=https://api.paystack.co
 ```
 
 ## 1.4.0 - 2020-07-29 \( [video](https://www.loom.com/share/5c1791ec6614466f838008f98435fb07) \)
