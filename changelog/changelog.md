@@ -58,6 +58,7 @@ In your env editor add this new variable
 ```text
 PAYSTACK_PUBLIC_KEY=""
 PAYSTACK_SECRET_KEY=""
+ENABLE_PAYSTACK=false
 ```
 
 ## 1.4.0 - 2020-07-29 \( [video](https://www.loom.com/share/5c1791ec6614466f838008f98435fb07) \)

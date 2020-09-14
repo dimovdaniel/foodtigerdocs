@@ -31,6 +31,10 @@ Extract the zip files. Overwriting old files.
 
 Here, if there are migrations for the database to be done, will be run. If there is nothing to be done you will get 404 site. 
 
+{% hint style="danger" %}
+This step is mandatory
+{% endhint %}
+
 ### 6. See the change log and Environment variables to see what new features are added and how to enable them. 
 
 {% page-ref page="../docs/environment-configuration.md" %}
