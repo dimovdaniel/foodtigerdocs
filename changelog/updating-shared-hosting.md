@@ -10,9 +10,9 @@ description: >-
 
 In case, you have made any changes on the code, css or js file. Backup them first so you don't lose your work. Download them or take a note what you have changed. 
 
-### 2. Backup this files and folder is case something goes wrong
+### 2. Backup this files and folders
 
-* [ ] .env
+* [ ] .env \( you can also do it via the env editor in your admin panel \) 
 * [ ] public/uploads  \( you can zip it and move it somewhere \)
 
 {% hint style="info" %}
