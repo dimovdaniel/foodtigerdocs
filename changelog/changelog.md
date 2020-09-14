@@ -16,6 +16,49 @@
 * Link to categories
 * New finances dashboard
 * VAT reports
+* Restaurant details on click  and more info on restaurant page
+
+### Updating
+
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+After that, login as admin 
+
+### Enable Features from this update
+
+#### Enable Cost per distance
+
+In your env editor add this two new variables
+
+```text
+ENABLE_COST_PER_DISTANCE=true
+COST_PER_KILOMETER=1
+```
+
+#### Enable Multi city
+
+In your env editor add this  new variable
+
+```text
+MULTI_CITY=true
+```
+
+#### Enable stripe connect
+
+In your env editor add this new variable
+
+```text
+ENABLE_STRIPE_CONNECT=true
+```
+
+#### Enable paystack
+
+In your env editor add this new variable
+
+```text
+PAYSTACK_PUBLIC_KEY=""
+PAYSTACK_SECRET_KEY=""
+```
 
 ## 1.4.0 - 2020-07-29 \( [video](https://www.loom.com/share/5c1791ec6614466f838008f98435fb07) \)
 
