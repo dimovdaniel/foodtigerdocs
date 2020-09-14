@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.5.0 - 2020-09-14
+
+### Added
+
+* [TOP REQUESTED](https://trello.com/c/ok5MuZcH/27-set-the-cost-per-distance-for-delivery): Cost per distance of deliver
+* [TOP REQUESTED](https://trello.com/c/V0Og1dtP/43-restaurant-and-food-reviews): Reviews
+* [TOP REQUESTED](https://trello.com/c/jX4YW7Tr/46-multi-city-version-like-food-panda): Multi city version
+* [TOP REQUESTED](https://trello.com/c/NNeTIodn/19-stripe-connect-payments): Stripe connect payments
+* [TOP REQUESTED](https://trello.com/c/nV0KgtiG/48-item-variants): Item variants
+* PWA
+* Welcome email
+* Minimal orders
+* Paystack payment gateway
+* Link to categories
+* New finances dashboard
+* VAT reports
+
 ## 1.4.0 - 2020-07-29 \( [video](https://www.loom.com/share/5c1791ec6614466f838008f98435fb07) \)
 
 ### Added

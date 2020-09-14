@@ -15,18 +15,19 @@ In case, you have made any changes on the code, css or js file. Backup them firs
 * [ ] .env
 * [ ] public/uploads  \( you can zip it and move it somewhere \)
 
-### 3. Download the code from CodeCanyon and extract it
+{% hint style="info" %}
+It is recommended to zip/backup your entire project
+{% endhint %}
 
-### 4. Open your FTP client and connect to your shared hosting ftp 
+### 3. Download the code from CodeCanyon and upload the zip
 
-Almost all FTP client have the option to exclude some folder from transfer.   
-You need to exclude the folder **public/uploads** ,  **storage** and **node\_modules**
+Download the code from CodeCanyon and directly upload it on your hosting, in the same place where your existing site is.
 
-![](../.gitbook/assets/exclude.png)
+### 4. Extract the zip file 
 
-Then, select all  files and folders and upload them. Confirm all replacements. If the update is from minor ex 1.1.1 to 1.1.2 then you don't have to select **vendor** folder. If it is 1.1 to 1.2 then you need to select vendor folder also. 
+Extract the zip files. Overwriting old files.
 
-### 5. After files are moved, open yourdomain.com/update
+### 5. After file is extracted, open yourdomain.com/update
 
 Here, if there are migrations for the database to be done, will be run. If there is nothing to be done you will get 404 site. 
 
