@@ -18,6 +18,7 @@
 * [Localization and Time format](define-basics/localization.md)
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
+* [Paystack Gateway](define-basics/paystack-gateway.md)
 * [Google API](define-basics/google-api.md)
 * [Google Analytics](define-basics/google-analytics.md)
 * [Google authentication](define-basics/google-authentication.md)
