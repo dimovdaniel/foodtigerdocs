@@ -15,6 +15,55 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 
 This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get note of the credentials. You will need them in the install process.
 
+![](../.gitbook/assets/email_accounts.png)
+
+Then click on "Connect Device". You will find all required info there
+
+![](../.gitbook/assets/connect_devices.png)
+
+Here are some examples how it may look
+
+{% tabs %}
+{% tab title="SSL" %}
+```text
+MAIL_DRIVER=sendmail
+MAIL_ENCRYPTION=ssl
+MAIL_PORT=465
+MAIL_HOST=mail.restoqr.online
+MAIL_USERNAME=themail@domain.com
+MAIL_PASSWORD=*****
+MAIL_FROM_ADDRESS=themail@domain.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+{% endtab %}
+
+{% tab title="Regular" %}
+```text
+MAIL_DRIVER=smtp
+MAIL_ENCRYPTION=null
+MAIL_PORT=26
+MAIL_HOST=mail.restoqr.online
+MAIL_USERNAME=themail@domain.com
+MAIL_PASSWORD=*****
+MAIL_FROM_ADDRESS=themail@domain.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+{% endtab %}
+
+{% tab title="Regular 587" %}
+```
+MAIL_DRIVER=smtp
+MAIL_ENCRYPTION=''
+MAIL_PORT=26
+MAIL_HOST=mail.restoqr.online
+MAIL_USERNAME=themail@domain.com
+MAIL_PASSWORD=*****
+MAIL_FROM_ADDRESS=themail@domain.com
+MAIL_FROM_NAME="${APP_NAME}"
+```
+{% endtab %}
+{% endtabs %}
+
 #### 3rd Party SMTP providers like SendGrid
 
 SendGrid is the leading SMTP provider. Easy to set up and reliable service.
