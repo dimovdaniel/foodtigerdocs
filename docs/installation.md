@@ -139,9 +139,15 @@ Click on the article below to continue with the other configuration. Everything 
 
 {% page-ref page="environment-configuration.md" %}
 
-When you finish with the configuration we can go on the next step application usage.
+{% hint style="danger" %}
+Don't forget to the the Mail Server Setup. Without it you will get error 500 on register.
+{% endhint %}
 
-Learn how to use it. 
+Here is how to setup the SMTP
+
+{% page-ref page="../define-basics/obtain-smtp.md" %}
+
+After, all the setup, you can use you site
 
 {% page-ref page="../usage/getting-started.md" %}
 
