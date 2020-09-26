@@ -26,5 +26,9 @@ In this case the subdomain is **malibudiner**
 
 By default the wildcard subdomains are not SSL protected. To do that you can buy or issue wildcard SSL certificate - sometimes they are a bit expensive. You can also use [https://letsencrypt.org/](https://letsencrypt.org/) to create your own free wildcard SSL.  Plesk by default can enable SSL on wildcard subdomain. You can also use this [guide](https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7). Our demo site works on Laravel Forge. They also have the options to automatically create wildcard SSL via Digital Ocean NS. 
 
+## Forwarding other domains 
+
+If you want to point other domain to your foodtiger site, or to a single restaurant  \(ex your client's restaurant domain to be pointed to the page of the restaurant in foodtiger\) then your client should forward domain or subdomain to the restaurant subdomain. 
+
 
 
