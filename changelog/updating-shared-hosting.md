@@ -31,15 +31,19 @@ Extract the zip files. Overwriting old files.
 
 You old .env file contains previous settings to connect to db, mail and so on. So it is required to but it back. 
 
-### 6. After file is extracted, open yourdomain.com/update
+### 6. Create "installed" file
 
-Here, if there are migrations for the database to be done, will be run. If there is nothing to be done you will get 404 site. 
+In the storage folder, create a new file "installed" like the one on the [image](https://prntscr.com/vriof4).
+
+### 7. After the file is extracted, open yourdomain.com/update
+
+Here, if there are migrations for the database to be done, will be run. If there is nothing to be done you can get 404 site. 
 
 {% hint style="danger" %}
 This step is mandatory
 {% endhint %}
 
-### 7. See the change log and Environment variables to see what new features are added and how to enable them. 
+### 8. See the changelog and Environment variables to see what new features are added and how to enable them. 
 
 {% page-ref page="../docs/environment-configuration.md" %}
 
