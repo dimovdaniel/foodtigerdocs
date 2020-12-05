@@ -9,6 +9,7 @@
 
 ## Define Basics
 
+* [Untitled](define-basics/untitled.md)
 * [Database](define-basics/database.md)
 * [Mail server](define-basics/obtain-smtp.md)
 * [Localization and Time format](define-basics/localization.md)
