@@ -1,4 +1,4 @@
-# Untitled
+# Share This
 
 From the version 1.8.0 we support option for easy share on web and QR. To setup the plugin follow these steps:
 
