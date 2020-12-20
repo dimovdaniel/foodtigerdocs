@@ -7,11 +7,9 @@ This is a combined update from 1.8.0 to 1.9.7
 ### Fixes
 
 * Variant selection bug fix
-* Call waiter pop-up select not showing fixed
 * Plus button in the cart was not showing on mobile
 * Updated menus privileges on the front end
 * Delete user when an admin deletes restaurant
-* Duplicate email send 
 * Admin order accepting 
 * Checkbox when placing an order to accept T&S
 * Sound on pusher notification
