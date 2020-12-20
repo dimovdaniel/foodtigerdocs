@@ -1,5 +1,31 @@
 # Changelog
 
+## 1.9.7 - 2020-12-17 
+
+This is a combined update from 1.8.0 to 1.9.7
+
+### Fixes
+
+* Variant selection bug fix
+* Call waiter pop-up select not showing fixed
+* Plus button in the cart was not showing on mobile
+* Updated menus privileges on the front end
+* Delete user when an admin deletes restaurant
+* Duplicate email send 
+* Admin order accepting 
+* Checkbox when placing an order to accept T&S
+* Sound on pusher notification
+* Category delete when there are no items
+* Thank you page after successful payment
+* Fixes for Paystack
+* Fixes on saving the delivery area
+
+### Updating
+
+To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+After that, log in as admin 
+
 ## 1.5.0 - 2020-09-14
 
 ### Added
