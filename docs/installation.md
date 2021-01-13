@@ -8,21 +8,21 @@ description: Learn how to install FoodTiger
 
 FoodTiger is a self-hosted web application written in PHP on top of the Laravel 5.8 framework. The followings are required to install FoodTiger:
 
-* PHP Version: 7.2, 7.3 or higher
+* PHP Version: 7.4 or 8.0
 * MySQL Version: &gt;= 5.x
 * Application server: Apache, Nginx
-* IMPORTANT: The script can't be installed in subfolder. Only directly in domain or subdomain.
+* IMPORTANT: The script can't be installed in a subfolder. Only directly in domain or subdomain.
 
 ## Prepare to install
 
 Installing FoodTiger is very easy and you'll be able to install it without any coding knowledge. Installation process included three major steps:
 
 1. **Creating domain or subdomain**
-2. **Creating database**
+2. **Creating a database**
 3. **Uploading script files to the host**
 4. **Creating environment configuration**
 
-**Now bellow you can watch the video installation tutorial or you can continue with step by step.**
+**Now below you can watch the video installation tutorial or you can continue with step by step.**
 
 {% hint style="info" %}
 **Warning:** Video installation tutorial doesn't include environment explanation. You can check that in the steps below.

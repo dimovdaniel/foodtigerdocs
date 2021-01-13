@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.0.0 - 2021-01-14
+
+This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. Since mobile apps are not ready yet, don't update to v2 if you currently use mobile apps for food tiger. Soon there will be an update
+
+### New
+
+* Update to latest Laravel 8
+* Redefined Mobile API
+* Redefined Ordering process
+* Multilingual menus
+* New install and 1 click update process
+* Bug Fixes
+
+### Updating
+
+To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+
+After that, log in as admin 
+
 ## 1.9.7 - 2020-12-17 
 
 This is a combined update from 1.8.0 to 1.9.7
