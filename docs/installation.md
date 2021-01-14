@@ -20,7 +20,8 @@ Installing FoodTiger is very easy and you'll be able to install it without any c
 1. **Creating domain or subdomain**
 2. **Creating a database**
 3. **Uploading script files to the host**
-4. **Creating environment configuration**
+
+\*\*\*\*
 
 **Now below you can watch the video installation tutorial or you can continue with step by step.**
 
