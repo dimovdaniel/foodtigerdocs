@@ -25,13 +25,11 @@ Installing FoodTiger is very easy and you'll be able to install it without any c
 
 **Now below you can watch the video installation tutorial or you can continue with step by step.**
 
-{% hint style="info" %}
-**Warning:** Video installation tutorial doesn't include environment explanation. You can check that in the steps below.
-{% endhint %}
-
 ## Video installation tutorial
 
-{% embed url="https://www.youtube.com/watch?v=XaFa8OyNiDc&feature=youtu.be" %}
+{% embed url="https://youtu.be/DgJ3dpeYNVY" %}
+
+
 
 
 
