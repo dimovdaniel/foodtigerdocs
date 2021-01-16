@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 - 2021-01-14
+## 2.0.0 - 2021-01-15
 
 This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. Since mobile apps are not ready yet, don't update to v2 if you currently use mobile apps for food tiger. Soon there will be an update. **Note** that now, you need to change php version to 7.4 or 8.0.
 
