@@ -2,7 +2,7 @@
 
 ## 2.0.x  - Continues updates
 
-* 2.0.2 - Site map generation and Stripe Connect fixes
+* 2.0.3 - Pusher fixes
 * 2.0.2 - Site map generation and Stripe Connect fixes
 * 2.0.1 - Fixes for Dine in option and small bug fixes
 
