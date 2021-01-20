@@ -2,6 +2,7 @@
 
 ## 2.0.x  - Continues updates
 
+* 2.0.5 - Small Bug fixes
 * 2.0.4 - Small fixes for cart callout icon
 * 2.0.3 - Pusher fixes
 * 2.0.2 - Site map generation and Stripe Connect fixes
