@@ -2,6 +2,7 @@
 
 ## 2.0.x  - Continues updates
 
+* 2.0.7 - JS Notify Fixes, Don't show empty categories, Phone min.
 * 2.0.6 - Translate plugin fix for PHP 8
 * 2.0.5 - Small Bug fixes
 * 2.0.4 - Small fixes for cart callout icon
