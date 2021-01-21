@@ -6,6 +6,7 @@
 
 * [Installation on Shared Hosting](docs/installation.md)
 * [Environment configuration](docs/environment-configuration.md)
+* [Run locall](docs/run-locally.md)
 
 ## Define Basics
 
