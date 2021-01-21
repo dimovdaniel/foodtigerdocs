@@ -2,6 +2,7 @@
 
 ## 2.0.x  - Continues updates
 
+* 2.0.6 - Translate plugin fix for PHP 8
 * 2.0.5 - Small Bug fixes
 * 2.0.4 - Small fixes for cart callout icon
 * 2.0.3 - Pusher fixes
