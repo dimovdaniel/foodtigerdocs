@@ -6,20 +6,20 @@ description: 'IMPORTANT: Follow this step after you have done all of the previou
 
 ## POD install
 
-Firs you will need to install the cocoa pods. To do that, navigate to the ios folder and execute pod install
+First, you will need to install the cocoa pods. To do that, navigate to the ios folder and execute pod install
 
 ```text
 cd ios
 pod install
 ```
 
-As reference, look in this video. Watch until 4:25
+As a reference, look at this video. Watch until 4:25
 
 {% embed url="https://youtu.be/RuZlzmix5aw?t=235" %}
 
 ## Run the app on Simulator
 
-Soon as you have installed your pods installed, you can run your app on simulator.  
+Soon as you have installed your pods installed, you can run your app on the simulator.  
 To do that, navigate to the project root folder. The execute `npm run ios`
 
 ```text
@@ -29,15 +29,15 @@ npm run ios
 
 This should start the app on the simulator
 
-As reference, look in this video. Watch until the end.  
+As a reference, look at this video. Watch until the end.  
 
 {% embed url="https://youtu.be/RuZlzmix5aw?t=274" %}
 
-As you can see the video, I get and error the first time, then run the same command again, and all worked ok.  If you run into problem, run the command `npm run ios` again. If you still get at error, send us a message of the error that you get in the console.
+As you can see in the video, I get an error the first time, then run the same command again, and all worked ok.  If you run into a problem, run the command again. `npm run ios`. If you still get an error, send us a message of the error that you get in the console.
 
 ## Deploy on iTunes Connect 
 
-Full guide that we looked into \( [here](https://instabug.com/blog/how-to-submit-app-to-app-store/) \)
+The full guide that we looked into is \( [here](https://instabug.com/blog/how-to-submit-app-to-app-store/) \)
 
 From now on, the deployment is like any other xCode - native iOS project. As said in the requirements, you will need your own iOS developer account. 
 
@@ -45,9 +45,9 @@ Open the **.xcworkspace** file that is inside the **ios** folder. Then, in the *
 
 ![](../.gitbook/assets/signing.png)
 
-After this you will need to create the App Store record in iTunes for this account. 
+After this, you will need to create the App Store record in iTunes for this account. 
 
-### **Add new app in App Store connect**
+### **Add a new app in App Store connect**
 
 In the App Store Connect dashboard, select My Apps.
 
@@ -88,19 +88,19 @@ A success message will appear when the upload has completed. Click **Done**.
 
 After the app is upload to App Store connect, it may take ± 30 min apple to process the upload. 
 
-You will need to provide good description of the app. Don't submit the app f you have only demo restaurant.  Apple may reject for that reason.   
+You will need to provide a good description of the app. Don't submit the app if you have only a demo restaurant.  Apple may reject for that reason.   
   
 You will also need to make good screenshots of the app.  In order to run the app on different simulators, look into this guide.
 
 [https://reactnative.dev/docs/running-on-simulator-ios\#specifying-a-device](https://reactnative.dev/docs/running-on-simulator-ios#specifying-a-device)
 
-All the process of submitting in details is explained here: [https://instabug.com/blog/how-to-submit-app-to-app-store/](https://instabug.com/blog/how-to-submit-app-to-app-store/). You can use it to guide you if you are new to apple submitting process.
+All the process of submitting in detail is explained here: [https://instabug.com/blog/how-to-submit-app-to-app-store/](https://instabug.com/blog/how-to-submit-app-to-app-store/). You can use it to guide you if you are new to the Apple submitting process.
 
 
 
 ## Help and problems
 
-If you face any problem, don't hesitate to let us know on our support chat. 
+If you face any problems, don't hesitate to let us know on our support chat. 
 
 {% embed url="https://help.mobidonia.com/\#foodtiger" %}
 

@@ -32,25 +32,25 @@ For reference, look into this video
 
 {% embed url="https://www.loom.com/share/23b69ab308be4d358fa358c00dbcbe95" %}
 
-## Run the app on emulator or Android device \( device recommended \)
+## Run the app on an emulator or Android device \(device recommended\)
 
-To run the app on Android Emulator, you will first need to manually start the android Emulator via Android Studio. You should already have download the Android Studio in step 1 - the Environment setup. In that guide there are also really good informations on how to prepare real device or starting the Android Emulator. Search for "Preparing the Android device" in the [React native docs.](https://reactnative.dev/docs/environment-setup#docsNav)
+To run the app on Android Emulator, you will first need to manually start the android Emulator via Android Studio. You should already have  to download the Android Studio in step 1 - the Environment setup. In that guide, there is also really good information on how to prepare a real device or starting the Android Emulator. Search for "Preparing the Android device" in the [React native docs.](https://reactnative.dev/docs/environment-setup#docsNav)
 
-Once you have the emulator started or  device connected via USB \( and developer mode enabled and US debugging allowed \), you should be able to start the app on the. To do that, run the following command in the root of the project.
+Once you have the emulator started or a device connected via USB \( and developer mode enabled and USB debugging allowed \), you should be able to start the app on the. To do that, run the following command at the root of the project.
 
 ```text
 npm run android
 ```
 
-After this, you should see the app running on your emulator on connected device. 
+After this, you should see the app running on your emulator or connected device. 
 
 ## Make .aab  file \( compile the app \)
 
-Full guide we followed [here](https://reactnative.dev/docs/signed-apk-android#generating-the-release-apk). 
+The full guide we followed is [here](https://reactnative.dev/docs/signed-apk-android#generating-the-release-apk). 
 
-Next, if you are happy how the app looks, it is time to compile the app and sign it with distribution keystore you did before.
+Next, if you are happy with how the app looks, it is time to compile the app and sign it with the distribution Keystore you did before.
 
-First, you need to have the react native package manager up and running. In the rood of your project execute the following command.
+First, you need to have the react-native package manager up and running. In the rood of your project execute the following command.
 
 ```text
 react-native start
@@ -58,7 +58,7 @@ react-native start
 
 This will start the package manager.   
   
-Open new terminal window, and navigate to your project **android** folder, and then execute the command   
+Open a new terminal window, and navigate to your project **android** folder, and then execute the command   
 `./gradlew bundleRelease`
 
 ```text
@@ -78,7 +78,7 @@ This .aab file, should be uploaded on Google Play
 
 ## Distribute on Google Play
 
-After you have the .aab file it is time to upload this file on google play. As mentioned before, you will need Google Developer account. 
+After you have the .aab file it is time to upload this file on google play. As mentioned before, you will need a Google Developer account. 
 
 Login into your [Google Play developer console](https://play.google.com/apps/publish).
 
@@ -87,7 +87,7 @@ The process of uploading the app to Google Play is perfectly explained here
 
 ## Help and problems
 
-If you face any problem, don't hesitate to let us know on our support chat. 
+If you face any problems, don't hesitate to let us know on our support chat. 
 
 {% embed url="https://help.mobidonia.com/\#foodtiger" %}
 
