@@ -8,9 +8,7 @@ description: >-
 
 ## Video Instruction
 
-{% embed url="https://youtu.be/-nufYtcRWmo" %}
-
-
+{% embed url="https://youtu.be/-nufYtcRWmo" caption="" %}
 
 ## 1. If you have made any changes to the code
 
@@ -37,9 +35,9 @@ Go once again to your file manager and upload your old .env file
 
 ### 6. IMPORTANT: Let know the project that the system is already installed
 
-Create an empty file named  **installed** in **/storage**
+Create an empty file named **installed** in **/storage**
 
 ### 7. After files are moved, open your site and go to Settings
 
-Here, if there are migrations for the database to be done, will be run. 
+Here, if there are migrations for the database to be done, will be run.
 

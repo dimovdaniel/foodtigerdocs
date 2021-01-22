@@ -14,9 +14,7 @@
 
 This is a major update and is not available via 1 Click update. You will need to follow the guide for updating. Since mobile apps are not ready yet, don't update to v2 if you currently use mobile apps for food tiger. Soon there will be an update. **Note** that now, you need to change php version to 7.4 or 8.0.
 
-{% embed url="https://youtu.be/ErI5SfYe18M" %}
-
-
+{% embed url="https://youtu.be/ErI5SfYe18M" caption="" %}
 
 ### New
 
@@ -29,11 +27,11 @@ This is a major update and is not available via 1 Click update. You will need to
 
 ### Updating
 
-To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
-After that, log in as admin 
+After that, log in as admin
 
-## 1.9.7 - 2020-12-17 
+## 1.9.7 - 2020-12-17
 
 This is a combined update from 1.8.0 to 1.9.7
 
@@ -53,9 +51,9 @@ This is a combined update from 1.8.0 to 1.9.7
 
 ### Updating
 
-To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from the previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
-After that, log in as admin 
+After that, log in as admin
 
 ## 1.5.0 - 2020-09-14
 
@@ -77,9 +75,9 @@ After that, log in as admin
 
 ### Updating
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
-After that, login as admin 
+After that, login as admin
 
 ### Enable Features from this update
 
@@ -94,7 +92,7 @@ COST_PER_KILOMETER=1
 
 #### Enable Multi city
 
-In your env editor add this  new variable
+In your env editor add this new variable
 
 ```text
 MULTI_CITY=true
@@ -137,13 +135,13 @@ PAYSTACK_PAYMENT_URL=https://api.paystack.co
 
 ### Updating
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
-After that, login as admin 
+After that, login as admin
 
 #### SMS notifications
 
-To enable **SMS notifications**,  create [Twilio](https://www.twilio.com/) account and add the following ENV variables. You can now use the .env editor from your admin panel. 
+To enable **SMS notifications**, create [Twilio](https://www.twilio.com/) account and add the following ENV variables. You can now use the .env editor from your admin panel.
 
 [Here](https://mobidonia.gitbook.io/mresto/define-basics/twilio-sms-notifications) is the article for enabling SMS nofitications.
 
@@ -156,8 +154,8 @@ SEND_SMS_NOTIFICATIONS=true
 
 #### Location based search
 
-To enable **location based search** change set .env variable ENABLE\_LOCATION\_SEARCH to true. You will also need to login to you google cloud project and enable [GEO Coding](https://developers.google.com/maps/documentation/geocoding/start) api for your key.  
-  
+To enable **location based search** change set .env variable ENABLE\_LOCATION\_SEARCH to true. You will also need to login to you google cloud project and enable [GEO Coding](https://developers.google.com/maps/documentation/geocoding/start) api for your key.
+
 [Here](https://app.gitbook.com/@mobidonia/s/mresto/define-basics/google-api) you can check updated version for enabling Geocoding API based on the previous used APIs
 
 ```text
@@ -166,7 +164,7 @@ GOOGLE_MAPS_GEOCODING_API_KEY="" //your API Key
 ```
 
 {% hint style="danger" %}
-Location based search takes into account the restaurant delivery area. So before enabling it, make sure restaurants had setup the delivery area. 
+Location based search takes into account the restaurant delivery area. So before enabling it, make sure restaurants had setup the delivery area.
 {% endhint %}
 
 ## 1.3.2 - 2020-06-11
@@ -176,13 +174,12 @@ Location based search takes into account the restaurant delivery area. So before
 * Live orders incorrect order date
 * Status update permissions
 
-### Updating 
+### Updating
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
 Note that this is minor update, so you don't have to update **vendor** and **node\_modules** folder.  
-If you are updating from version 1.3.1 you can just update this files from the updated code  
-
+If you are updating from version 1.3.1 you can just update this files from the updated code
 
 * app/Http/Controllers/OrderController.php
 * config/app.php
@@ -207,7 +204,7 @@ If you are updating from version 1.3.1 you can just update this files from the u
 
 ### **Updating**
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
 Note that this is minor update, so you don't have to update **vendor** and **node\_modules** folder
 
@@ -219,7 +216,7 @@ Note that this is minor update, so you don't have to update **vendor** and **nod
 * Web Push notification on order  - Powered by [OneSignal](https://onesignal.com)
 * Customer Mobile app \( [separate project ](https://codecanyon.net/item/food-delivery-reactnative-foodtiger/26796029)\)
 
-### Changed 
+### Changed
 
 * Improved search
 * Option to disable import of demo data
@@ -236,14 +233,14 @@ Note that this is minor update, so you don't have to update **vendor** and **nod
 
 ### Updating
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).   
-  
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
+
 You should also add One Signal keys in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration) to have functional web push notification.  
 You can find more [here](https://mobidonia.gitbook.io/mresto/define-basics/one-signal-push-notifications) about the setup for One Signal.
 
 ```text
 ONESIGNAL_APP_ID="" //Onesignal app id
-ONESIGNAL_REST_API_KEY="" //Onesignal rest api key 
+ONESIGNAL_REST_API_KEY="" //Onesignal rest api key
 ```
 
 Also from this version we made a changes on the Google Maps and Places API.
@@ -289,10 +286,10 @@ You can check [here](https://mobidonia.gitbook.io/mresto/define-basics/google-ma
 
 ### Updating
 
-To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting). 
+To update from previous release, follow the [standard update procedure](https://mobidonia.gitbook.io/mresto/changelog/updating-shared-hosting).
 
 After that, login as admin or notify your restaurant owners that they have to set working times.  
-You should also add Google Places Enabled API key in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration)  to have functional address entering.
+You should also add Google Places Enabled API key in [environment variable](https://mobidonia.gitbook.io/mresto/docs/environment-configuration) to have functional address entering.
 
 ```text
 GOOGLE_MAPS_GEOCODING_API_KEY
@@ -308,7 +305,7 @@ GOOGLE_MAPS_GEOCODING_API_KEY
 * Live orders - Kanban style view in realtime
 * Track order on Map \( updated from driver companion app \)
 * Reporting - Export orders in excel
-*  Social login with Facebook and Google
+* Social login with Facebook and Google
 * Admin can modify restaurant items
 
 ### Changed
@@ -319,6 +316,4 @@ GOOGLE_MAPS_GEOCODING_API_KEY
 ## 1.0 - 2020-04-09
 
 ### Initial Version
-
-
 
