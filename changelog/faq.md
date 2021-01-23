@@ -167,9 +167,24 @@ After executing the commands, only your admin user will remain in the database.
 * Logo restaurant \( 600x600 \)
 * Item image \( 600x600 \) 
 
-## Common problems
+## Update problems
 
-### Error on update
+### Error on update 500
+
+**Problem**: When you click on the update button, you get blank screen with error 500. 
+
+**Cause**: This mostly happens because there is not enough memory available. You can check "Error" pages in cPanel to confirm
+
+**Solution**: 
+Go to you cPanel
+There find the tool "MultiPHP INI Editor"
+Select the project
+memory_limit put to 512M
+This should bee enough
+Then try to update again
+
+
+### Error on update 503
 
 **Problem**: After an update, some users experience error 503 \| Service not found.
 
@@ -199,12 +214,35 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 
 1. Login as admin
 2. Go In **Setting**
-3. Select **Settup** tab
+3. Select **Setup** tab
 4. Select **APP\_DEBUG**
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct. 
 
-For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/\#qrsaas](https://help.mobidonia.com/#qrsaas)
+For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/](https://help.mobidonia.com)
+
+## Error 500 on migrating languages
+
+**Problem**  
+Before, 2.0.8 if you try to migrate language you can get error 500. 
+And some of the item like the categories, can be translated multiple times like ```text{en:\\\en:\\\......}```
+
+**Reason**  
+This happens because we didn't look into object active status.
+And script crashed when it tried to translate un-active record.
+
+**Solution**  
+Update to 2.0.8+
+For the ```text{en:\\\en:\\\......}```, if you don't have lot of data, you can manually edit them from the admin.
+If you have lot of data, 
+- Export the categories and items table
+- Find replace, so it looks normal
+- Delete categories and items by ignoring foreign keys and import again
+Or ask for help from us. 
+
+Then make the translation migration again. Now should go fine. 
+
+
 
 ## SQL Error - Table not found
 
