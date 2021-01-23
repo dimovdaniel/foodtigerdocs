@@ -225,7 +225,7 @@ For some other reported errors, don't hesitate to contact us with a screenshot o
 
 **Problem**  
 Before, 2.0.8 if you try to migrate language you can get error 500. 
-And some of the item like the categories, can be translated multiple times like ```text{en:\\\en:\\\......}```
+And some of the item like the categories, can be translated multiple times like ```{en:\\\en:\\\......}```
 
 **Reason**  
 This happens because we didn't look into object active status.
@@ -233,7 +233,7 @@ And script crashed when it tried to translate un-active record.
 
 **Solution**  
 Update to 2.0.8+
-For the ```text{en:\\\en:\\\......}```, if you don't have lot of data, you can manually edit them from the admin.
+For the ```{en:\\\en:\\\......}```, if you don't have lot of data, you can manually edit them from the admin.
 If you have lot of data, 
 - Export the categories and items table
 - Find replace, so it looks normal
