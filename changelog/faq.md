@@ -176,12 +176,12 @@ After executing the commands, only your admin user will remain in the database.
 **Cause**: This mostly happens because there is not enough memory available. You can check "Error" pages in cPanel to confirm
 
 **Solution**: 
-Go to you cPanel
-There find the tool "MultiPHP INI Editor"
-Select the project
-memory_limit put to 512M
-This should bee enough
-Then try to update again
+- Go to you cPanel
+- There find the tool "MultiPHP INI Editor"
+- Select the project
+- memory_limit put to 512M
+- This should be enough
+- Then try to update again
 
 
 ### Error on update 503
