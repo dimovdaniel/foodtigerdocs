@@ -183,6 +183,20 @@ After executing the commands, only your admin user will remain in the database.
 - This should be enough
 - Then try to update again
 
+### Error on update  "tmp/v2.0.x" not found
+
+**Problem**: When you click on the update button, you get blank screen with error 500. if you enable debug mode, you see the error  directory "tmp/v2.0.x" not found.
+
+**Cause**: This mostly happens because the /tmp directory is not workspace related /tmp dir
+
+**Solution**: 
+- Go to you cPanel
+- Open File Manager
+- Open .env (it is hidden - enable hidden files)
+- Add the variable 
+- SELF_UPDATER_DOWNLOAD_PATH="/home/YOUR_WORKSPACE_NAME/tmp/" 
+- Then try again to update
+
 
 ### Error on update 503
 
