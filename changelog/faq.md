@@ -20,7 +20,7 @@ Initially, they are assigned to a free plan.
 
 ## What languages the does site works in?
 
-The site operates in 1 language that can be defined from the .env variable. 
+The site operates in 1 language that can be defined from the .env variable.
 
 Easy to translate to any language. All strings are in few files.
 
@@ -124,7 +124,7 @@ Update to 2.0.8+ For the`{en:\\\en:\\\......}`, if you don't have a lot of data,
 * Find replace, so it looks normal
 * Delete categories and items by ignoring foreign keys and import again
 
-  Or ask for help from us. 
+  Or ask for help from us.
 
 Then make the translation migration again. Now should go fine.
 

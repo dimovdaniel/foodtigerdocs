@@ -10,7 +10,7 @@ This is a major update. We have updated all the core plugins we use and made the
 * Item variants and extras
 * Payment via PayPal, Mollie, PayStack
 
-In order to update, we recommend starting from scratch. You can reuse your old images etc. And the changing of configuration is relaticely easy.
+In order to update, we recommend starting from scratch. You can reuse your old images etc. And the changing of configuration is relatively easy.
 
 
 

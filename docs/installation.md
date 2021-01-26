@@ -23,8 +23,7 @@ Installing Food Tiger is very easy and you'll be able to install it without any 
 
 **Now below you can watch the video installation tutorial or you can continue with step by step.**
 
-{% embed url="https://youtu.be/DgJ3dpeYNVY" %}
-
+{% embed url="https://youtu.be/DgJ3dpeYNVY" caption="" %}
 
 ### Installation on Shared Hosting
 
@@ -44,7 +43,6 @@ Create an empty database in your shared hosting and remember this credentials
 * db username
 * db user pass
 
-
 #### 3.  Upload the source code you have downloaded from CodeCanyon and unzip it
 
 #### 4. Now navigate to the web url where your project is located
@@ -53,7 +51,7 @@ ex. mydomain.com or subdomain.mydomain.com
 
 The installation screen should appear and guide you in the process.
 
-When you login as admin, in Site Settings you have the option to change all the settings. 
+When you login as admin, in Site Settings you have the option to change all the settings.
 
 {% hint style="danger" %}
 Don't forget to do the SMTP setup. Without it, you will get error 500 on register.
