@@ -1,5 +1,16 @@
 # Client App changelog
 
+## 2.0.1 - 2021-01-27
+
+This is a minor update, with fixes for android build only. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/3ba74ff31d44db3b3813ad119079d881). 
+
+To update, either use the new files or copy-paste the new/updated files.   
+Remove the node\_modules and reinstall again. 
+
+
+
+
+
 ## 2.0.0 - 2021-01-22
 
 This is a major update. We have updated all the core plugins we use and made the project works with the latest Foodtiger API.
