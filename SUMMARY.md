@@ -37,7 +37,6 @@
 ## Plugins
 * [ShareThis](common/sharethis.md)
 * [Cookie Consent](common/cookieconsent.md)
-* [Test](commondocs/faq.md)
 
 ## API
 
