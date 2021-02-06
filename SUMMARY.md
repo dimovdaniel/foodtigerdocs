@@ -5,7 +5,7 @@
 ## Installation <a id="docs"></a>
 
 * [Installation on Shared Hosting](docs/installation.md)
-* [Updating - Shared hosting](common/updating-shared-hosting.md)
+* [Updating - Shared hosting](docs/updating-shared-hosting.md)
 * [Run local](docs/run-locally.md)
 
 ## Define Basics
@@ -22,7 +22,6 @@
 * [Facebook authentication](define-basics/facebook.md)
 * [One Signal push notifications](define-basics/one-signal-push-notifications.md)
 * [Twilio SMS notifications](define-basics/twilio-sms-notifications.md)
-* [Import from CSV](define-basics/import-from-csv.md)
 
 ## Usage
 
@@ -33,10 +32,12 @@
 * [Single restaurant](usage/single-restaurant.md)
 * [Translations](usage/translations.md)
 * [Custom CSS](usage/custom-css.md)
+* [Import from CSV](usage/import-from-csv.md)
 
 ## Plugins
-* [ShareThis](common/sharethis.md)
-* [Cookie Consent](common/cookieconsent.md)
+
+* [ShareThis](plugins/sharethis.md)
+* [Cookie Consent](plugins/cookieconsent.md)
 
 ## API
 
@@ -46,7 +47,6 @@
 ## Changelog
 
 * [Changelog](changelog/changelog.md)
-
 * [FAQ](changelog/faq.md)
 
 ## Driver App <a id="mobile-apps"></a>
