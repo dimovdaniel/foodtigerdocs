@@ -1,10 +1,19 @@
 # Client App changelog
 
+## 2.0.2 - 2021-02-07
+
+This is a minor update, with fixes for ios pod lock file and fixes for images not showing. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/31ba66bfc1a23373b59104f30e5ad387). 
+
+To update, either use the new files from CodeCanyon or copy-paste the new/updated files.
+
+
+
+
 ## 2.0.1 - 2021-01-27
 
 This is a minor update, with fixes for android build only. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/3ba74ff31d44db3b3813ad119079d881). 
 
-To update, either use the new files or copy-paste the new/updated files.   
+To update, either use the new files from CodeCanyon or copy-paste the new/updated files.   
 Remove the node\_modules and reinstall again. 
 
 
