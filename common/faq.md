@@ -2,7 +2,7 @@
 description: Frequently Asked Questions (FAQs)
 ---
 
-# FAQ
+# FAQ - Technical
 
 ## Registration is not working.
 
@@ -91,7 +91,8 @@ Also, please talk with your hosting provider on how to enable the zip extension 
 ## Error 500
 
 **Problem**  
-You get a white screen with Error 500 on it
+You get a white screen with Error 500 as on this screen
+![](https://i.imgur.com/HZmpG35.png)
 
 **Reason**  
 This is a general error, meaning something wrong happened in the system. And it can be from different causes. it can be a bug or misconfiguration.
@@ -107,7 +108,11 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
 
-For some other reported errors, don't hesitate to contact us with a screenshot of the problem \( including the address bar link \) here [https://help.mobidonia.com/](https://help.mobidonia.com)
+**Share us link to the error**
+For some other reported errors, don't hesitate to contact us with a link of the Flare Error of the problem  here [https://help.mobidonia.com/](https://help.mobidonia.com)
+
+Here is how you can obtain a link
+!()[https://i.imgur.com/pfxNCqH.png]
 
 ## Error 500 on migrating languages
 
