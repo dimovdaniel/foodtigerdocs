@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.1.1  - 2021-02-09 
+
+### New
+* WhatsApp Ordering
+
+### Fixes
+Stripe 3D Secure
+
+### Improvements
+Full list of currencies
+Better error 500 show
+
+### How to update
+
+Just log in as admin, go to "Site Settings" and on right top you should new "New Update 2.1.1". Click on the button to update.
+
+**List of updated files**
+[File list](https://gist.github.com/dimovdaniel/497727c35598c29d644b0a95c8d974de)
+
 ## 2.0.x  - Continues updates
 
 * 2.0.7 - JS Notify Fixes, Don't show empty categories, Phone min.
