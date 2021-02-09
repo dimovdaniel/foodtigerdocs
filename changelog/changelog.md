@@ -6,11 +6,11 @@
 * WhatsApp Ordering
 
 ### Fixes
-Stripe 3D Secure
+* Stripe 3D Secure
 
 ### Improvements
-Full list of currencies
-Better error 500 show
+* Full list of currencies
+* Better error 500 show
 
 ### How to update
 
