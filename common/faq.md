@@ -112,7 +112,7 @@ Then try to reproduce the problem. Now, you will see a lot more information abou
 For some other reported errors, don't hesitate to contact us with a link of the Flare Error of the problem  here [https://help.mobidonia.com/](https://help.mobidonia.com)
 
 Here is how you can obtain a link.
-![](https://i.imgur.com/pfxNCqH.png]
+![](https://i.imgur.com/pfxNCqH.png)
 
 ## Error 500 on migrating languages
 
