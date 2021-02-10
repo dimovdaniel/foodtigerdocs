@@ -1,28 +1,32 @@
 # Translations
 
+## The easiest way to translate
+
+{% embed url="https://www.youtube.com/watch?v=tVNj-bOXk\_E" %}
+
 ## How to add a new language
 
 To add a missing language, login as admin, and go to Translations.
 
 Then go to languages and click n "+ Add"
 
-![](../.gitbook/assets/pl_subdomain_5%20%286%29.png)
+![Add new language](https://i.imgur.com/MjCXlQs.png)
 
 Add the language you want
 
-![](../.gitbook/assets/pl_subdomain_5%20%281%29.png)
+![](https://i.imgur.com/DgQo69W.png)
 
 ## How to translate an existing string
 
-Login as admin and go to Translations. 
+Login as admin and go to Translations.
 
-There, the translations strings are grouped, or if not grouped they are in Single \( Single strings \). You can also use the search box to quickly found the string. Select the language you want to translate to. 
+There, the translations strings are grouped, or if not grouped they are in Single \( Single strings \). You can also use the search box to quickly found the string. Select the language you want to translate to.
 
-Initially,  "English" should be the default locale, since there we have all the strings, so you can translate from. 
+Initially, "English" should be the default locale, since there we have all the strings, so you can translate from.
 
-![](../.gitbook/assets/pl_subdomain_5%20%283%29.png)
+![Translations](https://i.imgur.com/J9ETvom.png)
 
-![](../.gitbook/assets/pl_subdomain_5%20%284%29.png)
+![](https://i.imgur.com/Zhs6Wc3.png)
 
 After you have located the string, you can click on the pencil button and add translation
 
@@ -30,11 +34,27 @@ After you have located the string, you can click on the pencil button and add tr
 
 Some string may be missing from both single or grouped translations. To add missing translations
 
-First, click on "+ Add"  to add a new term
+First, click on "+ Add" to add a new term
 
-![](../.gitbook/assets/pl_subdomain_5%20%285%29.png)
+![](https://i.imgur.com/naRDxDS.png)
 
-There enter the existing string \( String that you see on the site ex. Platform Fee\)  and your desired translations. 
+There enter the existing string \( String that you see on the site ex. Platform Fee\) and your desired translations.
 
-![](../.gitbook/assets/pl_subdomain_5.png)
+![](https://i.imgur.com/zaB7LVU.png)
+
+## Add language on the front page
+
+The dropdown of languages you see on the front page.
+
+![](https://i.imgur.com/tmVHN6R.png)
+
+Is controlled from Settings -&gt; Localization. There in FRONT\_LANGUAGES, enter the desired languages separated by a comma and their Locale
+
+![](https://i.imgur.com/OiRl1FS.png)
+
+## Translate the front page
+
+To work on translating the front page, log in as admin, and go back to the homepage, you have the option to edit the translatable strings in that language.
+
+![](https://i.imgur.com/ESEH0Od.png)
 
