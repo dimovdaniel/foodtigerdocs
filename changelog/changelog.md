@@ -2,6 +2,7 @@
 
 ## 2.1.x - Continues updates
 
+* 2.1.3 - Fixes in Stripe connect - [Modified Files](https://gist.github.com/dimovdaniel/644f827344deed01443309429f56a542)
 * 2.1.2 - Missing Translations, Live Order fix, CSS fixes, Fix on deleting demo data -   [Modified files](https://gist.github.com/dimovdaniel/165ae8c25bbf1fce08cb5a2243127fef)
 
 ## 2.1.1  - 2021-02-09 
