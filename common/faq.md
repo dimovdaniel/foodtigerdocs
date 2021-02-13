@@ -20,7 +20,7 @@ Initially, they are assigned to a free plan.
 
 ## What languages the does site works in?
 
-The site operates in 1 language that can be defined from the .env variable. 
+The site operates in 1 language that can be defined from the .env variable.
 
 Easy to translate to any language. All strings are in few files.
 
@@ -92,6 +92,7 @@ Also, please talk with your hosting provider on how to enable the zip extension 
 
 **Problem**  
 You get a white screen with Error 500 as on this screen.
+
 ![](https://i.imgur.com/HZmpG35.png)
 
 **Reason**  
@@ -108,10 +109,10 @@ Enable debug mode, so you can see what is behind the 500 error. To do that
 
 Then try to reproduce the problem. Now, you will see a lot more information about the problem. If you do understand the message, you get, you may fix the problem on your own. Some common ones are SMTP are Stripe Misconfiguration. For these ones you may try to fix on your own, by going in settings to check if what you have entered is correct.
 
-**Share us link to the error**
-For some other reported errors, don't hesitate to contact us with a link of the Flare Error of the problem  here [https://help.mobidonia.com/](https://help.mobidonia.com)
+**Share a link to the error** For some other reported errors, don't hesitate to contact us with a link of the Flare Error of the problem here [https://help.mobidonia.com/](https://help.mobidonia.com)
 
 Here is how you can obtain a link.
+
 ![](https://i.imgur.com/pfxNCqH.png)
 
 ## Error 500 on migrating languages
@@ -129,7 +130,7 @@ Update to 2.0.8+ For the`{en:\\\en:\\\......}`, if you don't have a lot of data,
 * Find replace, so it looks normal
 * Delete categories and items by ignoring foreign keys and import again
 
-  Or ask for help from us. 
+  Or ask for help from us.
 
 Then make the translation migration again. Now should go fine.
 
@@ -179,4 +180,15 @@ Here we search for **fileinfo** and enable phpx.x-php-fileinfo for all versions.
 This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
+
+## How to change WhatsApp Message
+
+### Change the text
+To just simply  change the text, go inside the admin area and then in Translations. 
+In Translations, select the "Single" group and look for the text you want to change. 
+
+### Change the layout
+To change the content and layout or completely modify the message, open **resources/views/messages/social.blade.php**.
+
+Here you are able to modify the complete message send on WhatsApp. 
 
