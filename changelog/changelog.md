@@ -2,6 +2,7 @@
 
 ## 2.1.x - Continues updates
 
+* 2.1.5 - New way of updates, fixes in image uppload in settings  - [Modified Files](https://gist.github.com/dimovdaniel/786c82b2776eda1d47a97a5ec9c970c4)
 * 2.1.4 - WhatsApp Message is separate blade file - [Modified Files](https://gist.github.com/dimovdaniel/7a3fad29bf15241fe310fdecd8e0da68)
 * 2.1.3 - Fixes in Stripe connect - [Modified Files](https://gist.github.com/dimovdaniel/644f827344deed01443309429f56a542)
 * 2.1.2 - Missing Translations, Live Order fix, CSS fixes, Fix on deleting demo data -   [Modified files](https://gist.github.com/dimovdaniel/165ae8c25bbf1fce08cb5a2243127fef)
