@@ -88,6 +88,28 @@ This is the best and simplest guide we could find on how to enable the ZIP exten
 
 Also, please talk with your hosting provider on how to enable the zip extension for you.
 
+## Update via FTP
+
+Where for some reason, the one-click update can't work, you can easily update via FTP.   
+  
+We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/). 
+
+Go inside your current version. There should be a zip file. If the zip file version, is bigger than current, there is an update for that version. 
+
+Download the zip file and extract it locally. 
+
+Connect to your FTP, and navigate to the root of it. 
+
+Drag and Drop the folders from the update to your FTP. Overwrite them. 
+
+Repeat the procedure until you see that this is the latest version. 
+
+![Drag and Drop to upload](https://i.imgur.com/jSUh6Rr.png)
+
+![Overwrite]((https://i.imgur.com/AlYBBCo.png))
+
+
+
 ## Error 500
 
 **Problem**  
