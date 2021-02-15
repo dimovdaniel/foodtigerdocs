@@ -90,7 +90,7 @@ Also, please talk with your hosting provider on how to enable the zip extension 
 
 ## Update via FTP
 
-Where for some reason, the one-click update can't work, you can easily update via FTP.   
+When for some reason, the one-click update can't work, you can easily update via FTP.   
   
 We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/). 
 
