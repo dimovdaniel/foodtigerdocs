@@ -2,7 +2,7 @@
 description: Frequently Asked Questions (FAQs)
 ---
 
-# FAQ - Technical
+# FAQ
 
 ## Registration is not working.
 
@@ -90,25 +90,23 @@ Also, please talk with your hosting provider on how to enable the zip extension 
 
 ## Update via FTP
 
-When for some reason, the one-click update can't work, you can easily update via FTP.   
-  
-We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/). 
+When for some reason, the one-click update can't work, you can easily update via FTP.
 
-Go inside your current version. There should be a zip file. If the zip file version, is bigger than current, there is an update for that version. 
+We post the updated file publicly. And you can download the updates from [here](https://updates.restoqr.online/v2/).
 
-Download the zip file and extract it locally. 
+Go inside your current version. There should be a zip file. If the zip file version, is bigger than current, there is an update for that version.
 
-Connect to your FTP, and navigate to the root of it. 
+Download the zip file and extract it locally.
 
-Drag and Drop the folders from the update to your FTP. Overwrite them. 
+Connect to your FTP, and navigate to the root of it.
 
-Repeat the procedure until you see that this is the latest version. 
+Drag and Drop the folders from the update to your FTP. Overwrite them.
+
+Repeat the procedure until you see that this is the latest version.
 
 ![Drag and Drop to upload](https://i.imgur.com/jSUh6Rr.png)
 
-![Overwrite]((https://i.imgur.com/AlYBBCo.png))
-
-
+!\[Overwrite\]\(\([https://i.imgur.com/AlYBBCo.png](https://i.imgur.com/AlYBBCo.png)\)\)
 
 ## Error 500
 

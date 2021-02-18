@@ -3,21 +3,24 @@
 ## 2.1.x - Continues updates
 
 * 2.1.7 - New Driver API, Fix for restaurant save, Memory Limit info, Migrate in update - [Modified Files](https://gist.github.com/dimovdaniel/fcf3703ec281b69265869ad9b9953742)
-*  2.1.6 - Assign to driver fix in details, Fixes on variant show - [Modified Files](https://gist.github.com/dimovdaniel/90d555271a5db0c6f2cf7980e69befab)
-*  2.1.5 - New way of updates, fixes in image upload in settings  - [Modified Files](https://gist.github.com/dimovdaniel/786c82b2776eda1d47a97a5ec9c970c4) -- (YOU WILL GET ERROR 500 - but that is ok, since now we have new system for update )
+* 2.1.6 - Assign to driver fix in details, Fixes on variant show - [Modified Files](https://gist.github.com/dimovdaniel/90d555271a5db0c6f2cf7980e69befab)
+* 2.1.5 - New way of updates, fixes in image upload in settings  - [Modified Files](https://gist.github.com/dimovdaniel/786c82b2776eda1d47a97a5ec9c970c4) -- \(YOU WILL GET ERROR 500 - but that is ok, since now we have new system for update \)
 * 2.1.4 - WhatsApp Message is separate blade file - [Modified Files](https://gist.github.com/dimovdaniel/7a3fad29bf15241fe310fdecd8e0da68)
 * 2.1.3 - Fixes in Stripe connect - [Modified Files](https://gist.github.com/dimovdaniel/644f827344deed01443309429f56a542)
 * 2.1.2 - Missing Translations, Live Order fix, CSS fixes, Fix on deleting demo data -   [Modified files](https://gist.github.com/dimovdaniel/165ae8c25bbf1fce08cb5a2243127fef)
 
-## 2.1.1  - 2021-02-09 
+## 2.1.1  - 2021-02-09
 
 ### New
+
 * WhatsApp Ordering
 
 ### Fixes
+
 * Stripe 3D Secure
 
 ### Improvements
+
 * Full list of currencies
 * Better error 500 show
 
@@ -25,8 +28,7 @@
 
 Just log in as admin, go to "Site Settings" and on right top you should new "New Update 2.1.1". Click on the button to update.
 
-**List of updated files**
-[File list](https://gist.github.com/dimovdaniel/497727c35598c29d644b0a95c8d974de)
+**List of updated files** [File list](https://gist.github.com/dimovdaniel/497727c35598c29d644b0a95c8d974de)
 
 ## 2.0.x  - Continues updates
 

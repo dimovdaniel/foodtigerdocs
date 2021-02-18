@@ -2,23 +2,16 @@
 
 ## 2.0.2 - 2021-02-07
 
-This is a minor update, with fixes for ios pod lock file and fixes for images not showing. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/31ba66bfc1a23373b59104f30e5ad387). 
+This is a minor update, with fixes for ios pod lock file and fixes for images not showing. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/31ba66bfc1a23373b59104f30e5ad387).
 
 To update, either use the new files from CodeCanyon or copy-paste the new/updated files.
 
-
-
-
 ## 2.0.1 - 2021-01-27
 
-This is a minor update, with fixes for android build only. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/3ba74ff31d44db3b3813ad119079d881). 
+This is a minor update, with fixes for android build only. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/3ba74ff31d44db3b3813ad119079d881).
 
-To update, either use the new files from CodeCanyon or copy-paste the new/updated files.   
-Remove the node\_modules and reinstall again. 
-
-
-
-
+To update, either use the new files from CodeCanyon or copy-paste the new/updated files.  
+Remove the node\_modules and reinstall again.
 
 ## 2.0.0 - 2021-01-22
 
@@ -31,10 +24,6 @@ This is a major update. We have updated all the core plugins we use and made the
 * Payment via PayPal, Mollie, PayStack
 
 In order to update, we recommend starting from scratch. You can reuse your old images etc. And the changing of configuration is relatively easy.
-
-
-
-
 
 ## 1.3.1 - 2020-07-13
 
@@ -50,13 +39,9 @@ In order to update, we recommend starting from scratch. You can reuse your old i
 
 * Fixed ios build 
 
-
-
 ## 1.2.0 - 2020-05-26
 
 ### Initial
 
 * Initial version
-
-
 
