@@ -1,8 +1,9 @@
 # Changelog
 
-## 2.1.x - Continues updates
+## 2.1.x -  2.2.x Continues updates
 
-* 2.1.9 - IN TESTING - Categories sorting - [Files](https://gist.github.com/dimovdaniel/4e168f71933b3249a4e853e5f6995b21)
+* 2.2.0 - Categories sorting - [Files](https://gist.github.com/dimovdaniel/4e168f71933b3249a4e853e5f6995b21)
+* 2.1.9 - Temporary update 
 * 2.1.8 - Temporary update 
 * 2.1.7 - New Driver API, Fix for restaurant save, Memory Limit info, Migrate in update - [Modified Files](https://gist.github.com/dimovdaniel/fcf3703ec281b69265869ad9b9953742)
 * 2.1.6 - Assign to driver fix in details, Fixes on variant show - [Modified Files](https://gist.github.com/dimovdaniel/90d555271a5db0c6f2cf7980e69befab)
