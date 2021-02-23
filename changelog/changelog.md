@@ -2,6 +2,7 @@
 
 ## 2.1.x -  2.2.x Continues updates
 
+* 2.2.1 - Custom Fields on orders, Restaurant address improvements - [Files](https://gist.github.com/dimovdaniel/4e5e670a13bbcb52e1d1143f34752c44)
 * 2.2.0 - Categories sorting - [Files](https://gist.github.com/dimovdaniel/4e168f71933b3249a4e853e5f6995b21)
 * 2.1.9 - Temporary update 
 * 2.1.8 - Temporary update 
