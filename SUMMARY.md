@@ -33,6 +33,7 @@
 * [Translations](usage/translations.md)
 * [Custom CSS](usage/custom-css.md)
 * [Import from CSV](usage/import-from-csv.md)
+* [Custom fields on order](usage/custom-fields-on-order.md)
 
 ## Plugins
 
