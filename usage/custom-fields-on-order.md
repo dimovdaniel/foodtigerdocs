@@ -48,7 +48,11 @@ Here is an example of custom fields. You can use this [tool](https://jsoneditoro
 ]
 ```
 
-In the example above, this will output 5 form fields in the order tab.  Here is an explanation of the different fields use
+In the example above, this will output 5 form fields in the order tab.  
+
+![Custom Fields](https://i.imgur.com/WWMyFgq.png)
+
+Here is an explanation of the different fields use
 
 | Field key | Description |
 | :--- | :--- |
