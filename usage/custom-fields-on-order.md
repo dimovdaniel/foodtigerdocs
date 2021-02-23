@@ -65,7 +65,3 @@ In the example above, this will output 5 form fields in the order tab.  Here is 
 You should add translation keys for these custom fields keys inside the translation menu. Add them to the "**custom**" group as shown on the image.
 
 ![Add new language](https://i.imgur.com/hKNpl8J.png)
-
-
-
-s
