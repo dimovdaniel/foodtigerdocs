@@ -1,10 +1,10 @@
 # Run local
 
-In Laravel 8, there is new package available called [https://laravel.com/docs/8.x/sail](https://github.com/dimovdaniel/foodtigerdocs/tree/0c37ef66802dd32b3c1cccc534e15b9535366f3b/docs/Laravel%20Sail/README.md).
+In Laravel 8, there is new package available called [https://laravel.com/docs/8.x/sail](https://laravel.com/docs/8.x/sail).
 
 We use this to run the site locally, and test it.
 
-All you need is to install [https://www.docker.com/](https://github.com/dimovdaniel/foodtigerdocs/tree/0c37ef66802dd32b3c1cccc534e15b9535366f3b/docs/Docker/README.md) in your compute.
+All you need is to install [https://www.docker.com/](https://www.docker.com/) in your compute.
 
 After that, open the code and execute the command
 
