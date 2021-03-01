@@ -2,6 +2,7 @@
 
 ## 2.1.x -  2.2.x Continues updates
 
+* 2.2.2 - Fixes in calculating tax, Fixes in  financial report, add new item image missing - [Files](https://gist.github.com/dimovdaniel/a63e2dbabde132691d892430199a06f9)
 * 2.2.1 - Custom Fields on orders, Restaurant address improvements - [Files](https://gist.github.com/dimovdaniel/4e5e670a13bbcb52e1d1143f34752c44)
 * 2.2.0 - Categories sorting - [Files](https://gist.github.com/dimovdaniel/4e168f71933b3249a4e853e5f6995b21)
 * 2.1.9 - Temporary update 
