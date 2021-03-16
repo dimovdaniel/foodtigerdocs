@@ -1,5 +1,30 @@
 # Changelog
 
+## 2.3.0 - 2021-03-17
+
+### New
+
+* Apps ( instal new modules via upload )
+* Free app - invoice pdf printer 
+* Owner API - API endpoint for owner actions
+* Driver management and earnings overview 
+
+### Fixes
+
+* Fixes in Driver and Client API 
+* Fixes for Financial reports
+* Fixes for testimonials and 
+* Other small fixes
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 2.3.0" button. Click on the button to update.
+Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+
+**List of updated files**
+
+[File list](https://gist.github.com/dimovdaniel/c1eaaacc8f36fa71ef44a4cbbdc26087)
+
 ## 2.1.x -  2.2.x Continues updates
 
 * 2.2.3 - Fix for handling restaurant-name like aliases -[Files](https://gist.github.com/dimovdaniel/6ebd98a48eba52906fb536dfd80d45e5)
