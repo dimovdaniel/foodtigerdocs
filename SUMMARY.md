@@ -50,11 +50,7 @@
 * [Changelog](changelog/changelog.md)
 * [FAQ](changelog/faq.md)
 
-## Driver App <a id="mobile-apps"></a>
-
-* [Driver Companion App](mobile-apps/driver-companion-app.md)
-
-## Client App
+## Mobile App <a id="client-app"></a>
 
 * [Environment](client-app/setup.md)
 * [Setup the project](client-app/setup-the-project.md)

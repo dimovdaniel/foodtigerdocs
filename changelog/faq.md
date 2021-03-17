@@ -2,7 +2,7 @@
 description: Frequently Asked Questions (FAQs)
 ---
 
-# FAQ - Technical
+# FAQ
 
 ## Registration is not working.
 

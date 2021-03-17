@@ -4,7 +4,7 @@
 
 ### New
 
-* Apps ( instal new modules via upload )
+* Apps \( instal new modules via upload \)
 * Free app - invoice pdf printer 
 * Owner API - API endpoint for owner actions
 * Driver management and earnings overview 
@@ -18,8 +18,7 @@
 
 ### How to update
 
-Just log in as admin, go to "Updates" and you should see new "New Update 2.3.0" button. Click on the button to update.
-Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+Just log in as admin, go to "Updates" and you should see new "New Update 2.3.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
 
 **List of updated files**
 

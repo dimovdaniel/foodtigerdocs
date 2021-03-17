@@ -4,11 +4,10 @@
 
 This is a minor update, with fixes for fix for prices in item description. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/46bfe58ee86acb694d456e1e2153edce).
 
-To update, either use the new files from CodeCanyon or copy-paste the new/updated files.
-( Only screens/Item.js )
+To update, either use the new files from CodeCanyon or copy-paste the new/updated files. \( Only screens/Item.js \)
 
+[https://gist.github.com/dimovdaniel/46bfe58ee86acb694d456e1e2153edce](https://gist.github.com/dimovdaniel/46bfe58ee86acb694d456e1e2153edce)
 
-https://gist.github.com/dimovdaniel/46bfe58ee86acb694d456e1e2153edce
 ## 2.0.2 - 2021-02-07
 
 This is a minor update, with fixes for ios pod lock file and fixes for images not showing. Here is a list of the [updated files](https://gist.github.com/dimovdaniel/31ba66bfc1a23373b59104f30e5ad387).

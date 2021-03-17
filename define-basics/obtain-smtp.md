@@ -9,9 +9,7 @@ You will need to have SMTP \( way to send mail \) because the system will use it
 * Restaurant owner registration
 * Driver registration
 
-
-
-####  SMTP from shared hosting
+#### SMTP from shared hosting
 
 This is probably the easiest way to obtain SMTP data. Create an email in your hosting and get note of the credentials. You will need them in the install process.
 
@@ -51,7 +49,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 {% endtab %}
 
 {% tab title="Regular 587" %}
-```
+```text
 MAIL_MAILER=smtp
 MAIL_ENCRYPTION=''
 MAIL_PORT=26
@@ -68,7 +66,7 @@ MAIL_FROM_NAME="${APP_NAME}"
 
 SendGrid is the leading SMTP provider. Easy to set up and reliable service.
 
-Get an account [here](https://sendgrid.com/). 
+Get an account [here](https://sendgrid.com/).
 
 [This article](https://sendgrid.com/docs/API_Reference/SMTP_API/integrating_with_the_smtp_api.html) is important in order to setup your SendGrid SMTP correct.
 
@@ -76,7 +74,7 @@ Get an account [here](https://sendgrid.com/).
 
 ### Test your SMTP
 
-{% embed url="https://www.smtper.net/" %}
+{% embed url="https://www.smtper.net/" caption="" %}
 
 ```text
 MAIL_MAILER=smtp
@@ -89,16 +87,4 @@ MAIL_ENCRYPTION=null
 MAIL_FROM_ADDRESS='youremail@yourdomain.com'
 MAIL_FROM_NAME='Your Project name'
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 

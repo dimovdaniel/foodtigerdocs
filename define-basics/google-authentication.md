@@ -8,7 +8,7 @@ Visit [Google API Console](https://console.developers.google.com/).
 
 Create new project or select one if you already create one.
 
-![](../.gitbook/assets/sss-1%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
+![](../.gitbook/assets/sss-1%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png)
 
 Next open **Library** from the left menu.
 
