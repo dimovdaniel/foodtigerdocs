@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.x Continues updates
+
+* 2.3.1 - Fix for restaurant orders (array_key_exists()) - File changed: app/Order.php
+
 ## 2.3.0 - 2021-03-17
 
 ### New
