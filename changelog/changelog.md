@@ -2,6 +2,7 @@
 
 ## 2.3.x Continues updates
 
+* 2.3.2 - Support for the impressum app. [Files](https://gist.github.com/dimovdaniel/45b4b2476896e2920550ef58c33bacab)
 * 2.3.1 - Fix for restaurant orders (array_key_exists()) - File changed: app/Order.php
 
 ## 2.3.0 - 2021-03-17
