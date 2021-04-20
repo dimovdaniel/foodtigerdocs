@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.x - Continues updates
+
+* 2.4.1 - Local Bank fixes, Saving Stripe Fixes, Working Hours Fixes - [Files](https://gist.github.com/dimovdaniel/c0791ee6280805b30e1acd8eafddbb93)
+
 ## 2.4.0 - 2021-04-16
 
 ### Video
