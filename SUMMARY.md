@@ -42,6 +42,7 @@
 * [How to install plugin](plugins/how-to-install-plugin.md)
 * [ShareThis](plugins/sharethis.md)
 * [Cookie Consent](plugins/cookieconsent.md)
+* [Thermal Printer Module](plugins/thermal-printer-module.md)
 
 ## API
 

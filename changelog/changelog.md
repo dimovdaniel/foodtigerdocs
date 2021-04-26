@@ -8,9 +8,11 @@
 ## 2.4.0 - 2021-04-16
 
 ### Video
+
 {% embed url="https://youtu.be/fkZZHYLLems" caption="" %}
 
 ### New
+
 * Payment modules as Plug And Play
 * Restaurant management reorganization
 * New Printing module
@@ -18,6 +20,7 @@
 * Earnings for drivers
 
 ### Fixes
+
 * Tax calculation fixes
 * Lot of small fixes
 
@@ -25,7 +28,7 @@
 
 Just log in as admin, go to "Updates" and you should see new "New Update 2.4.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
 
-If you have lot of users / clients and you are using other payment method for orders than Stripe, I will recommend full project backup, database and files. Afterwords you will need to download the desired payment method, and set up the way you like it. Please look into the update video to see what has been changed in the payment methods. Restaurants will need to reset the api keys for Mollie or PayPal if they where accepting direct payments. 
+If you have lot of users / clients and you are using other payment method for orders than Stripe, I will recommend full project backup, database and files. Afterwords you will need to download the desired payment method, and set up the way you like it. Please look into the update video to see what has been changed in the payment methods. Restaurants will need to reset the api keys for Mollie or PayPal if they where accepting direct payments.
 
 **List of updated files**
 
