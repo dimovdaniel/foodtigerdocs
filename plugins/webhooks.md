@@ -38,5 +38,27 @@ They can connect with tools like [integromat](https://www.integromat.com/) or [z
 
 A developer can make a custom API that will receive this data and extend the system without modifying any of the code of the project.
 
+### Video
+
+{% embed url="https://www.youtube.com/watch?v=5bl9TZP2GBY" %}
+
+
+
+
+
+### Demo
+
+In order to experience the demo, and test 
+
+1. Go inside the demo of [FoodTiger](https://foodtiger.site/),[ QR Menu](https://zebra-qr.com/), or [WhatsApp food](https://whatsappmenus.com/) and login as admin@example.com \| secret
+2. Then go to restaurants, and choose some of the demo restaurants
+3. Go in Apps tab
+4. Enter a link for the WebHook \( you can use any POST API link \)
+5. Do a demo order for that restaurant
+6. You should get the order data to send to that url
+7. Remove the url link from that restaurant
+
+
+
  
 
