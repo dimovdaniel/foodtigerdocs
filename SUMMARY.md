@@ -43,6 +43,7 @@
 * [ShareThis](plugins/sharethis.md)
 * [Cookie Consent](plugins/cookieconsent.md)
 * [Thermal Printer Module](plugins/thermal-printer-module.md)
+* [WebHooks](plugins/webhooks.md)
 
 ## API
 
