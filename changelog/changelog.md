@@ -2,6 +2,7 @@
 
 ## 2.4.x - Continues updates
 
+* 2.4.3 - Subscription fixes, Landing fixes, Import fixes  [Files](https://i.imgur.com/nmxO4ik.png)
 * 2.4.2 - Local Bank fixes, decimal orders prevent, better whatsapp message [Files](https://gist.github.com/dimovdaniel/cb945997092427699ee7a811e265e61e)
 * 2.4.1 - Local Bank fixes, Saving Stripe Fixes, Working Hours Fixes - [Files](https://gist.github.com/dimovdaniel/c0791ee6280805b30e1acd8eafddbb93)
 
