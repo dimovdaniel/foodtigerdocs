@@ -210,3 +210,10 @@ This enables the file extension for all the PHP websites in the server.
 
 Let me know about this.
 
+## How to force HTTPS
+
+In order to force your site to run only in HTTPS login as admin, then go in "Site Setting" and in "Setup" tab locate the "App environment". And set it to "Production". 
+
+This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also. 
+
+
