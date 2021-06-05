@@ -6,12 +6,10 @@ description: Frequently Asked Questions (FAQs)
 
 ## How to set 24h working time
 
-We have made an overwrite, if you set closing time to be 23:59 to be interpreted as no closing at all. 
+We have made an overwrite, if you set closing time to be 23:59 to be interpreted as no closing at all.
 
 Ex - night club working hours from 22 and closes at 4 in the morning.  
-Friday - 22:00 - 23:59
-Saturday - 00:00 - 04:00  | Saturday Shift 2 - 22:00 - 23:59
-Sunday - 00:00 - 04:00 
+Friday - 22:00 - 23:59 Saturday - 00:00 - 04:00 \| Saturday Shift 2 - 22:00 - 23:59 Sunday - 00:00 - 04:00
 
 ## Registration is not working.
 
@@ -212,8 +210,7 @@ Let me know about this.
 
 ## How to force HTTPS
 
-In order to force your site to run only in HTTPS login as admin, then go in "Site Setting" and in "Setup" tab locate the "App environment". And set it to "Production". 
+In order to force your site to run only in HTTPS login as admin, then go in "Site Setting" and in "Setup" tab locate the "App environment". And set it to "Production".
 
-This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also. 
-
+This is what can be done on the Project level. Make sure you have valid SSL and that you have set the HTTPS force on the hosting level also.
 

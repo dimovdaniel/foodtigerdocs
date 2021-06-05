@@ -70,7 +70,13 @@ GOOGLE_MAPS_API_KEY="" //API KEY
 ### Possible problems
 
 {% hint style="info" %}
-**IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).  
+**IMPORTANT:** Please make sure that everything is working okay \(showing maps and adding new client address in order checkout page\).
+
+You must enable Billing on the Google Cloud Project at [https://console.cloud.google.com/project/\_/billing/enable](https://console.cloud.google.com/project/_/billing/enable%20Learn%20more%20at%20https://developers.google.com/maps/gmp-get-started)
+
+[Learn more at ](https://console.cloud.google.com/project/_/billing/enable%20Learn%20more%20at%20https://developers.google.com/maps/gmp-get-started)  
+  
+[https://developers.google.com/maps/gmp-get-started](https://console.cloud.google.com/project/_/billing/enable%20Learn%20more%20at%20https://developers.google.com/maps/gmp-get-started)
 {% endhint %}
 
   
