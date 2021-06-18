@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.5.0 - 2021-06-19
+
+### New
+* Pricing Plans
+
+### Improvements
+* Better SEO
+* Items import
+
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 2.5.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+
+A big change in this version is that you can enable pricing plans. This means that besides getting money per order you can crete different pricing plans ( free and paid ). By default the system will use Stripe for subscriptions. But you can also add PayPal and Paddle subscriptions. 
+
+**List of updated files**
+
+[File list](https://gist.github.com/dimovdaniel/fb8786456f106660b85ccbe3e58744af)
+
 ## 2.4.x - Continues updates
 
 * 2.4.3 - Subscription fixes, Landing fixes, Import fixes  [Files](https://i.imgur.com/nmxO4ik.png)
