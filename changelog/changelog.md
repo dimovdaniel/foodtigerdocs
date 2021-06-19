@@ -2,6 +2,9 @@
 
 ## 2.5.0 - 2021-06-19
 
+### Video
+{% embed url="https://youtu.be/-NVglUwHHrA" caption="" %}
+
 ### New
 * Pricing Plans
 
@@ -29,7 +32,7 @@ A big change in this version is that you can enable pricing plans. This means th
 
 ### Video
 
-{% embed url="https://youtu.be/fkZZHYLLems" caption="" %}
+cc
 
 ### New
 
