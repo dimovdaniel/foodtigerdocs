@@ -64,13 +64,17 @@ Easy to translate to any language. All strings are in few files.
 * This should be enough
 * Then try to update again
 
-### Error on update  "tmp/v2.0.x" not found
+### Error on update  "tmp/v2.x.x" not found
 
 **Problem**: When you click on the update button, you get a blank screen with error 500. if you enable debug mode, you see the error directory "tmp/v2.0.x" not found.
 
-**Cause**: This mostly happens because the /tmp directory is not workspace related /tmp dir
+**Cause 1**: 
+This mostly happens because the /tmp directory is not workspace related /tmp dir
 
-**Solution**:
+**Cause 2**: 
+Other common reason is that there was interuption in the download process and your server has create the zip but with incorrect structure. And then when it tries to re download, gives the error.
+
+**Solution 1**:
 
 * Go to you cPanel
 * Open File Manager
@@ -78,6 +82,11 @@ Easy to translate to any language. All strings are in few files.
 * Add the variable 
 * SELF\_UPDATER\_DOWNLOAD\_PATH="/home/YOUR\_WORKSPACE\_NAME/tmp/" 
 * Then try again to update
+
+**Solution 2**:
+Please speak with you hosting provider to clear the contents ( specifically v2.x.x.zip ) of the system **tmp** folder. If you can you can do this on your own. Server restart in most cases also clears the tmp folder.
+
+
 
 ### Error on update 503
 
