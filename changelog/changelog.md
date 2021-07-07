@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.x - Continues updates
+
+* 2.5.2 - Change language from admin, Over night fixes, extra ; in some pages  [Files](https://gist.github.com/dimovdaniel/79477130d7c98b03d44f5913762c9f7a)
+
 ## 2.5.0 - 2021-06-19
 
 ### 2.5.1 - Hotfix for 2.5.0
