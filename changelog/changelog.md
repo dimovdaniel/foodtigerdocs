@@ -2,12 +2,11 @@
 
 ## 2.5.x - Continues updates
 
+* 2.5.3 - Fix for language selector in items [Files](https://gist.github.com/dimovdaniel/5275ae0d2a5c9b33d6e6b3ee6210393f)
 * 2.5.2 - Change language from admin, Over night fixes, extra ; in some pages  [Files](https://gist.github.com/dimovdaniel/79477130d7c98b03d44f5913762c9f7a)
+* 2.5.1  - Hotfix for 2.5.0 [Updated files](https://gist.github.com/dimovdaniel/83e01921ebe704a0a5258387f46b1625)
 
 ## 2.5.0 - 2021-06-19
-
-### 2.5.1 - Hotfix for 2.5.0
-[Updated files](https://gist.github.com/dimovdaniel/83e01921ebe704a0a5258387f46b1625)
 
 ### Video
 {% embed url="https://youtu.be/-NVglUwHHrA" caption="" %}
