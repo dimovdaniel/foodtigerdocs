@@ -37,8 +37,7 @@ A big change in this version is that you can enable pricing plans. This means th
 ## 2.4.0 - 2021-04-16
 
 ### Video
-
-cc
+{% embed url="https://youtu.be/fkZZHYLLems" caption="" %}
 
 ### New
 
