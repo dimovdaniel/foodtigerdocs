@@ -2,7 +2,7 @@
 
 ## 2.5.x - Continues updates
 
-* 2.5.5 - Option to remove shift, error on delete restaurant [Files](https://gist.github.com/dimovdaniel/4831bc289ac4b02356cbf9294e8d9785)
+* 2.5.5 and 2.5.6  - Option to remove shift, error on delete restaurant [Files](https://gist.github.com/dimovdaniel/4831bc289ac4b02356cbf9294e8d9785)
 * 2.5.4 - Delivery area required - bug fix, Validation string for new payment platforms [Files](https://gist.github.com/dimovdaniel/8ccff90ecf9137fd412c6e757994a252)
 * 2.5.3 - Fix for language selector in items [Files](https://gist.github.com/dimovdaniel/5275ae0d2a5c9b33d6e6b3ee6210393f)
 * 2.5.2 - Change language from admin, Over night fixes, extra ; in some pages  [Files](https://gist.github.com/dimovdaniel/79477130d7c98b03d44f5913762c9f7a)
