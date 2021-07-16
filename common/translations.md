@@ -54,3 +54,7 @@ To work on translating the front page, log in as admin, and go back to the homep
 
 ![](https://i.imgur.com/ESEH0Od.png)
 
+## Multi language menu 
+In some languages like arabic, the characters take up lot more spaces. So the default table size count is not enough. 
+[Here](https://cln.sh/St3NVI) is how to change it to text
+
