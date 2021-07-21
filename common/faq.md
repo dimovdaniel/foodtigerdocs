@@ -10,6 +10,13 @@ This is one of the most common problems. It happens because SMTP is not correctl
 
 {% page-ref page="../define-basics/obtain-smtp.md" %}
 
+## Notification translation
+
+One really common problem is that the emails is no received correctly. Password or email is missing. 
+and here is the reason why. 
+Please check this [video](https://www.loom.com/share/112938a8fa31418386b5ae2c8c71303b)
+
+
 ## How restaurants owner register?
 
 At the front end part of the script, you will find the form for **Registration.** . The interested restaurants will fill the form, and Restaurant/owner account will be automatically created. An email will be sent to them.
