@@ -2,6 +2,7 @@
 
 ## 2.5.x - Continues updates
 
+* 2.5.8 - Fix for custom timezone [Files](https://gist.github.com/dimovdaniel/8e651a2a1f9687561b6c0736b1402e4e)
 * 2.5.7 - Fix for WhatsApp message - [Modified Files](https://gist.github.com/dimovdaniel/0804439f2e2452d7a687e5c298985ced)
 * 2.5.5 and 2.5.6  - Option to remove shift, error on delete restaurant [Files](https://gist.github.com/dimovdaniel/4831bc289ac4b02356cbf9294e8d9785)
 * 2.5.4 - Delivery area required - bug fix, Validation string for new payment platforms [Files](https://gist.github.com/dimovdaniel/8ccff90ecf9137fd412c6e757994a252)
