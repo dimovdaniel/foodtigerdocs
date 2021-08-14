@@ -16,9 +16,9 @@
 
 ### Modules
 
-* Staff ( allow staff to manage orders)
-* FlutterWave Module ( accept payment via FlutterWave )
-* Google Translate Module ( Easily add language translate for any language to the menu )
+* [Staff](https://mobidonia.gumroad.com/l/staffmodule) ( allow staff to manage orders)
+* [FlutterWave Module](https://mobidonia.gumroad.com/l/flutterwavepayments) ( accept payment via FlutterWave )
+* [Google Translate Module](https://mobidonia.gumroad.com/l/googletranslate) ( Easily add language translate for any language to the menu )
   
  
 ### How to update
