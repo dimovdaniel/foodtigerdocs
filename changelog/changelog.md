@@ -1,5 +1,34 @@
 # Changelog
 
+## 2.6.0 - 2021-08-15
+
+### New
+
+* Easy change of all "Restaurants" to something like shop, vendor, company ( now restaurants table is renamed to companies)
+* API - now returns the list of payment methods
+
+
+### Fixes
+
+* Added missing string for translate
+* Plan set by admin, was overwritten
+* Dark / Light logo
+
+### Modules
+
+* Staff ( allow staff to manage orders)
+* FlutterWave Module ( accept payment via FlutterWave )
+* Google Translate Module ( Easily add language translate for any language to the menu )
+  
+ 
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 2.6.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+NOTE: For this update we strongly recommend to backup your database. 
+
+**List of updated files**
+[Updated files](https://paste.laravel.io/f49cce51-0a1a-458a-9ebc-1ee1165ac1bf)
+
 ## 2.5.x - Continues updates
 
 * 2.5.8 - Fix for custom timezone [Files](https://gist.github.com/dimovdaniel/8e651a2a1f9687561b6c0736b1402e4e)
