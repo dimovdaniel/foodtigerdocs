@@ -2,6 +2,10 @@
 
 ## 2.6.0 - 2021-08-15
 
+### Video
+
+{% embed url="https://youtu.be/c0W9cfGkba4" caption="" %}
+
 ### New
 
 * Easy change of all "Restaurants" to something like shop, vendor, company ( now restaurants table is renamed to companies)
