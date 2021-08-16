@@ -16,6 +16,7 @@
 
 ### Modules
 
+* [Stripe Link Checkout][(https://mobidonia.gumroad.com/l/staffmodule](https://mobidonia.gumroad.com/l/stripech)) ( Stripe Hosted Checkout )
 * [Staff](https://mobidonia.gumroad.com/l/staffmodule) ( allow staff to manage orders)
 * [FlutterWave Module](https://mobidonia.gumroad.com/l/flutterwavepayments) ( accept payment via FlutterWave )
 * [Google Translate Module](https://mobidonia.gumroad.com/l/googletranslate) ( Easily add language translate for any language to the menu )
