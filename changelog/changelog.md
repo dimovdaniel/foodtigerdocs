@@ -2,6 +2,7 @@
 
 ## 2.6.x - Continues updates
 
+* 2.6.2 - Google translate - fixes for module [Files](https://paste.laravel.io/66c2ccf2-ff5e-48b3-b6ca-798f895eaddf)
 * 2.6.1 - Show vendor closed in modal, GT don't translate some elements [Files](https://paste.laravel.io/3795a2fa-d1b6-4865-9c40-9f63a7c215c0)
 
 ## 2.6.0 - 2021-08-15
