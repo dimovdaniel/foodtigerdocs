@@ -2,6 +2,7 @@
 
 ## 2.6.x - Continues updates
 
+* 2.6.4 - Modal close button, Edit item category, Dashboard map fix [Files](https://paste.laravel.io/8d1f3a9a-2f10-483d-9b75-89366c2ccbc8)
 * 2.6.3 - Query fix on frontend, Option to control char count on item in menu,TermsAndServices check above submit button [Files](https://paste.laravel.io/a9ded193-d04f-4f83-9894-b4a1cf09836f)
 * 2.6.2 - Google translate - fixes for module [Files](https://paste.laravel.io/66c2ccf2-ff5e-48b3-b6ca-798f895eaddf)
 * 2.6.1 - Show vendor closed in modal, GT don't translate some elements [Files](https://paste.laravel.io/3795a2fa-d1b6-4865-9c40-9f63a7c215c0)
