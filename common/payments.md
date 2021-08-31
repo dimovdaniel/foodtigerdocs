@@ -6,6 +6,10 @@ At the moment we have 3 subscription processors. Stripe, PayPal and Paddle.com
 
 You can manage the settings for them if you login as admin and then to got Settings-&gt; Finances.
 
+## **Information about the pricing plans**
+
+{% embed url="https://www.youtube.com/watch?v=RakPeKbQpsk" %}
+
 ### Stripe
 
 First, login as admin, and go in Setting. Go in the Finances tab, and make sure Tool used for subscriptions is Stripe.
