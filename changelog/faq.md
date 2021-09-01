@@ -243,9 +243,11 @@ Here is a good video on how you can enable it. If you can't. Please speak with y
 
 ##  Staff module error 500
 
-Problem: you get error  500 when adding new staff member.
-Reason: With older installs/db the "staff" role is missing
-Solution: Manually add  it  in the database
+**Problem**: you get error  500 when adding new staff member.
+
+**Reason**: With older installs/db the "staff" role is missing
+
+**Solution**: Manually add  it  in the database
 
 ![](https://i.imgur.com/y2mcVTJ.png)
 
