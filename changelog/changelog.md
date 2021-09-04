@@ -1,5 +1,42 @@
 # Changelog
 
+## 2.7.0 - 2021-09-04
+
+
+### New
+
+* RTL Support
+* Missing variants created by system
+
+### Improvements
+
+* Categories delete fix
+* Date in local format
+* Validation on plan create
+* Subdomain value will be changed only in Vendor is newer than 1 day
+
+
+### Fixes
+
+* Bern timezone missing
+
+
+### Modules
+
+* [Expenses](https://mobidonia.gumroad.com/?sort=page_layout#NwxgX)
+* [All-Access Pass](https://mobidonia.gumroad.com/?sort=page_layout#PVVGE) ( All plugins free, apps on 50% )
+  
+ 
+### How to update
+
+Just log in as admin, go to "Updates" and you should see new "New Update 2.7.0" button. Click on the button to update. Note that this is a bigger update. Please check the List of files to confirm it will not overwrite some of your changes if you have them.
+NOTE: For this update we strongly recommend to backup your database and files. 
+
+### List of updated files
+[Updated files](https://paste.laravel.io/5d1428c2-d525-49d1-9330-f69a0385e40a)
+
+
+
 ## 2.6.x - Continues updates
 
 * 2.6.5 - Go to store button in owner admin, Better self update, Better apps management, Compatible with the new clone plugin [Files](https://paste.laravel.io/51fd3249-3c6e-4d8c-8e16-24263266725d)
