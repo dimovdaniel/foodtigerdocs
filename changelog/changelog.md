@@ -25,6 +25,7 @@
 
 * [Expenses](https://mobidonia.gumroad.com/?sort=page_layout#NwxgX)
 * [All-Access Pass](https://mobidonia.gumroad.com/?sort=page_layout#PVVGE) ( All plugins free, apps on 50% )
+* [Cloner](https://mobidonia.gumroad.com/?sort=page_layout#pVCjei)
   
  
 ### How to update
