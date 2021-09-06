@@ -1,5 +1,7 @@
 # Changelog
 
+* 2.7.2 - Fixes in Missing Variants, Local Files for later usage [Files](https://paste.laravel.io/9a8eab2c-cce4-4d90-a3f0-2ad4e4f5bf70)
+
 ## 2.7.0 - 2021-09-04
 
 
