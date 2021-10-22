@@ -1,5 +1,6 @@
 # Changelog
 
+* 2.7.5 - Small security update [Information](https://www.reddit.com/r/mobidoniacc/comments/qdrf13/275_security_update/) [Updated files](https://paste.laravel.io/d8fbbf22-e8a8-4504-8c64-a58fd21fe9a1)
 * 2.7.4 - Admin fixes [Files](https://paste.laravel.io/d10fffcd-102e-4a1a-be41-54f15ec8035b)
 * 2.7.3 - Pricing plan bug - was showing vendor currency [Files](https://paste.laravel.io/6ec88159-ad36-4ae8-8535-eb43a8372a7d)
 * 2.7.2 - Fixes in Missing Variants, Local Files for later usage [Files](https://paste.laravel.io/9a8eab2c-cce4-4d90-a3f0-2ad4e4f5bf70)
