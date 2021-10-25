@@ -1,28 +1,50 @@
-## Run locally
+# Run local
 
-In Laravel 8, there is new package available called [https://laravel.com/docs/8.x/sail](Laravel Sail). 
+In Laravel 8, there is a new package available called [https://laravel.com/docs/8.x/sail](https://laravel.com/docs/8.x/sail).
 
-We use this to run the site locally, and test it. 
+We use this to run the site locally and test it.
 
-All you need is to install [https://www.docker.com/](Docker) in your compute.
+### Step 1 - Install Docker
 
-After that, open the code and execute the command
+All you need is to install [https://www.docker.com/](https://www.docker.com/) on your computer.
+
+After that extract the code and open it in the Terminal / Command prompt 
 
 ```text
+cd poslion
 ./vendor/bin/sail up
 ```
 
-You can add alias for the sail command. 
+The first time you run this can take some time 
 
-Then open the site on localhost, and the install window should appear. 
 
-In .env instead of 
+
+### Step 2 - Install via CMD
+
+After sail is running, open a new terminal window and navigate to the project.
+
+execute
+
 ```text
-DB_HOST=127.0.0.1
+sail artisan migrate --fresh --seed
 ```
 
-use 
+This will set up \( seed \) the database.
+
+Then execute / run
+
 ```text
-DB_HOST=mysql
+cd storage
+touch installed
 ```
+
+This should create an empty file in **storage** folder, to let the system know that the project is installed. Then open the site on [localhost](http://127.0.0.1). 
+
+You should see the site now
+
+Login with the default credentials
+
+**Username**: admin@example.com
+
+**Password**: secret
 
