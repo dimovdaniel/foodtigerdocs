@@ -19,6 +19,15 @@
 
 ### Modules
 
+* [Custom Domain](https://mobidonia.gumroad.com/l/COWDi)
+* [Elegant template](https://mobidonia.gumroad.com/l/JZhPWc)
+* [Allergens](https://mobidonia.gumroad.com/l/oEPpzI)
+* [Coupons](https://mobidonia.gumroad.com/l/djizl)
+* [Featured vendors](https://mobidonia.gumroad.com/l/RuaBRD)
+* [Prepare Time](https://mobidonia.gumroad.com/l/kyFdp)
+* [Default tax](https://mobidonia.gumroad.com/l/defaulttax)
+* [Language Pack](https://mobidonia.gumroad.com/l/languepack)
+
 
 ### How to update
 
