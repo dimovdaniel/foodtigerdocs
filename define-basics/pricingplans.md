@@ -30,7 +30,7 @@ Now select **My Apps and credentials** and click on the button **Create App**.
 
 Now fill the informations that are required and make sure that you will select the **Merchant App Type**. After you created the app you will see the **Client ID** and **Secret** credentials **generated. **Copy them and fill your PayPal credentials in Settings-> Finances. First, test in development - sandbox mode.
 
-![](<../.gitbook/assets/screenshot-1- (1).png>)
+![](https://i.imgur.com/Ugl2WFb.png)
 
 Create account on the official [PayPal website](https://www.paypal.com) and the login with the account.
 
@@ -38,7 +38,7 @@ Open this [URL](https://www.paypal.com/billing/plans) and make sure that you are
 
 You will see the option for creating new plans. Create your billing plans and then fill the plans information in your admin panel (Pricing plans).
 
-![](https://i.imgur.com/ptCNXWK.png)
+![](https://i.imgur.com/u3FU1Yr.png)
 
 ### Paddle
 
