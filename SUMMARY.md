@@ -13,6 +13,7 @@
 * [Database](define-basics/database.md)
 * [Mail server](define-basics/obtain-smtp.md)
 * [Localization and Time format](define-basics/localization.md)
+* [Pricing Plans](define-basics/pricingplans.md)
 * [Payments](define-basics/payments.md)
 * [Stripe Gateway](define-basics/stripe-gateway.md)
 * [Paystack Gateway](define-basics/paystack-gateway.md)
