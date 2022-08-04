@@ -33,7 +33,7 @@
 
 ### Modules
 
-* Kitchen Display System
+* [Kitchen Display System](https://www.loom.com/share/4a8460875c2c4d1aa0227ea94009de91)
 
 ### How to update
 
