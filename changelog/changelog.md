@@ -10,6 +10,7 @@
 
 * Export clients
 * Better client details in order details
+* Export restaurants
 * Make order of value is 0
 * Delete client account with remove of personal data
 * Admin menu reorganization
