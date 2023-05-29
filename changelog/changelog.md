@@ -3,12 +3,12 @@
 ## 3.6.0 - 2023-05-29
 
 ### Modules
-Category - free module
-Tips - free module
-Social profiles - free module
-Stock
-Razorpay subscription
-Glow - new theme
+* Category - free module
+* Tips - free module
+* Social profiles - free module
+* Stock
+* Razorpay subscription
+* Glow - new theme
 
 ### New
 * Allow staff to login in owner app
